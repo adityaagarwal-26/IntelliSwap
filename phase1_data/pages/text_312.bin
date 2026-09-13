@@ -1,0 +1,134 @@
+zilla.kernel.org
+F:	drivers/acpi/*thermal*
+
+ACPI VIOT DRIVER
+M:	Jean-Philippe Brucker <jpb@kernel.org>
+L:	linux-acpi@vger.kernel.org
+L:	iommu@lists.linux.dev
+S:	Maintained
+F:	drivers/acpi/viot.c
+F:	include/linux/acpi_viot.h
+
+ACPI WMI DRIVER
+M:	Armin Wolf <W_Armin@gmx.de>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	Documentation/ABI/testing/sysfs-bus-wmi
+F:	Documentation/driver-api/wmi.rst
+F:	Documentation/wmi/
+F:	drivers/platform/wmi/
+F:	include/uapi/linux/wmi.h
+
+ACRN HYPERVISOR SERVICE MODULE
+M:	Fei Li <fei1.li@intel.com>
+L:	acrn-dev@lists.projectacrn.org (subscribers-only)
+S:	Supported
+W:	https://projectacrn.org
+F:	Documentation/virt/acrn/
+F:	drivers/virt/acrn/
+F:	include/uapi/linux/acrn.h
+
+AD1889 ALSA SOUND DRIVER
+L:	linux-parisc@vger.kernel.org
+S:	Maintained
+W:	https://parisc.wiki.kernel.org/index.php/AD1889
+F:	sound/pci/ad1889.*
+
+AD5110 ANALOG DEVICES DIGITAL POTENTIOMETERS DRIVER
+M:	Mugilraj Dhavachelvan <dmugil2000@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Supported
+F:	drivers/iio/potentiometer/ad5110.c
+
+AD525X ANALOG DEVICES DIGITAL POTENTIOMETERS DRIVER
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/AD5254
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/misc/ad525x_dpot.c
+
+AD5398 CURRENT REGULATOR DRIVER (AD5398/AD5821)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/AD5398
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/regulator/ad5398.c
+
+AD5446	ANALOG DEVICES INC AD5446 DAC DRIVER
+M:	Michael Hennerich <michael.hennerich@analog.com>
+M:	Nuno Sá <nuno.sa@analog.com>
+L:	linux-iio@vger.kernel.org
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/dac/adi,ad5446.yaml
+F:	drivers/iio/dac/ad5446-i2c.c
+F:	drivers/iio/dac/ad5446-spi.c
+F:	drivers/iio/dac/ad5446.c
+F:	drivers/iio/dac/ad5446.h
+
+AD714X CAPACITANCE TOUCH SENSOR DRIVER (AD7142/3/7/8/7A)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/AD7142
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/input/misc/ad714x.c
+
+AD738X ADC DRIVER (AD7380/1/2/4)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+M:	Nuno Sá <nuno.sa@analog.com>
+R:	David Lechner <dlechner@baylibre.com>
+S:	Supported
+W:	https://wiki.analog.com/resources/tools-software/linux-drivers/iio-adc/ad738x
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/adc/adi,ad7380.yaml
+F:	Documentation/iio/ad7380.rst
+F:	drivers/iio/adc/ad7380.c
+
+AD7476 ADC DRIVER FOR VARIOUS SIMPLE 1-CHANNEL SPI ADCs
+M:	Matti Vaittinen <mazziesaccount@gmail.com>
+S:	Maintained
+F:	drivers/iio/adc/ad7476.c
+
+AD7877 TOUCHSCREEN DRIVER
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/AD7877
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/input/touchscreen/ad7877.c
+
+AD7879 TOUCHSCREEN DRIVER (AD7879/AD7889)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/AD7879
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/input/touchscreen/ad7879.c
+
+AD7944 ADC DRIVER (AD7944/AD7985/AD7986)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+M:	Nuno Sá <nuno.sa@analog.com>
+R:	David Lechner <dlechner@baylibre.com>
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/adc/adi,ad7944.yaml
+F:	Documentation/iio/ad7944.rst
+F:	drivers/iio/adc/ad7944.c
+
+ADAFRUIT MINI I2C GAMEPAD
+M:	Anshul Dalal <anshulusr@gmail.com>
+L:	linux-input@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/input/adafruit,seesaw-gamepad.yaml
+F:	drivers/input/joystick/adafruit-seesaw.c
+
+ADDRESS SPACE LAYOUT RANDOMIZATION (ASLR)
+M:	Jiri Kosina <jikos@kernel.org>
+S:	Maintained
+
+ADF7242 IEEE 802.15.4 RADIO DRIVER
+M:	Michael Hennerich <michael.hennerich@analog.com>
+L:	linux-wpan@vger.kernel.org
+S:	Supported
+W:	https://wiki.analog.com/ADF7242
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/net/ieee802154/adf7242.txt
+F:	drivers/net/i

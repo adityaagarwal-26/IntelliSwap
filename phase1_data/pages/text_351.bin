@@ -1,0 +1,123 @@
+DCOM BMIPS CPUFREQ DRIVER
+M:	Markus Mayer <mmayer@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	drivers/cpufreq/bmips-cpufreq.c
+
+BROADCOM BMIPS MIPS ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-mips@vger.kernel.org
+S:	Maintained
+T:	git https://github.com/broadcom/stblinux.git
+F:	arch/mips/bmips/*
+F:	arch/mips/boot/dts/brcm/bcm*.dts*
+F:	arch/mips/include/asm/mach-bmips/*
+F:	arch/mips/kernel/*bmips*
+F:	drivers/irqchip/irq-bcm63*
+F:	drivers/irqchip/irq-bcm7*
+F:	drivers/irqchip/irq-brcmstb*
+F:	drivers/pmdomain/bcm/bcm63xx-power.c
+F:	include/linux/bcm963xx_nvram.h
+F:	include/linux/bcm963xx_tag.h
+
+BROADCOM BNX2 GIGABIT ETHERNET DRIVER
+M:	Rasesh Mody <rmody@marvell.com>
+M:	GR-Linux-NIC-Dev@marvell.com
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/broadcom/bnx2.*
+F:	drivers/net/ethernet/broadcom/bnx2_*
+
+BROADCOM BNX2FC 10 GIGABIT FCOE DRIVER
+M:	Saurav Kashyap <skashyap@marvell.com>
+M:	Javed Hasan <jhasan@marvell.com>
+M:	GR-QLogic-Storage-Upstream@marvell.com
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	drivers/scsi/bnx2fc/
+
+BROADCOM BNX2I 1/10 GIGABIT iSCSI DRIVER
+M:	Nilesh Javali <njavali@marvell.com>
+M:	Manish Rangankar <mrangankar@marvell.com>
+M:	GR-QLogic-Storage-Upstream@marvell.com
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	drivers/scsi/bnx2i/
+
+BROADCOM BNX2X 10 GIGABIT ETHERNET DRIVER
+M:	Sudarsana Kalluru <skalluru@marvell.com>
+M:	Manish Chopra <manishc@marvell.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/broadcom/bnx2x/
+
+BROADCOM BNXT_EN 50 GIGABIT ETHERNET DRIVER
+M:	Michael Chan <michael.chan@broadcom.com>
+M:	Pavan Chebbi <pavan.chebbi@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/firmware/broadcom/tee_bnxt_fw.c
+F:	drivers/net/ethernet/broadcom/bnxt/
+F:	include/linux/firmware/broadcom/tee_bnxt_fw.h
+
+BROADCOM BNG_EN 800 GIGABIT ETHERNET DRIVER
+M:	Vikas Gupta <vikas.gupta@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/broadcom/bnge/
+F:	include/linux/bnge/hsi.h
+
+BROADCOM BRCM80211 IEEE802.11 WIRELESS DRIVERS
+M:	Arend van Spriel <arend.vanspriel@broadcom.com>
+L:	linux-wireless@vger.kernel.org
+L:	brcm80211@lists.linux.dev
+L:	brcm80211-dev-list.pdl@broadcom.com
+S:	Supported
+F:	drivers/net/wireless/broadcom/brcm80211/
+F:	include/linux/platform_data/brcmfmac.h
+
+BROADCOM BRCMSTB GPIO DRIVER
+M:	Doug Berger <opendmb@gmail.com>
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/gpio/brcm,brcmstb-gpio.yaml
+F:	drivers/gpio/gpio-brcmstb.c
+
+BROADCOM BRCMSTB I2C DRIVER
+M:	Kamal Dasu <kamal.dasu@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-i2c@vger.kernel.org
+S:	Supported
+F:	Documentation/devicetree/bindings/i2c/brcm,brcmstb-i2c.yaml
+F:	drivers/i2c/busses/i2c-brcmstb.c
+
+BROADCOM BRCMSTB UART DRIVER
+M:	Al Cooper <alcooperx@gmail.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-serial@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/serial/brcm,bcm7271-uart.yaml
+F:	drivers/tty/serial/8250/8250_bcm7271.c
+
+BROADCOM BRCMSTB USB EHCI DRIVER
+M:	Justin Chen <justin.chen@broadcom.com>
+M:	Al Cooper <alcooperx@gmail.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/usb/brcm,bcm7445-ehci.yaml
+F:	drivers/usb/host/ehci-brcm.*
+
+BROADCOM BRCMSTB USB PIN MAP DRIVER
+M:	Al Cooper <alcooperx@gmail.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/usb/brcm,usb-pinmap.yaml
+F:	drivers/usb/misc/brcmstb-usb-pinmap.c
+
+BROADCOM BRCMSTB USB2 and USB3 PHY DRIVER
+M:	Justin Chen <justin.chen@broadcom.co

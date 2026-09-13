@@ -1,0 +1,147 @@
+@cisco.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	drivers/scsi/fnic/
+
+CISCO SCSI HBA DRIVER
+M:	Karan Tilak Kumar <kartilak@cisco.com>
+M:	Narsimhulu Musini <nmusini@cisco.com>
+M:	Sesidhar Baddela <sebaddel@cisco.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	drivers/scsi/snic/
+
+CISCO VIC ETHERNET NIC DRIVER
+M:	Satish Kharat <satishkh@cisco.com>
+S:	Maintained
+F:	drivers/net/ethernet/cisco/enic/
+
+CISCO VIC LOW LATENCY NIC DRIVER
+M:	Nelson Escobar <neescoba@cisco.com>
+M:	Satish Kharat <satishkh@cisco.com>
+S:	Supported
+F:	drivers/infiniband/hw/usnic/
+
+CLANG CONTEXT ANALYSIS
+M:	Marco Elver <elver@google.com>
+R:	Bart Van Assche <bvanassche@acm.org>
+L:	llvm@lists.linux.dev
+S:	Maintained
+F:	Documentation/dev-tools/context-analysis.rst
+F:	include/linux/compiler-context-analysis.h
+F:	lib/test_context-analysis.c
+F:	scripts/Makefile.context-analysis
+F:	scripts/context-analysis-suppression.txt
+
+CLANG CONTROL FLOW INTEGRITY SUPPORT
+M:	Sami Tolvanen <samitolvanen@google.com>
+M:	Kees Cook <kees@kernel.org>
+R:	Nathan Chancellor <nathan@kernel.org>
+L:	llvm@lists.linux.dev
+S:	Supported
+B:	https://github.com/ClangBuiltLinux/linux/issues
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git for-next/hardening
+F:	include/linux/cfi.h
+F:	kernel/cfi.c
+
+CLANG-FORMAT FILE
+M:	Miguel Ojeda <ojeda@kernel.org>
+S:	Maintained
+F:	.clang-format
+
+CLANG/LLVM BUILD SUPPORT
+M:	Nathan Chancellor <nathan@kernel.org>
+R:	Nick Desaulniers <ndesaulniers@google.com>
+R:	Bill Wendling <morbo@google.com>
+R:	Justin Stitt <justinstitt@google.com>
+L:	llvm@lists.linux.dev
+S:	Supported
+W:	https://clangbuiltlinux.github.io/
+B:	https://github.com/ClangBuiltLinux/linux/issues
+C:	irc://irc.libera.chat/clangbuiltlinux
+F:	Documentation/kbuild/llvm.rst
+F:	include/linux/compiler-clang.h
+F:	scripts/Makefile.clang
+F:	scripts/clang-tools/
+K:	\b(?i:clang|llvm)\b
+
+CLK API
+M:	Russell King <linux@armlinux.org.uk>
+L:	linux-clk@vger.kernel.org
+S:	Maintained
+F:	include/linux/clk.h
+
+CLOCKSOURCE, CLOCKEVENT DRIVERS
+M:	Daniel Lezcano <daniel.lezcano@kernel.org>
+M:	Thomas Gleixner <tglx@kernel.org>
+L:	linux-kernel@vger.kernel.org
+S:	Supported
+P:	Documentation/process/maintainer-tip.rst
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git timers/core
+F:	Documentation/devicetree/bindings/timer/
+F:	drivers/clocksource/
+
+CLOSURES
+M:	Kent Overstreet <kent.overstreet@linux.dev>
+L:	linux-bcachefs@vger.kernel.org
+S:	Supported
+C:	irc://irc.oftc.net/bcache
+F:	include/linux/closure.h
+F:	lib/closure.c
+
+CMPC ACPI DRIVER
+M:	Thadeu Lima de Souza Cascardo <cascardo@holoscopio.com>
+L:	platform-driver-x86@vger.kernel.org
+S:	Supported
+F:	drivers/platform/x86/classmate-laptop.c
+
+COBALT MEDIA DRIVER
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/pci/cobalt/
+
+COCCINELLE/Semantic Patches (SmPL)
+M:	Julia Lawall <Julia.Lawall@inria.fr>
+M:	Nicolas Palix <nicolas.palix@imag.fr>
+L:	cocci@inria.fr (moderated for non-subscribers)
+S:	Supported
+W:	https://coccinelle.gitlabpages.inria.fr/website/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux.git
+F:	Documentation/dev-tools/coccinelle.rst
+F:	scripts/coccicheck
+F:	scripts/coccinelle/
+
+CODA FILE SYSTEM
+M:	Jan Harkes <jaharkes@cs.cmu.edu>
+M:	coda@cs.cmu.edu
+L:	codalist@coda.cs.cmu.edu
+S:	Maintained
+W:	http://www.coda.cs.cmu.edu/
+F:	Documentation/filesystems/coda.rst
+F:	fs/coda/
+F:	include/linux/coda*.h
+F:	include/uapi/linux/coda*.h
+
+CODA V4L2 MEM2MEM DRIVER
+M:	Philipp Zabel <p.zabel@pengutronix.de>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/coda.yaml
+F:	drivers/media/platform/chips-media/coda
+
+CODE OF CONDUCT
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+S:	Supported
+F:	Documentation/process/code-of-conduct-interpretation.rst
+F:	Documentation/process/code-of-conduct.rst
+
+CODE TAGGING
+M:	Suren Baghdasaryan <surenb@google.com>
+M:	Kent Overstreet <kent.overstreet@linux.dev>
+R:	Hao Ge <hao.ge@linux.dev>
+S:	Maintained
+F:	include/asm-generic/codetag.lds.h
+F:	include/linux/co

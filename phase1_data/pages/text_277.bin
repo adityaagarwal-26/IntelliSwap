@@ -1,0 +1,177 @@
+nsgasse 31
+S: D-90453 Nuernberg
+S: Germany
+
+N: Arnaldo Carvalho de Melo
+E: acme@kernel.org
+E: arnaldo.melo@gmail.com
+E: acme@redhat.com
+P: 1024D/9224DF01 D5DF E3BB E3C8 BCBB F8AD  841A B6AB 4681 9224 DF01
+D: tools/, IPX, LLC, DCCP, cyc2x, wl3501_cs, net/ hacks
+S: Brazil
+
+N: Karsten Merker
+E: merker@linuxtag.org
+D: DECstation framebuffer drivers
+S: Germany
+
+N: Michael Meskes
+E: meskes@debian.org
+P: 1024/04B6E8F5 6C 77 33 CA CC D6 22 03  AB AB 15 A3 AE AD 39 7D
+D: Kernel hacker. PostgreSQL hacker. Software watchdog daemon.
+D: Maintainer of several Debian packages
+S: Th.-Heuss-Str. 61
+S: D-41812 Erkelenz
+S: Germany
+
+N: Nigel Metheringham
+E: Nigel.Metheringham@ThePLAnet.net
+P: 1024/31455639 B7 99 BD B8 00 17 BD 46  C1 15 B8 AB 87 BC 25 FA
+D: IP Masquerading work and minor fixes
+S: Planet Online
+S: The White House, Melbourne Street, LEEDS
+S: LS2 7PS, United Kingdom
+
+N: Craig Metz
+E: cmetz@inner.net
+D: Some of PAS 16 mixer & PCM support, inet6-apps
+
+N: William (Bill) Metzenthen
+E: billm@suburbia.net
+E: billm@melbpc.org.au
+D: Author of the FPU emulator.
+D: Minor kernel hacker for other lost causes (Hercules mono, etc).
+S: 22 Parker Street
+S: Ormond
+S: Victoria 3163
+S: Australia
+
+N: Eric Miao
+E: eric.y.miao@gmail.com
+D: MMP support
+
+N: Pauline Middelink
+E: middelin@polyware.nl
+D: General low-level bug fixes, /proc fixes, identd support
+D: Author of IP masquerading
+D: Zoran ZR36120 Video For Linux driver
+S: Boterkorfhoek 34
+S: 7546 JA  Enschede
+S: Netherlands
+
+N: David S. Miller
+E: davem@davemloft.net
+D: Sparc and blue box hacker
+D: Vger Linux mailing list co-maintainer
+D: Linux Emacs elf/qmagic support + other libc/gcc things
+D: Yee bore de yee bore! ;-)
+S: 575 Harrison St. #103
+S: San Francisco, CA 94105
+S: USA
+
+N: Rick Miller
+E: rdmiller@execpc.com
+W: http://www.execpc.com/~rdmiller/
+D: Original Linux Device Registrar (Major/minor numbers)
+D: au-play, bwBASIC
+S: S78 W16203 Woods Road
+S: Muskego, Wisconsin 53150
+S: USA
+
+N: Harald Milz
+E: hm@seneca.linux.de
+D: Linux Projects Map, Linux Commercial-HOWTO
+D: general Linux publicity in Germany, vacation port
+D: UUCP and CNEWS binary packages for LST
+S: Editorial Board iX Mag
+S: Helstorfer Str. 7
+S: D-30625 Hannover
+S: Germany
+
+N: Ron Minnich
+E: rminnich@sandia.gov
+E: rminnich@gmail.com
+D: 9p filesystem development
+
+N: Corey Minyard
+E: minyard@wf-rch.cirr.com
+E: minyard@mvista.com
+W: http://home.attbi.com/~minyard
+D: Sony CDU31A CDROM Driver
+D: IPMI driver
+D: Various networking fixes long ago
+D: Original ppc_md work
+D: Shared zlib
+S: 7406 Wheat Field Rd
+S: Garland, Texas 75044
+S: USA
+
+N: Kazunori Miyazawa
+E: miyazawa@linux-ipv6.org
+E: Kazunori.Miyazawa@jp.yokogawa.com
+E: kazunori@miyazawa.org
+W: http://www.miyazawa.org/~kazunori/
+D: IPsec, IPv6
+D: USAGI/WIDE Project, Yokogawa Electric Corporation
+S: 2-20-4-203, Nakacho,
+S: Musashino, Tokyo 180-0006
+S: Japan
+
+N: Patrick Mochel
+E: mochel@osdl.org
+E: mochelp@infinity.powertie.org
+D: PCI Power Management, ACPI work
+S: 12725 SW Millikan Way, Suite 400
+S: Beaverton, Oregon 97005
+S: USA
+
+N: Eberhard Mönkeberg
+E: emoenke@gwdg.de
+D: CDROM driver "sbpcd" (Matsushita/Panasonic/Soundblaster)
+S: Ruhstrathöhe 2 b.
+S: D-37085 Göttingen
+S: Germany
+
+N: Thomas Molina
+E: tmolina@cablespeed.com
+D: bug fixes, documentation, minor hackery
+
+N: Bob Moore
+E: robert.moore@intel.com
+D: ACPI Component Architecture (ACPICA)
+
+N: Paul Moore
+E: paul@paul-moore.com
+W: https://www.paul-moore.com
+D: NetLabel, SELinux, audit
+
+N: James Morris
+E: jmorris@namei.org
+W: http://namei.org/
+D: Netfilter, Linux Security Modules (LSM), SELinux, IPSec,
+D: Crypto API, general networking, miscellaneous.
+S: PO Box 707
+S: Spit Junction NSW 2088
+S: Australia
+
+N: David Mosberger-Tang
+E: davidm@hpl.hp.com if IA-64 related, else David.Mosberger@acm.org
+D: Linux/Alpha and Linux/ia64
+S: 35706 Runckel Lane
+S: Fremont, California 94536
+S: USA
+
+N: Sam Mosel
+E: sam.mosel@computer.org
+D: Wacom Intuos USB Support
+S: 22 Seaview St
+S: Fullarton 5063
+S: South Australia
+
+N: Wolfgang Muees
+E: wolfgang@iksw-muees.de
+D: Auerswald USB driver
+
+N: Shrijeet Mukherjee
+E: shrijeet@gmail.com
+D: Network rou

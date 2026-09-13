@@ -1,0 +1,170 @@
+, Unit 2
+S: Markham, Ontario
+S: L3R 8B2
+S: Canada
+
+N: Krzysztof Kozlowski
+E: krzk@kernel.org
+D: NFC network subsystem and drivers maintainer
+D: Samsung S2M/S5M Multifunction PMIC device drivers for Exynos platforms
+
+N: Christian Krafft
+D: PowerPC Cell support
+
+N: Maxim Krasnyansky
+E: maxk@qualcomm.com
+W: http://vtun.sf.net
+W: http://bluez.sf.net
+D: Author of the Universal TUN/TAP driver
+D: Author of the Linux Bluetooth Subsystem (BlueZ)
+D: Various other kernel patches, cleanups and fixes
+S: 2213 La Terrace Circle
+S: San Jose, CA 95123
+S: USA
+
+N: Mike Kravetz
+E: mike.kravetz@oracle.com
+D: Maintenance and development of the hugetlb subsystem
+
+N: Andreas S. Krebs
+E: akrebs@altavista.net
+D: CYPRESS CY82C693 chipset IDE, Digital's PC-Alpha 164SX boards
+
+N: Greg Kroah-Hartman
+E: greg@kroah.com
+E: gregkh@suse.de
+W: http://www.kroah.com/linux/
+D: USB Serial Converter driver framework, USB Handspring Visor driver
+D: ConnectTech WHITEHeat USB driver, Generic USB Serial driver
+D: USB I/O Edgeport driver, USB Serial IrDA driver
+D: USB Bluetooth driver, USB Skeleton driver
+D: bits and pieces of USB core code.
+D: PCI Hotplug core, PCI Hotplug Compaq driver modifications
+D: portions of the Linux Security Module (LSM) framework
+D: parts of the driver core, debugfs.
+
+N: Russell Kroll
+E: rkroll@exploits.org
+W: http://www.exploits.org/
+D: V4L radio cards: radio-aztech (new), others (bugfixes/features)
+D: Loopback block device: dynamic sizing ("max_loop" as module)
+S: Post Office Box 691886
+S: San Antonio, Texas 78269-1886
+S: USA
+
+N: Denis O. Kropp
+E: dok@directfb.org
+D: NeoMagic framebuffer driver
+S: Badensche Str. 46
+S: 10715 Berlin
+S: Germany
+
+N: Andrzej M. Krzysztofowicz
+E: ankry@mif.pg.gda.pl
+D: Some 8-bit XT disk driver and devfs hacking
+D: Aladdin 1533/1543(C) chipset IDE
+D: PIIX chipset IDE
+S: ul. Matemblewska 1B/10
+S: 80-283 Gdansk
+S: Poland
+
+N: Gero Kuhlmann
+E: gero@gkminix.han.de
+D: mounting root via NFS
+S: Donarweg 4
+S: D-30657 Hannover
+S: Germany
+
+N: Markus Kuhn
+E: mskuhn@cip.informatik.uni-erlangen.de
+W: http://wwwcip.informatik.uni-erlangen.de/user/mskuhn
+D: Unicode, real-time, time, standards
+S: Schlehenweg 9
+S: D-91080 Uttenreuth
+S: Germany
+
+N: Jaya Kumar
+E: jayalk@intworks.biz
+W: http://www.intworks.biz
+D: Arc monochrome LCD framebuffer driver, x86 reboot fixups
+D: pirq addr, CS5535 alsa audio driver
+S: Gurgaon, India
+S: Kuala Lumpur, Malaysia
+
+N: Mohit Kumar
+D: ST Microelectronics SPEAr13xx PCI host bridge driver
+D: Synopsys DesignWare PCI host bridge driver
+
+N: Gabor Kuti
+E: seasons@falcon.sch.bme.hu
+E: seasons@makosteszta.sote.hu
+D: Original author of software suspend
+
+N: Alexey Kuznetsov
+E: kuznet@ms2.inr.ac.ru
+D: Author and maintainer of large parts of the networking stack
+
+N: Jaroslav Kysela
+E: perex@perex.cz
+W: https://www.perex.cz
+D: Original Author and Maintainer for HP 10/100 Mbit Network Adapters
+D: ISA PnP
+S: Sindlovy Dvory 117
+S: 370 01  Ceske Budejovice
+S: Czech Republic
+
+N: Bas Laarhoven
+E: sjml@xs4all.nl
+D: Loadable modules and ftape driver
+S: J. Obrechtstr 23
+S: NL-5216 GP 's-Hertogenbosch
+S: The Netherlands
+
+N: Ashley Lai
+E: ashleydlai@gmail.com
+D: IBM VTPM driver
+
+N: Savio Lam
+E: lam836@cs.cuhk.hk
+D: Author of the dialog utility, foundation
+D: for Menuconfig's lxdialog.
+
+N: Christoph Lameter
+E: cl@gentwo.org
+D: Digiboard PC/Xe and PC/Xi, Digiboard EPCA
+D: NUMA support, Slab allocators, Page migration
+D: Scalability, Time subsystem
+
+N: Anders Larsen
+E: al@alarsen.net
+D: QNX4 filesystem
+
+N: Paul Laufer
+E: paul@laufernet.com
+D: Soundblaster driver fixes, ISAPnP quirk
+S: California, USA
+
+N: Jarkko Lavinen
+E: jarkko.lavinen@nokia.com
+D: OMAP MMC support
+
+N: Jonathan Layes
+D: ARPD support
+
+N: Tom Lees
+E: tom@lpsg.demon.co.uk
+W: http://www.lpsg.demon.co.uk/
+P: 1024/87D4D065 2A 66 86 9D 02 4D A6 1E  B8 A2 17 9D 4F 9B 89 D6
+D: Original author and current maintainer of
+D: PnP code.
+
+N: David van Leeuwen
+E: david@tm.tno.nl
+D: Philips/LMS cm206 cdrom driver, generic cdrom driver
+S: Scheltemalaan 14
+S: 3817 KS Amersfoort
+S: The Netherlands
+
+N: Volker Lendecke
+E: vl@kki.org
+D: Kernel smbfs (to mount WfW, NT and OS/2 n

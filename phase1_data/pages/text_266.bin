@@ -1,0 +1,180 @@
+or/minor numbers maintainer at lanana.org
+S: c/o Red Hat UK Ltd
+S: Alexandra House
+S: Alexandra Terrace
+S: Guildford, GU1 3DA
+S: United Kingdom
+
+N: Cristian Mihail Craciunescu
+W: http://www.dnt.ro/~cristi/
+E: cristi@dnt.ro
+D: Support for Xircom PGSDB9 (firmware and host driver)
+S: Bucharest
+S: Romania
+
+N: John Crispin
+E: john@phrozen.org
+D: MediaTek MT7623 Gigabit ethernet support
+
+N: Conor Culhane
+E: conor.culhane@silvaco.com
+D: Silvaco I3C master driver
+
+N: Laurence Culhane
+E: loz@holmes.demon.co.uk
+D: Wrote the initial alpha SLIP code
+S: 81 Hood Street
+S: Northampton
+S: NN1 3QT
+S: United Kingdom
+
+N: Massimo Dal Zotto
+E: dz@debian.org
+D: i8k Dell laptop SMM driver
+
+N: Uwe Dannowski
+E: Uwe.Dannowski@ira.uka.de
+W: http://i30www.ira.uka.de/~dannowsk/
+D: FORE PCA-200E driver
+S: University of Karlsruhe
+S: Germany
+
+N: Ray Dassen
+E: jdassen@wi.LeidenUniv.nl
+W: http://www.wi.leidenuniv.nl/~jdassen/
+P: 1024/672D05C1 DD 60 32 60 F7 90 64 80  E7 6F D4 E4 F8 C9 4A 58
+D: Debian GNU/Linux: www.debian.org maintainer, FAQ co-maintainer,
+D: packages testing, nit-picking & fixing. Enjoying BugFree (TM) kernels.
+S: Zuidsingel 10A
+S: 2312 SB  Leiden
+S: The Netherlands
+
+N: David Davies
+E: davies@wanton.lkg.dec.com
+D: Network driver author - depca, ewrk3 and de4x5
+D: Wrote shared interrupt support
+S: Digital Equipment Corporation
+S: 550 King Street
+S: Littleton, Massachusetts 01460
+S: USA
+
+N: Frank Davis
+E: fdavis@si.rr.com
+E: fdavis112@juno.com
+D: Various kernel patches
+S: 8 Lakeview Terr.
+S: Kerhonkson, NY 12446
+S: USA
+
+N: Wayne Davison
+E: davison@borland.com
+D: Second extended file system co-designer
+
+N: Terry Dawson
+E: terry@perf.no.itg.telecom.com.au
+E: terry@albert.vk2ktj.ampr.org (Amateur Radio use only)
+D: trivial hack to add variable address length routing to Rose.
+D: AX25-HOWTO, HAM-HOWTO, IPX-HOWTO, NET-2-HOWTO
+D: ax25-utils maintainer.
+
+N: Kamil Debski
+E: kamil@wypas.org
+D: Samsung S5P 2D graphics acceleration and Multi Format Codec drivers
+D: Samsung USB2 phy drivers
+D: PWM fan driver
+
+N: Helge Deller
+E: deller@gmx.de
+W: http://www.parisc-linux.org/
+D: PA-RISC Linux architecture maintainer
+D: LASI-, ASP-, WAX-, LCD/LED-driver
+S: Germany
+
+N: Jean Delvare
+E: jdelvare@suse.de
+W: http://jdelvare.nerim.net/
+D: Several hardware monitoring drivers
+S: France
+
+N: Frank "Jedi/Sector One" Denis
+E: j@pureftpd.org
+D: QNX4 filesystem
+
+N: Peter Denison
+E: peterd@pnd-pc.demon.co.uk
+W: http://www.pnd-pc.demon.co.uk/promise/
+D: Promise DC4030VL caching HD controller drivers
+
+N: Todd J. Derr
+E: tjd@fore.com
+W: https://www.wordsmith.org/~tjd
+D: Random console hacks and other miscellaneous stuff
+S: 3000 FORE Drive
+S: Warrendale, Pennsylvania 15086
+S: USA
+
+N: Ludovic Desroches
+E: ludovic.desroches@microchip.com
+D: Maintainer for ARM/Microchip (AT91) SoC support
+D: Author of ADC, pinctrl, XDMA and SDHCI drivers for this platform
+S: France
+
+N: Martin Devera
+E: devik@cdi.cz
+W: http://luxik.cdi.cz/~devik/qos/
+D: HTB qdisc and random networking hacks
+
+N: Alex deVries
+E: alex@onefishtwo.ca
+D: Various SGI parts, bits of HAL2 and Newport, PA-RISC Linux.
+S: 41.5 William Street
+S: Ottawa, Ontario
+S: K1N 6Z9
+S: CANADA
+
+N: Vivien Didelot
+E: vivien.didelot@gmail.com
+D: DSA framework and MV88E6XXX driver
+S: Montreal, Quebec, Canada
+
+N: Jeff Dike
+E: jdike@karaya.com
+W: http://user-mode-linux.sourceforge.net
+D: User mode kernel port
+S: 375 Tubbs Hill Rd
+S: Deering NH 03244
+S: USA
+
+N: Matt Domsch
+E: Matt_Domsch@dell.com
+W: https://www.dell.com/linux
+W: https://domsch.com/linux
+D: Linux/IA-64
+D: Dell PowerEdge server, SCSI layer, misc drivers, and other patches
+S: Dell Inc.
+S: One Dell Way
+S: Round Rock, TX  78682
+S: USA
+
+N: Mattia Dongili
+E: malattia@gmail.com
+D: cpufrequtils (precursor to cpupowerutils)
+
+N: Ben Dooks
+E: ben-linux@fluff.org
+E: ben@simtec.co.uk
+W: http://www.fluff.org/ben/
+W: http://www.simtec.co.uk/
+D: Samsung S3C2410/S3C2440 support, general ARM support
+D: Maintaining Simtec Electronics development boards
+S: Simtec Electronics
+S: Avondale Drive
+S: Tarleton
+S: Preston
+S: Lancs
+S: PR4 6AX
+S: United Kingdom
+
+N: Ivo van Doorn
+E: IvDoorn@gmail.com
+W: ht

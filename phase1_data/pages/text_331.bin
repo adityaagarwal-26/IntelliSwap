@@ -1,0 +1,107 @@
+rch/arm/mach-highbank/
+
+ARM/CAVIUM THUNDER NETWORK DRIVER
+M:	Sunil Goutham <sgoutham@marvell.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	drivers/net/ethernet/cavium/thunder/
+
+ARM/CIRRUS LOGIC BK3 MACHINE SUPPORT
+M:	Lukasz Majewski <lukma@denx.de>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/mach-ep93xx/ts72xx.c
+
+ARM/CIRRUS LOGIC EP93XX ARM ARCHITECTURE
+M:	Hartley Sweeten <hsweeten@visionengravers.com>
+M:	Alexander Sverdlin <alexander.sverdlin@gmail.com>
+M:	Nikita Shubin <nikita.shubin@maquefel.me>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/adc/cirrus,ep9301-adc.yaml
+F:	Documentation/devicetree/bindings/sound/cirrus,ep9301-*
+F:	arch/arm/boot/compressed/misc-ep93xx.h
+F:	arch/arm/mach-ep93xx/
+F:	drivers/iio/adc/ep93xx_adc.c
+
+ARM/CIX SOC SUPPORT
+M:	Gary Yang <gary.yang@cixtech.com>
+M:	Fugang Duan <fugang.duan@cixtech.com>
+R:	CIX Linux Kernel Upstream Group <cix-kernel-upstream@cixtech.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/cixtech/linux-mainline.git
+F:	Documentation/devicetree/bindings/arm/cix.yaml
+F:	Documentation/devicetree/bindings/mailbox/cix,sky1-mbox.yaml
+F:	arch/arm64/boot/dts/cix/
+F:	drivers/mailbox/cix-mailbox.c
+K:	\bcix\b
+
+ARM/CLKDEV SUPPORT
+M:	Russell King <linux@armlinux.org.uk>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.armlinux.org.uk/~rmk/linux-arm.git clkdev
+F:	drivers/clk/clkdev.c
+
+ARM/CONEXANT DIGICOLOR MACHINE SUPPORT
+M:	Baruch Siach <baruch@tkos.co.il>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/boot/dts/cnxt/
+N:	digicolor
+
+ARM/CORESIGHT FRAMEWORK AND DRIVERS
+M:	Suzuki K Poulose <suzuki.poulose@arm.com>
+R:	Mike Leach <mike.leach@arm.com>
+R:	James Clark <james.clark@linaro.org>
+R:	Leo Yan <leo.yan@arm.com>
+L:	coresight@lists.linaro.org (moderated for non-subscribers)
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux.git
+F:	Documentation/ABI/testing/sysfs-bus-coresight-devices-*
+F:	Documentation/devicetree/bindings/arm/arm,coresight-*.yaml
+F:	Documentation/devicetree/bindings/arm/arm,embedded-trace-extension.yaml
+F:	Documentation/devicetree/bindings/arm/arm,trace-buffer-extension.yaml
+F:	Documentation/devicetree/bindings/arm/qcom,coresight-*.yaml
+F:	Documentation/trace/coresight/*
+F:	drivers/hwtracing/coresight/*
+F:	include/dt-bindings/arm/coresight-cti-dt.h
+F:	include/linux/coresight*
+F:	include/uapi/linux/coresight*
+F:	samples/coresight/*
+F:	tools/perf/Documentation/arm-coresight.txt
+F:	tools/perf/arch/arm/util/auxtrace.c
+F:	tools/perf/arch/arm/util/cs-etm.c
+F:	tools/perf/arch/arm/util/cs-etm.h
+F:	tools/perf/arch/arm/util/pmu.c
+F:	tools/perf/tests/shell/coresight/*
+F:	tools/perf/util/cs-etm-decoder/*
+F:	tools/perf/util/cs-etm.*
+
+ARM/CORTINA SYSTEMS GEMINI ARM ARCHITECTURE
+M:	Hans Ulli Kroll <ulli.kroll@googlemail.com>
+M:	Linus Walleij <linusw@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/ulli-kroll/linux.git
+F:	Documentation/devicetree/bindings/arm/gemini.yaml
+F:	Documentation/devicetree/bindings/net/cortina,gemini-ethernet.yaml
+F:	Documentation/devicetree/bindings/pinctrl/cortina,gemini-pinctrl.txt
+F:	Documentation/devicetree/bindings/rtc/faraday,ftrtc010.yaml
+F:	arch/arm/boot/dts/gemini/
+F:	arch/arm/mach-gemini/
+F:	drivers/crypto/gemini/
+F:	drivers/net/ethernet/cortina/
+F:	drivers/pinctrl/pinctrl-gemini.c
+F:	drivers/rtc/rtc-ftrtc010.c
+
+ARM/CZ.NIC TURRIS SUPPORT
+M:	Marek Behún <kabel@kernel.org>
+S:	Maintained
+W:	https://www.turris.cz/
+F:	Documentation/ABI/testing/debugfs-moxtet
+F:	Documentation/ABI/testing/sysfs-bus-i2c-devices-turris-omnia-mcu
+F:	Documentation/ABI/testing/sysfs-bus-moxtet-devices
+F:	Documentation/ABI/testing/sysfs-firmware-turris-mox-

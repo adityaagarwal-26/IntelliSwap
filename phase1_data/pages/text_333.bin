@@ -1,0 +1,107 @@
+M ARCHITECTURE
+M:	Linus Walleij <linusw@kernel.org>
+M:	Imre Kaloz <kaloz@openwrt.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/intel-ixp4xx.yaml
+F:	Documentation/devicetree/bindings/gpio/intel,ixp4xx-gpio.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/intel,ixp4xx-interrupt.yaml
+F:	Documentation/devicetree/bindings/memory-controllers/intel,ixp4xx-expansion*
+F:	Documentation/devicetree/bindings/rng/intel,ixp46x-rng.yaml
+F:	Documentation/devicetree/bindings/timer/intel,ixp4xx-timer.yaml
+F:	arch/arm/boot/dts/intel/ixp/
+F:	arch/arm/mach-ixp4xx/
+F:	drivers/bus/intel-ixp4xx-eb.c
+F:	drivers/char/hw_random/ixp4xx-rng.c
+F:	drivers/clocksource/timer-ixp4xx.c
+F:	drivers/crypto/intel/ixp4xx/ixp4xx_crypto.c
+F:	drivers/gpio/gpio-ixp4xx.c
+F:	drivers/irqchip/irq-ixp4xx.c
+F:	drivers/net/ethernet/xscale/ixp4xx_eth.c
+F:	drivers/net/wan/ixp4xx_hss.c
+F:	drivers/soc/ixp4xx/ixp4xx-npe.c
+F:	drivers/soc/ixp4xx/ixp4xx-qmgr.c
+F:	include/linux/soc/ixp4xx/npe.h
+F:	include/linux/soc/ixp4xx/qmgr.h
+
+ARM/INTEL KEEMBAY ARCHITECTURE
+M:	Paul J. Murphy <paul.j.murphy@intel.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/intel,keembay.yaml
+F:	arch/arm64/boot/dts/intel/keembay-evm.dts
+F:	arch/arm64/boot/dts/intel/keembay-soc.dtsi
+
+ARM/INTEL XSC3 (MANZANO) ARM CORE
+M:	Lennert Buytenhek <kernel@wantstofly.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+
+ARM/LG1K ARCHITECTURE
+M:	Chanho Min <chanho.min@lge.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm64/boot/dts/lg/
+
+ARM/LPC18XX ARCHITECTURE
+M:	Vladimir Zapolskiy <vz@mleia.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/i2c/nxp,lpc1788-i2c.yaml
+F:	arch/arm/boot/dts/nxp/lpc/lpc43*
+F:	drivers/i2c/busses/i2c-lpc2k.c
+F:	drivers/memory/pl172.c
+F:	drivers/mtd/spi-nor/controllers/nxp-spifi.c
+F:	drivers/rtc/rtc-lpc24xx.c
+N:	lpc18xx
+
+ARM/LPC32XX SOC SUPPORT
+M:	Vladimir Zapolskiy <vz@mleia.com>
+M:	Piotr Wojtaszczyk <piotr.wojtaszczyk@timesys.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/vzapolskiy/linux-lpc32xx.git
+F:	Documentation/devicetree/bindings/i2c/nxp,pnx-i2c.yaml
+F:	arch/arm/boot/dts/nxp/lpc/lpc32*
+F:	arch/arm/mach-lpc32xx/
+F:	drivers/dma/lpc32xx-dmamux.c
+F:	drivers/i2c/busses/i2c-pnx.c
+F:	drivers/net/ethernet/nxp/lpc_eth.c
+F:	drivers/usb/host/ohci-nxp.c
+F:	drivers/watchdog/pnx4008_wdt.c
+N:	lpc32xx
+
+LPC32XX DMAMUX SUPPORT
+M:	J.M.B. Downing <jonathan.downing@nautel.com>
+M:	Piotr Wojtaszczyk <piotr.wojtaszczyk@timesys.com>
+R:	Vladimir Zapolskiy <vz@mleia.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/dma/nxp,lpc3220-dmamux.yaml
+
+ARM/Marvell Dove/MV78xx0/Orion SOC support
+M:	Andrew Lunn <andrew@lunn.ch>
+M:	Sebastian Hesselbarth <sebastian.hesselbarth@gmail.com>
+M:	Gregory Clement <gregory.clement@bootlin.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu.git
+F:	Documentation/devicetree/bindings/arm/marvell/marvell,dove.yaml
+F:	Documentation/devicetree/bindings/arm/marvell/marvell,orion5x.yaml
+F:	Documentation/devicetree/bindings/soc/dove/
+F:	arch/arm/boot/dts/marvell/dove*
+F:	arch/arm/boot/dts/marvell/orion5x*
+F:	arch/arm/mach-dove/
+F:	arch/arm/mach-mv78xx0/
+F:	arch/arm/mach-orion5x/
+F:	arch/arm/plat-orion/
+F:	drivers/bus/mvebu-mbus.c
+F:	drivers/soc/dove/
+
+ARM/Marvell Kirkwood and Armada 370, 375, 38x, 39x, XP, 3700, 7K/8K, CN9130 SOC support
+M:	Andrew Lunn <andrew@lunn.ch>
+M:	Gregory Clement <gregory.clement@bootlin.com>
+M:	Sebastian Hesselbarth <sebastian.hesselbarth@gmail.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu.git
+F:	Documentation/devicetree/bindings/ar

@@ -1,0 +1,161 @@
+ities, socket and X interfaces, x.out loader, syscalls...
+D: Purple Distribution maintainer
+D: UK FidoNet support
+D: ISODE && PP
+D: Kernel and device driver hacking
+S: 280 Silverdale Road
+S: Earley
+S: Reading
+S: RG6 2NU
+S: United Kingdom
+
+N: Michael Jamet
+E: michael.jamet@intel.com
+D: Thunderbolt/USB4 driver maintainer
+D: Thunderbolt/USB4 networking driver maintainer
+
+N: Dave Jeffery
+E: dhjeffery@gmail.com
+D: SCSI hacks and IBM ServeRAID RAID driver maintenance
+
+N: Jakub Jelinek
+E: jakub@redhat.com
+W: http://sunsite.mff.cuni.cz/~jj
+P: 1024/0F7623C5 53 95 71 3C EB 73 99 97  02 49 40 47 F9 19 68 20
+D: Sparc hacker, SILO, mc
+D: Maintain sunsite.mff.cuni.cz
+S: K osmidomkum 723
+S: 160 00 Praha 6
+S: Czech Republic
+
+N: Seth Jennings
+E: sjenning@redhat.com
+D: Creation and maintenance of zswap
+D: Creation and maintenace of the zbud allocator
+
+N: Jeremy Kerr
+D: Maintainer of SPU File System
+
+N: Michael Kerrisk
+E: mtk.manpages@gmail.com
+W: https://man7.org/
+P: 4096R/3A35CE5E E522 595B 52ED A4E6 BFCC  CB5E 8561 9911 3A35 CE5E
+D: Maintainer of the Linux man-pages project
+D: Linux man pages online, at <https://man7.org/linux/man-pages/>
+
+N: Niels Kristian Bech Jensen
+E: nkbj1970@hotmail.com
+D: Miscellaneous kernel updates and fixes.
+
+N: Michael K. Johnson
+E: johnsonm@redhat.com
+W: http://www.redhat.com/~johnsonm
+P: 1024/4536A8DD 2A EC 88 08 40 64 CE D8  DD F8 12 2B 61 43 83 15
+D: The Linux Documentation Project
+D: Kernel Hackers' Guide
+D: Procps
+D: Proc filesystem
+D: Maintain tsx-11.mit.edu
+D: LP driver
+S: 201 Howell Street, Apartment 1C
+S: Chapel Hill, North Carolina 27514-4818
+S: USA
+
+N: Dave Jones
+E: davej@codemonkey.org.uk
+D: Assorted VIA x86 support.
+D: 2.5 AGPGART overhaul.
+D: CPUFREQ maintenance.
+D: Fedora kernel maintenance (2003-2014).
+D: 'Trinity' and similar fuzz testing work.
+D: Misc/Other.
+
+N: Tom Joseph
+E: tjoseph@cadence.com
+D: Cadence PCIe driver
+
+N: Martin Josfsson
+E: gandalf@wlug.westbo.se
+P: 1024D/F6B6D3B1 7610 7CED 5C34 4AA6 DBA2  8BE1 5A6D AF95 F6B6 D3B1
+D: netfilter: SAME target
+D: netfilter: helper target
+D: netfilter: various other hacks
+S: Ronneby
+S: Sweden
+
+N: Ani Joshi
+E: ajoshi@shell.unixbox.com
+D: fbdev hacking
+
+N: Jesper Juhl
+E: jesperjuhl76@gmail.com
+D: Various fixes, cleanups and minor features all over the tree.
+D: Wrote initial version of the hdaps driver (since passed on to others).
+S: Titangade 5G, 2.tv
+S: 2200 Copenhagen N.
+S: Denmark
+
+N: Jozsef Kadlecsik
+E: kadlec@netfilter.org
+P: 1024D/470DB964 4CB3 1A05 713E 9BF7 FAC5  5809 DD8C B7B1 470D B964
+D: netfilter: TCP window tracking code
+D: netfilter: raw table
+D: netfilter: iprange match
+D: netfilter: new logging interfaces
+D: netfilter: ipset
+D: netfilter: various other hacks
+S: Tata
+S: Hungary
+
+N: Bernhard Kaindl
+E: bkaindl@netway.at
+E: edv@bartelt.via.at
+D: Author of a menu based configuration tool, kmenu, which
+D: is the predecessor of 'make menuconfig' and 'make xconfig'.
+D: digiboard driver update (modularisation work and 2.1.x upd)
+S: Tallak 95
+S: 8103 Rein
+S: Austria
+
+N: Mitsuru Kanda
+E: mk@linux-ipv6.org
+E: mk@isl.rdc.toshiba.co.jp
+E: mk@karaba.org
+W: http://www.karaba.org/~mk/
+P: 1024D/2EC7E30D 4DC3 949B 5A6C F0D6 375F  4472 8888 A8E1 2EC7 E30D
+D: IPsec, IPv6
+D: USAGI/WIDE Project, TOSHIBA CORPORATION
+S: 2-47-8, Takinogawa,
+S: Kita, Tokyo 114-0023
+S: Japan
+
+N: Jan Kara
+E: jack@atrey.karlin.mff.cuni.cz
+E: jack@suse.cz
+D: Quota fixes for 2.2 kernel
+D: Quota fixes for 2.3 kernel
+D: Few other fixes in filesystem area (buffer cache, isofs, loopback)
+W: http://atrey.karlin.mff.cuni.cz/~jack/
+S: Krosenska' 543
+S: 181 00 Praha 8
+S: Czech Republic
+
+N: Murali Karicheri
+E: m-karicheri2@ti.com
+D: Keystone NetCP driver
+D: Keystone PCIe host controller driver
+
+N: Jan "Yenya" Kasprzak
+E: kas@fi.muni.cz
+D: Author of the COSA/SRP sync serial board driver.
+D: Port of the syncppp.c from the 2.0 to the 2.1 kernel.
+P: 1024/D3498839 0D 99 A7 FB 20 66 05 D7  8B 35 FC DE 05 B1 8A 5E
+W: https://www.fi.muni.cz/~kas/
+S: c/o Faculty of Informatics, Masaryk University
+S: Botanicka' 68a
+S: 602 00 Brno
+S: Czech Republic
+
+N: Karsten Keil
+E: isdn@linux-pingi.de
+D: ISDN sub

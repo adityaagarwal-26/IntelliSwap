@@ -1,0 +1,133 @@
+eee802154/adf7242.c
+
+ADM1025 HARDWARE MONITOR DRIVER
+M:	Jean Delvare <jdelvare@suse.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/adm1025.rst
+F:	drivers/hwmon/adm1025.c
+
+ADM1029 HARDWARE MONITOR DRIVER
+M:	Corentin Labbe <clabbe.montjoie@gmail.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	drivers/hwmon/adm1029.c
+
+ADM8211 WIRELESS DRIVER
+L:	linux-wireless@vger.kernel.org
+S:	Orphan
+F:	drivers/net/wireless/admtek/
+
+ADP1050 HARDWARE MONITOR DRIVER
+M:	Radu Sabau <radu.sabau@analog.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/hwmon/pmbus/adi,adp1050.yaml
+
+ADP1653 FLASH CONTROLLER DRIVER
+M:	Sakari Ailus <sakari.ailus@iki.fi>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/i2c/adi,adp1653.txt
+F:	drivers/media/i2c/adp1653.c
+F:	include/media/i2c/adp1653.h
+
+ADP5520 BACKLIGHT DRIVER WITH IO EXPANDER (ADP5520/ADP5501)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/ADP5520
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/gpio/gpio-adp5520.c
+F:	drivers/input/keyboard/adp5520-keys.c
+F:	drivers/leds/leds-adp5520.c
+F:	drivers/mfd/adp5520.c
+F:	drivers/video/backlight/adp5520_bl.c
+
+ADP5585 GPIO EXPANDER, PWM AND KEYPAD CONTROLLER DRIVER
+M:	Laurent Pinchart <laurent.pinchart@ideasonboard.com>
+L:	linux-gpio@vger.kernel.org
+L:	linux-pwm@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/*/adi,adp5585*.yaml
+F:	drivers/gpio/gpio-adp5585.c
+F:	drivers/input/keyboard/adp5585-keys.c
+F:	drivers/mfd/adp5585.c
+F:	drivers/pwm/pwm-adp5585.c
+F:	include/linux/mfd/adp5585.h
+
+ADP5588 QWERTY KEYPAD AND IO EXPANDER DRIVER (ADP5588/ADP5587)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/ADP5588
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/input/adi,adp5588.yaml
+F:	drivers/input/keyboard/adp5588-keys.c
+
+ADP8860 BACKLIGHT DRIVER (ADP8860/ADP8861/ADP8863)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/ADP8860
+W:	https://ez.analog.com/linux-software-drivers
+F:	drivers/video/backlight/adp8860_bl.c
+
+ADT746X FAN DRIVER
+M:	Colin Leroy <colin@colino.net>
+S:	Maintained
+F:	drivers/macintosh/therm_adt746x.c
+
+ADT7475 HARDWARE MONITOR DRIVER
+M:	Jean Delvare <jdelvare@suse.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/adt7475.rst
+F:	drivers/hwmon/adt7475.c
+
+ADVANSYS SCSI DRIVER
+M:	Matthew Wilcox <willy@infradead.org>
+M:	Hannes Reinecke <hare@suse.com>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	Documentation/scsi/advansys.rst
+F:	drivers/scsi/advansys.c
+
+ADVANTECH SWBTN DRIVER
+M:	Andrea Ho <Andrea.Ho@advantech.com.tw>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/adv_swbutton.c
+
+ADXL313 THREE-AXIS DIGITAL ACCELEROMETER DRIVER
+M:	Lucas Stankus <lucas.p.stankus@gmail.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl313.yaml
+F:	drivers/iio/accel/adxl313*
+
+ADXL34X THREE-AXIS DIGITAL ACCELEROMETER DRIVER (ADXL345/ADXL346)
+M:	Michael Hennerich <michael.hennerich@analog.com>
+S:	Supported
+W:	http://wiki.analog.com/ADXL345
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl345.yaml
+F:	drivers/input/misc/adxl34x.c
+
+ADXL355 THREE-AXIS DIGITAL ACCELEROMETER DRIVER
+M:	Puranjay Mohan <puranjay@kernel.org>
+L:	linux-iio@vger.kernel.org
+S:	Supported
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl355.yaml
+F:	drivers/iio/accel/adxl355.h
+F:	drivers/iio/accel/adxl355_core.c
+F:	drivers/iio/accel/adxl355_i2c.c
+F:	drivers/iio/accel/adxl355_spi.c
+
+ADXL367 THREE-AXIS DIGITAL ACCELEROMETER DRIVER
+M:	Marcelo Schmitt <marcelo.schmitt@analog.com>
+L:	linux-iio@vger.kernel.org
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl367.yaml
+F:	drivers/iio/accel/adxl367*
+
+ADXL371/ADXL372 THREE-AXIS DIGITAL ACCELEROMETER DRIVER
+M:	Michael Hennerich <michae

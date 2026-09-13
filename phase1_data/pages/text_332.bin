@@ -1,0 +1,114 @@
+rwtm
+F:	Documentation/devicetree/bindings/bus/cznic,moxtet.yaml
+F:	Documentation/devicetree/bindings/firmware/cznic,turris-mox-rwtm.yaml
+F:	Documentation/devicetree/bindings/firmware/cznic,turris-omnia-mcu.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/marvell,mpic.yaml
+F:	Documentation/devicetree/bindings/leds/cznic,turris-omnia-leds.yaml
+F:	Documentation/devicetree/bindings/watchdog/marvell,armada-3700-wdt.yaml
+F:	drivers/bus/moxtet.c
+F:	drivers/firmware/turris-mox-rwtm.c
+F:	drivers/gpio/gpio-moxtet.c
+F:	drivers/leds/leds-turris-omnia.c
+F:	drivers/mailbox/armada-37xx-rwtm-mailbox.c
+F:	drivers/platform/cznic/
+F:	drivers/watchdog/armada_37xx_wdt.c
+F:	include/dt-bindings/bus/moxtet.h
+F:	include/linux/armada-37xx-rwtm-mailbox.h
+F:	include/linux/moxtet.h
+F:	include/linux/turris-omnia-mcu-interface.h
+F:	include/linux/turris-signing-key.h
+
+ARM/FARADAY FA526 PORT
+M:	Hans Ulli Kroll <ulli.kroll@googlemail.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.berlios.de/gemini-board
+F:	arch/arm/mm/*-fa*
+
+ARM/FOOTBRIDGE ARCHITECTURE
+M:	Russell King <linux@armlinux.org.uk>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://www.armlinux.org.uk/
+F:	arch/arm/include/asm/hardware/dec21285.h
+F:	arch/arm/mach-footbridge/
+
+ARM/FREESCALE IMX / MXC / LAYERSCAPE ARM ARCHITECTURE
+M:	Frank Li <Frank.Li@nxp.com>
+M:	Sascha Hauer <s.hauer@pengutronix.de>
+R:	Pengutronix Kernel Team <kernel@pengutronix.de>
+R:	Fabio Estevam <festevam@gmail.com>
+L:	imx@lists.linux.dev
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux.git
+F:	Documentation/devicetree/bindings/firmware/fsl*
+F:	Documentation/devicetree/bindings/firmware/nxp*
+F:	arch/arm/boot/dts/nxp/
+F:	arch/arm64/boot/dts/freescale/
+X:	Documentation/devicetree/bindings/media/i2c/
+X:	drivers/media/i2c/
+N:	imx
+N:	mxs
+N:	\bmxc[^\d]
+
+ARM/FREESCALE VYBRID ARM ARCHITECTURE
+M:	Frank Li <Frank.Li@nxp.com>
+M:	Sascha Hauer <s.hauer@pengutronix.de>
+R:	Pengutronix Kernel Team <kernel@pengutronix.de>
+R:	Stefan Agner <stefan@agner.ch>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux.git
+F:	arch/arm/boot/dts/nxp/vf/
+F:	arch/arm/mach-imx/*vf610*
+
+ARM/GUMSTIX MACHINE SUPPORT
+M:	Steve Sakoman <sakoman@gmail.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+
+ARM/HISILICON SOC SUPPORT
+M:	Wei Xu <xuwei5@hisilicon.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+W:	http://www.hisilicon.com
+T:	git https://github.com/hisilicon/linux-hisi.git
+F:	arch/arm/boot/dts/hisilicon/
+F:	arch/arm/mach-hisi/
+F:	arch/arm64/boot/dts/hisilicon/
+
+ARM/HP JORNADA 7XX MACHINE SUPPORT
+M:	Kristoffer Ericson <kristoffer.ericson@gmail.com>
+S:	Maintained
+W:	www.jlime.com
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/kristoffer/linux-hpc.git
+F:	arch/arm/mach-sa1100/include/mach/jornada720.h
+F:	arch/arm/mach-sa1100/jornada720.c
+
+ARM/HPE GXP ARCHITECTURE
+M:	Jean-Marie Verdun <verdun@hpe.com>
+M:	Nick Hawkins <nick.hawkins@hpe.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/hpe,gxp.yaml
+F:	Documentation/devicetree/bindings/hwmon/hpe,gxp-fan-ctrl.yaml
+F:	Documentation/devicetree/bindings/i2c/hpe,gxp-i2c.yaml
+F:	Documentation/devicetree/bindings/spi/hpe,gxp-spifi.yaml
+F:	Documentation/devicetree/bindings/timer/hpe,gxp-timer.yaml
+F:	Documentation/hwmon/gxp-fan-ctrl.rst
+F:	arch/arm/boot/dts/hpe/
+F:	drivers/clocksource/timer-gxp.c
+F:	drivers/hwmon/gxp-fan-ctrl.c
+F:	drivers/i2c/busses/i2c-gxp.c
+F:	drivers/spi/spi-gxp.c
+F:	drivers/watchdog/gxp-wdt.c
+
+ARM/IGEP MACHINE SUPPORT
+M:	Enric Balletbo i Serra <eballetbo@gmail.com>
+M:	Javier Martinez Canillas <javier@dowhile0.org>
+L:	linux-omap@vger.kernel.org
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/boot/dts/ti/omap/omap3-igep*
+
+ARM/INTEL IXP4XX AR

@@ -1,0 +1,143 @@
+l.hennerich@analog.com>
+M:	Marcelo Schmitt <marcelo.schmitt@analog.com>
+M:	Nuno Sá <nuno.sa@analog.com>
+M:	Antoniu Miclaus <antoniu.miclaus@analog.com>
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl372.yaml
+F:	drivers/iio/accel/adxl372.c
+F:	drivers/iio/accel/adxl372_i2c.c
+F:	drivers/iio/accel/adxl372_spi.c
+
+ADXL380 THREE-AXIS DIGITAL ACCELEROMETER DRIVER
+M:	Ramona Gradinariu <ramona.gradinariu@analog.com>
+M:	Antoniu Miclaus <antoniu.miclaus@analog.com>
+S:	Supported
+W:	https://ez.analog.com/linux-software-drivers
+F:	Documentation/devicetree/bindings/iio/accel/adi,adxl380.yaml
+F:	drivers/iio/accel/adxl380.c
+F:	drivers/iio/accel/adxl380.h
+F:	drivers/iio/accel/adxl380_i2c.c
+F:	drivers/iio/accel/adxl380_spi.c
+
+AEONSEMI PHY DRIVER
+M:	Christian Marangi <ansuelsmth@gmail.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/aeonsemi,as21xxx.yaml
+F:	drivers/net/phy/as21xxx.c
+
+AF8133J THREE-AXIS MAGNETOMETER DRIVER
+M:	Ondřej Jirman <megi@xff.cz>
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/magnetometer/voltafield,af8133j.yaml
+F:	drivers/iio/magnetometer/af8133j.c
+
+AF9013 MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/dvb-frontends/af9013*
+
+AF9033 MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/dvb-frontends/af9033*
+
+AFFS FILE SYSTEM
+M:	David Sterba <dsterba@suse.com>
+L:	linux-fsdevel@vger.kernel.org
+S:	Odd Fixes
+F:	Documentation/filesystems/affs.rst
+F:	fs/affs/
+
+AFS FILESYSTEM
+M:	David Howells <dhowells@redhat.com>
+M:	Marc Dionne <marc.dionne@auristor.com>
+L:	linux-afs@lists.infradead.org
+S:	Supported
+W:	https://www.infradead.org/~dhowells/kafs/
+F:	Documentation/filesystems/afs.rst
+F:	fs/afs/
+F:	include/trace/events/afs.h
+
+AGPGART DRIVER
+M:	David Airlie <airlied@redhat.com>
+L:	dri-devel@lists.freedesktop.org
+S:	Maintained
+T:	git https://gitlab.freedesktop.org/drm/kernel.git
+F:	drivers/char/agp/
+F:	include/linux/agp*
+F:	include/uapi/linux/agp*
+
+AHA152X SCSI DRIVER
+M:	"Juergen E. Fischer" <fischer@norbit.de>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	drivers/scsi/aha152x*
+F:	drivers/scsi/pcmcia/aha152x*
+
+AIC7XXX / AIC79XX SCSI DRIVER
+M:	Hannes Reinecke <hare@suse.com>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	drivers/scsi/aic7xxx/
+
+AIMSLAB FM RADIO RECEIVER DRIVER
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/radio/radio-aimslab*
+
+AIO
+M:	Benjamin LaHaise <bcrl@kvack.org>
+L:	linux-aio@kvack.org
+S:	Supported
+F:	fs/aio.c
+F:	include/linux/*aio*.h
+
+AIROHA ETHERNET DRIVER
+M:	Lorenzo Bianconi <lorenzo@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-mediatek@lists.infradead.org (moderated for non-subscribers)
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/airoha,en7581-eth.yaml
+F:	drivers/net/ethernet/airoha/
+
+AIROHA PCIE PHY DRIVER
+M:	Lorenzo Bianconi <lorenzo@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/phy/airoha,en7581-pcie-phy.yaml
+F:	drivers/phy/phy-airoha-pcie-regs.h
+F:	drivers/phy/phy-airoha-pcie.c
+
+AIROHA SPI SNFI DRIVER
+M:	Lorenzo Bianconi <lorenzo@kernel.org>
+M:	Ray Liu <ray.liu@airoha.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-spi@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/spi/airoha,en7581-snand.yaml
+F:	drivers/spi/spi-airoha-snfi.c
+
+AIRSPY MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/usb/airspy/
+
+ALACRITECH GIGABIT ETHERNET DRIVER
+M:	Lino Sanfilippo <LinoSanfilippo@gmx.de>
+S:	Maintained
+F:	drivers/net/ethernet/alacritech/*
+
+ALCATEL SPEEDTOUCH USB DRIVER
+M

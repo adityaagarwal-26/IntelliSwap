@@ -1,0 +1,160 @@
+
+S: Schleiermacherstrasse 12
+S: 90491 Nuernberg
+S: Germany
+
+N: Geert Uytterhoeven
+E: geert@linux-m68k.org
+W: http://users.telenet.be/geertu/
+P: 4096R/4804B4BC3F55EEFB 750D 82B0 A781 5431 5E25  925B 4804 B4BC 3F55 EEFB
+D: m68k/Amiga and PPC/CHRP Longtrail coordinator
+D: Frame buffer device and XF68_FBDev maintainer
+D: m68k IDE maintainer
+D: Amiga Zorro maintainer
+D: Amiga Buddha and Catweasel chipset IDE
+D: Atari Falcon chipset IDE
+D: Amiga Gayle chipset IDE
+D: mipsel NEC DDB Vrc-5074
+S: Haterbeekstraat 55B
+S: B-3200 Aarschot
+S: Belgium
+
+N: Chris Vance
+E: cvance@tislabs.com
+E: cvance@nai.com
+D: portions of the Linux Security Module (LSM) framework and security modules
+
+N: Petr Vandrovec
+E: petr@vandrovec.name
+D: Small contributions to ncpfs
+D: Matrox framebuffer driver
+S: 21513 Conradia Ct
+S: Cupertino, CA 95014
+S: USA
+
+N: Manohar Vanga
+E: manohar.vanga@gmail.com
+D: VME subsystem maintainer
+
+N: Thibaut Varène
+E: hacks+kernel@slashdirt.org
+W: http://hacks.slashdirt.org/
+D: PA-RISC port minion, PDC and GSCPS2 drivers, debuglocks and other bits
+D: Some ARM at91rm9200 bits, S1D13XXX FB driver, random patches here and there
+D: AD1889 sound driver
+S: France
+
+N: Heikki Vatiainen
+E: hessu@cs.tut.fi
+D: Co-author of Multi-Protocol Over ATM (MPOA), some LANE hacks
+S: Tampere University of Technology / Telecom lab
+S: Hermiankatu 12C
+S: FIN-33720 Tampere
+S: Finland
+
+N: Andrew Veliath
+E: andrewtv@usa.net
+D: Turtle Beach MultiSound sound driver
+S: USA
+
+N: Dirk Verworner
+D: Co-author of German book ``Linux-Kernel-Programmierung''
+D: Co-founder of Berlin Linux User Group
+
+N: Andrew Victor
+E: linux@maxim.org.za
+W: http://maxim.org.za/at91_26.html
+D: First maintainer of Atmel ARM-based SoC, aka AT91
+D: Introduced support for at91rm9200, the first chip of AT91 family
+S: South Africa
+
+N: Riku Voipio
+E: riku.voipio@iki.fi
+D: Author of PCA9532 LED and Fintek f75375s hwmon driver
+D: Some random ARM board patches
+S: Finland
+
+N: Patrick Volkerding
+E: volkerdi@ftp.cdrom.com
+D: Produced the Slackware distribution, updated the SVGAlib
+D: patches for ghostscript, worked on color 'ls', etc.
+S: 301 15th Street S.
+S: Moorhead, Minnesota 56560
+S: USA
+
+N: Jos Vos
+E: jos@xos.nl
+W: http://www.xos.nl/
+D: Various IP firewall updates, ipfwadm
+S: X/OS Experts in Open Systems BV
+S: Kruislaan 419
+S: 1098 VA Amsterdam
+S: The Netherlands
+
+N: Jeroen Vreeken
+E: pe1rxq@amsat.org
+W: http://www.chello.nl/~j.vreeken/
+D: SE401 usb webcam driver
+D: ZD1201 usb wireless lan driver
+S: Maastrichterweg 63
+S: 5554 GG Valkenswaard
+S: The Netherlands
+
+N: Mark Wallis
+E: mwallis@serialmonkey.com
+W: http://mark.serialmonkey.com
+D: Ralink rt2x00 WLAN driver
+S: Newcastle, Australia
+
+N: Peter Shaobo Wang
+E: pwang@mmdcorp.com
+W: http://www.mmdcorp.com/pw/linux
+D: Driver for Interphase ATM (i)Chip SAR adapter card family (x575, x525, x531).
+S: 1513 Brewster Dr.
+S: Carrollton, TX 75010
+S: USA
+
+N: Dave Watson
+D: Kernel TLS implementation.
+
+N: Tim Waugh
+E: tim@cyberelk.net
+D: Co-architect of the parallel-port sharing system
+S: 17 Curling Vale
+S: GUILDFORD
+S: Surrey
+S: GU2 7PJ
+S: United Kingdom
+
+N: Juergen Weigert
+E: jnweiger@immd4.informatik.uni-erlangen.de
+D: The Linux Support Team Erlangen
+
+N: Russ Weight
+E: russ.weight@gmail.com
+D: Added support for Firmware Upload to the Firmware Loader
+
+N: David Weinehall
+E: tao@acc.umu.se
+P: 1024D/DC47CA16 7ACE 0FB0 7A74 F994 9B36  E1D1 D14E 8526 DC47 CA16
+W: https://www.acc.umu.se/~tao/
+D: v2.0 kernel maintainer
+D: Fixes for the NE/2-driver
+D: Miscellaneous MCA-support
+D: Cleanup of the Config-files
+
+N: Martyn Welch
+E: martyn@welchs.me.uk
+D: VME subsystem maintainer
+
+N: Matt Welsh
+E: mdw@metalab.unc.edu
+W: http://www.cs.berkeley.edu/~mdw
+D: Original Linux Documentation Project coordinator
+D: Author, "Running Linux" (O'Reilly)
+D: Author, "Linux Installation and Getting Started" (LDP) and several HOWTOs
+D: Linuxdoc-SGML formatting system (now SGML-Tools)
+D: Device drivers for various high-speed network interfaces (Myrinet, ATM)
+D: Keithley DAS1200 device driver
+D: Original maintainer of sunsite WWW and FTP sites
+D: Original moderator of c.o.l.announce a

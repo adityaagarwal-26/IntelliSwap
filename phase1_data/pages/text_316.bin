@@ -1,0 +1,142 @@
+ <anarsoul@gmail.com>
+M:	Yangtao Li <tiny.windzz@gmail.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/thermal/allwinner,sun8i-a83t-ths.yaml
+F:	drivers/thermal/sun8i_thermal.c
+
+ALLWINNER VPU DRIVER
+M:	Maxime Ripard <mripard@kernel.org>
+M:	Paul Kocialkowski <paulk@sys-base.io>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	drivers/staging/media/sunxi/cedrus/
+
+ALPHA PORT
+M:	Richard Henderson <richard.henderson@linaro.org>
+M:	Matt Turner <mattst88@gmail.com>
+M:	Magnus Lindholm <linmag7@gmail.com>
+L:	linux-alpha@vger.kernel.org
+S:	Odd Fixes
+F:	arch/alpha/
+
+ALPS PS/2 TOUCHPAD DRIVER
+R:	Pali Rohár <pali@kernel.org>
+F:	drivers/input/mouse/alps.*
+
+ALTERA MAILBOX DRIVER
+M:	Tien Sung Ang <tiensung.ang@altera.com>
+S:	Maintained
+F:	drivers/mailbox/mailbox-altera.c
+
+ALTERA MSGDMA IP CORE DRIVER
+M:	Adrian Ng Ho Yin <adrian.ho.yin.ng@altera.com>
+R:	Stefan Roese <sr@denx.de>
+L:	dmaengine@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/dma/altr,msgdma.yaml
+F:	drivers/dma/altera-msgdma.c
+
+ALTERA PIO DRIVER
+M:	Adrian Ng <adrianhoyin.ng@altera.com>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-altera.c
+
+ALTERA SoC FPGA HWMON DRIVER
+M:	Nazim Amirul <muhammad.nazim.amirul.nazle.asmade@altera.com>
+M:	Tze Yee Ng <tze.yee.ng@altera.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/socfpga-hwmon.rst
+F:	drivers/hwmon/socfpga-hwmon.c
+
+ALTERA TRIPLE SPEED ETHERNET DRIVER
+M:	Boon Khai Ng <boon.khai.ng@altera.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/altera/
+
+ALTERA UART/JTAG UART SERIAL DRIVERS
+M:	Tobias Klauser <tklauser@distanz.ch>
+L:	linux-serial@vger.kernel.org
+S:	Maintained
+F:	drivers/tty/serial/altera_jtaguart.c
+F:	drivers/tty/serial/altera_uart.c
+F:	include/linux/altera_jtaguart.h
+F:	include/linux/altera_uart.h
+
+AMAZON ANNAPURNA LABS FIC DRIVER
+M:	Talel Shenhar <talel@amazon.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/interrupt-controller/amazon,al-fic.yaml
+F:	drivers/irqchip/irq-al-fic.c
+
+AMAZON ANNAPURNA LABS MEMORY CONTROLLER EDAC
+M:	Talel Shenhar <talel@amazon.com>
+M:	Talel Shenhar <talelshenhar@gmail.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/edac/amazon,al-mc-edac.yaml
+F:	drivers/edac/al_mc_edac.c
+
+AMAZON ANNAPURNA LABS THERMAL MMIO DRIVER
+M:	Talel Shenhar <talel@amazon.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/thermal/amazon,al-thermal.yaml
+F:	drivers/thermal/thermal_mmio.c
+
+AMAZON ETHERNET DRIVERS
+M:	Arthur Kiyanovski <akiyano@amazon.com>
+M:	David Arinzon <darinzon@amazon.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/device_drivers/ethernet/amazon/ena.rst
+F:	drivers/net/ethernet/amazon/
+
+AMAZON RDMA EFA DRIVER
+M:	Michael Margolin <mrgolin@amazon.com>
+R:	Gal Pressman <gal.pressman@linux.dev>
+R:	Yossi Leybovich <sleybo@amazon.com>
+L:	linux-rdma@vger.kernel.org
+S:	Supported
+Q:	https://patchwork.kernel.org/project/linux-rdma/list/
+F:	drivers/infiniband/hw/efa/
+F:	include/uapi/rdma/efa-abi.h
+
+AMD 3D V-CACHE PERFORMANCE OPTIMIZER DRIVER
+M:	Basavaraj Natikar <Basavaraj.Natikar@amd.com>
+R:	Mario Limonciello <mario.limonciello@amd.com>
+L:	platform-driver-x86@vger.kernel.org
+S:	Supported
+F:	Documentation/ABI/testing/sysfs-bus-platform-drivers-amd_x3d_vcache
+F:	drivers/platform/x86/amd/x3d_vcache.c
+
+AMD ADDRESS TRANSLATION LIBRARY (ATL)
+M:	Yazen Ghannam <Yazen.Ghannam@amd.com>
+L:	linux-edac@vger.kernel.org
+S:	Supported
+F:	drivers/ras/amd/atl/*
+
+AMD AE4DMA DRIVER
+M:	Basavaraj Natikar <Basavaraj.Natikar@amd.com>
+L:	dmaengine@vger.kernel.org
+S:	Supported
+F:	drivers/dma/amd/ae4dma/
+
+AMD ASoC DRIVERS
+M:	Vijendar Mukunda <Vijendar.Mukunda@amd.com>
+R:	Venkata Prasad Potturu <venkataprasad.potturu@amd.com>
+L:	linux-sound@vger.kernel.org
+S:	Supported
+F:	sound/soc/amd/
+
+AMD AXI I3C MASTER DRIVER
+M:	Shubhrajyoti Datta <shubhrajyoti.datta@amd.com>
+M:	Shubham Patil <shubhamsanjay.patil@amd.com>
+L:	linux-i3c@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/i3c/xlnx,axi-i3c-1.0.yaml
+F:	drivers/i3c/master/amd-i3c-master.c
+
+AMD AXI W1 DRIVER
+M:	Kris Cha

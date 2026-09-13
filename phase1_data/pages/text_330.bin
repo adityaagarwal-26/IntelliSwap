@@ -1,0 +1,118 @@
+:	drivers/irqchip/irq-apple-aic.c
+F:	drivers/mfd/macsmc.c
+F:	drivers/nvme/host/apple.c
+F:	drivers/nvmem/apple-efuses.c
+F:	drivers/nvmem/apple-spmi-nvmem.c
+F:	drivers/phy/apple/
+F:	drivers/pinctrl/pinctrl-apple-gpio.c
+F:	drivers/power/reset/macsmc-reboot.c
+F:	drivers/power/supply/macsmc-power.c
+F:	drivers/pwm/pwm-apple.c
+F:	drivers/rtc/rtc-macsmc.c
+F:	drivers/soc/apple/*
+F:	drivers/spi/spi-apple.c
+F:	drivers/spmi/spmi-apple-controller.c
+F:	drivers/usb/dwc3/dwc3-apple.c
+F:	drivers/video/backlight/apple_dwi_bl.c
+F:	drivers/watchdog/apple_wdt.c
+F:	include/dt-bindings/interrupt-controller/apple-aic.h
+F:	include/dt-bindings/pinctrl/apple.h
+F:	include/linux/mfd/macsmc.h
+F:	include/linux/soc/apple/*
+F:	include/uapi/drm/asahi_drm.h
+
+ARM/ARTPEC MACHINE SUPPORT
+M:	Jesper Nilsson <jesper.nilsson@axis.com>
+M:	Lars Persson <lars.persson@axis.com>
+L:	linux-arm-kernel@axis.com
+S:	Maintained
+F:	Documentation/devicetree/bindings/pinctrl/axis,artpec6-pinctrl.txt
+F:	arch/arm/boot/dts/axis/
+F:	arch/arm/mach-artpec
+F:	drivers/clk/axis
+F:	drivers/crypto/axis
+F:	drivers/mmc/host/usdhi6rol0.c
+F:	drivers/pinctrl/pinctrl-artpec*
+
+ARM/ASPEED I2C DRIVER
+M:	Ryan Chen <ryan_chen@aspeedtech.com>
+R:	Benjamin Herrenschmidt <benh@kernel.crashing.org>
+R:	Joel Stanley <joel@jms.id.au>
+L:	linux-i2c@vger.kernel.org
+L:	openbmc@lists.ozlabs.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/i2c/aspeed,i2c.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/aspeed,ast2400-i2c-ic.yaml
+F:	drivers/i2c/busses/i2c-aspeed.c
+F:	drivers/irqchip/irq-aspeed-i2c-ic.c
+
+ARM/ASPEED MACHINE SUPPORT
+M:	Joel Stanley <joel@jms.id.au>
+M:	Andrew Jeffery <andrew@codeconstruct.com.au>
+R:	Ryan Chen <ryan_chen@aspeedtech.com>
+R:	Billy Tsai <billy_tsai@aspeedtech.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-aspeed@lists.ozlabs.org (moderated for non-subscribers)
+S:	Supported
+Q:	https://patchwork.ozlabs.org/project/linux-aspeed/list/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux.git
+F:	Documentation/devicetree/bindings/arm/aspeed/
+F:	arch/arm/boot/dts/aspeed/
+F:	arch/arm/mach-aspeed/
+F:	arch/arm64/boot/dts/aspeed/
+N:	aspeed
+
+ARM/AXIADO ARCHITECTURE
+M:	Prasad Bolisetty <pbolisetty@axiado.com>
+M:	Tzu-Hao Wei <twei@axiado.com>
+M:	Karthikeyan Mitran <kmitran@axiado.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/axiado.yaml
+F:	arch/arm64/boot/dts/axiado/
+N:	axiado
+
+ARM/AXM LSI SOC
+M:	Krzysztof Kozlowski <krzk@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Odd Fixes
+F:	Documentation/devicetree/bindings/arm/axxia.yaml
+F:	arch/arm/boot/dts/intel/axm/
+F:	arch/arm/mach-axxia/
+
+ARM/BITMAIN ARCHITECTURE
+M:	Manivannan Sadhasivam <mani@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/bitmain.yaml
+F:	Documentation/devicetree/bindings/clock/bitmain,bm1880-clk.yaml
+F:	Documentation/devicetree/bindings/pinctrl/bitmain,bm1880-pinctrl.yaml
+F:	arch/arm64/boot/dts/bitmain/
+F:	drivers/clk/clk-bm1880.c
+F:	drivers/pinctrl/pinctrl-bm1880.c
+
+ARM/BLAIZE ARCHITECTURE
+M:	James Cowgill <james.cowgill@blaize.com>
+M:	Matt Redfearn <matt.redfearn@blaize.com>
+M:	Neil Jones <neil.jones@blaize.com>
+M:	Nikolaos Pasaloukos <nikolaos.pasaloukos@blaize.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/blaize.yaml
+F:	arch/arm64/boot/dts/blaize/
+
+ARM/BST SOC SUPPORT
+M:	Ge Gordon <gordon.ge@bst.ai>
+R:	BST Linux Kernel Upstream Group <bst-upstream@bstai.top>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+F:	Documentation/devicetree/bindings/arm/bst.yaml
+F:	Documentation/devicetree/bindings/mmc/bst,c1200-sdhci.yaml
+F:	arch/arm64/boot/dts/bst/
+F:	drivers/mmc/host/sdhci-of-bst.c
+
+ARM/CALXEDA HIGHBANK ARCHITECTURE
+M:	Andre Przywara <andre.przywara@arm.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/boot/dts/calxeda/
+F:	a

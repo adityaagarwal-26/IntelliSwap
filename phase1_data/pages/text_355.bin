@@ -1,0 +1,138 @@
+t://linuxtv.org/media.git
+F:	drivers/media/radio/radio-cadet*
+
+CAFE CMOS INTEGRATED CAMERA CONTROLLER DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+T:	git git://linuxtv.org/media.git
+F:	Documentation/admin-guide/media/cafe_ccic*
+F:	drivers/media/platform/marvell/
+
+CAKE QDISC
+M:	Toke Høiland-Jørgensen <toke@toke.dk>
+L:	cake@lists.bufferbloat.net (moderated for non-subscribers)
+S:	Maintained
+F:	net/sched/sch_cake.c
+
+CAN NETWORK DRIVERS
+M:	Marc Kleine-Budde <mkl@pengutronix.de>
+M:	Vincent Mailhol <mailhol@kernel.org>
+L:	linux-can@vger.kernel.org
+S:	Maintained
+W:	https://github.com/linux-can
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next.git
+F:	Documentation/devicetree/bindings/net/can/
+F:	Documentation/devicetree/bindings/phy/ti,tcan104x-can.yaml
+F:	drivers/net/can/
+F:	drivers/phy/phy-can-transceiver.c
+F:	include/linux/can/bittiming.h
+F:	include/linux/can/dev.h
+F:	include/linux/can/length.h
+F:	include/linux/can/platform/
+F:	include/linux/can/rx-offload.h
+F:	include/uapi/linux/can/error.h
+F:	include/uapi/linux/can/netlink.h
+F:	include/uapi/linux/can/vxcan.h
+
+CAN NETWORK LAYER
+M:	Oliver Hartkopp <socketcan@hartkopp.net>
+M:	Marc Kleine-Budde <mkl@pengutronix.de>
+L:	linux-can@vger.kernel.org
+S:	Maintained
+W:	https://github.com/linux-can
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next.git
+F:	Documentation/networking/can.rst
+F:	Documentation/networking/iso15765-2.rst
+F:	include/linux/can/can-ml.h
+F:	include/linux/can/core.h
+F:	include/linux/can/skb.h
+F:	include/net/can.h
+F:	include/net/netns/can.h
+F:	include/uapi/linux/can.h
+F:	include/uapi/linux/can/bcm.h
+F:	include/uapi/linux/can/gw.h
+F:	include/uapi/linux/can/isotp.h
+F:	include/uapi/linux/can/raw.h
+F:	net/can/
+F:	net/sched/em_canid.c
+F:	tools/testing/selftests/net/can/
+
+CAN-J1939 NETWORK LAYER
+M:	Robin van der Gracht <robin@protonic.nl>
+M:	Oleksij Rempel <o.rempel@pengutronix.de>
+R:	kernel@pengutronix.de
+L:	linux-can@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/j1939.rst
+F:	include/uapi/linux/can/j1939.h
+F:	net/can/j1939/
+
+CANAAN/KENDRYTE K210 SOC FPIOA DRIVER
+M:	Damien Le Moal <dlemoal@kernel.org>
+L:	linux-riscv@lists.infradead.org
+L:	linux-gpio@vger.kernel.org (pinctrl driver)
+F:	Documentation/devicetree/bindings/pinctrl/canaan,k210-fpioa.yaml
+F:	drivers/pinctrl/pinctrl-k210.c
+
+CANAAN/KENDRYTE K210 SOC RESET CONTROLLER DRIVER
+M:	Damien Le Moal <dlemoal@kernel.org>
+L:	linux-kernel@vger.kernel.org
+L:	linux-riscv@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/reset/canaan,k210-rst.yaml
+F:	drivers/reset/reset-k210.c
+
+CANAAN/KENDRYTE K210 SOC SYSTEM CONTROLLER DRIVER
+M:	Damien Le Moal <dlemoal@kernel.org>
+L:	linux-riscv@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/mfd/canaan,k210-sysctl.yaml
+F:	drivers/soc/canaan/
+F:	include/soc/canaan/
+
+CAPABILITIES
+M:	Serge Hallyn <serge@hallyn.com>
+L:	linux-security-module@vger.kernel.org
+S:	Supported
+F:	include/linux/capability.h
+F:	include/trace/events/capability.h
+F:	include/uapi/linux/capability.h
+F:	kernel/capability.c
+F:	security/commoncap.c
+F:	security/commoncap_test.c
+
+CAPELLA MICROSYSTEMS LIGHT SENSOR DRIVER
+M:	Kevin Tsai <ktsai@capellamicro.com>
+S:	Maintained
+F:	drivers/iio/light/cm*
+
+CARL9170 LINUX COMMUNITY WIRELESS DRIVER
+M:	Christian Lamparter <chunkeey@googlemail.com>
+L:	linux-wireless@vger.kernel.org
+S:	Maintained
+W:	https://wireless.wiki.kernel.org/en/users/Drivers/carl9170
+F:	drivers/net/wireless/ath/carl9170/
+
+CAVIUM I2C DRIVER
+M:	Robert Richter <rric@kernel.org>
+S:	Odd Fixes
+W:	http://www.marvell.com
+F:	drivers/i2c/busses/i2c-octeon*
+F:	drivers/i2c/busses/i2c-thunderx*
+
+CAVIUM LIQUIDIO NETWORK DRIVER
+L:	netdev@vger.kernel.org
+S:	Orphan
+W:	http://www.marvell.com
+F:	drivers/net/ethernet/cavium/liquidio/
+
+CAVIUM MMC DRIVER
+M:	Robert Richter <rric@kernel.org>
+S:	Odd Fixes
+W:	http://www.marvell.com
+F:	drivers/mmc/host/cavium*
+
+CAVIUM OCTEON-TX CRYPTO DRIVER
+M:	George Cherian 

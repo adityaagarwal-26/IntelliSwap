@@ -1,0 +1,152 @@
+linux/kernel/git/ulfh/linux-pm.git
+F:	drivers/cpuidle/cpuidle-psci-domain.c
+F:	drivers/cpuidle/cpuidle-psci.h
+
+CPUIDLE DRIVER - DT IDLE PM DOMAIN
+M:	Ulf Hansson <ulfh@kernel.org>
+L:	linux-pm@vger.kernel.org
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
+F:	drivers/cpuidle/dt_idle_genpd.c
+F:	drivers/cpuidle/dt_idle_genpd.h
+
+CPUIDLE DRIVER - RISC-V SBI
+M:	Anup Patel <anup@brainfault.org>
+L:	linux-pm@vger.kernel.org
+L:	linux-riscv@lists.infradead.org
+S:	Maintained
+F:	drivers/cpuidle/cpuidle-riscv-sbi.c
+
+CPUIDLE DRIVER - S390
+M:	Mete Durlu <meted@linux.ibm.com>
+L:	linux-pm@vger.kernel.org
+L:	linux-s390@vger.kernel.org
+S:	Maintained
+F:	drivers/cpuidle/cpuidle-s390.c
+
+CPUMASK API [RUST]
+M:	Viresh Kumar <viresh.kumar@linaro.org>
+R:	Yury Norov <yury.norov@gmail.com>
+S:	Maintained
+F:	rust/kernel/cpumask.rs
+
+CRAMFS FILESYSTEM
+M:	Nicolas Pitre <nico@fluxnic.net>
+S:	Maintained
+F:	Documentation/filesystems/cramfs.rst
+F:	fs/cramfs/
+
+CRC LIBRARY
+M:	Eric Biggers <ebiggers@kernel.org>
+R:	Ard Biesheuvel <ardb@kernel.org>
+L:	linux-crypto@vger.kernel.org
+S:	Maintained
+T:	git https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git crc-next
+F:	Documentation/staging/crc*
+F:	include/linux/crc*
+F:	lib/crc/
+F:	scripts/gen-crc-consts.py
+
+CREATIVE SB0540
+M:	Bastien Nocera <hadess@hadess.net>
+L:	linux-input@vger.kernel.org
+S:	Maintained
+F:	drivers/hid/hid-creative-sb0540.c
+
+CREDENTIALS
+M:	Paul Moore <paul@paul-moore.com>
+R:	Serge Hallyn <sergeh@kernel.org>
+L:	linux-security-module@vger.kernel.org
+S:	Supported
+T:	git https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm.git
+F:	include/linux/cred.h
+F:	kernel/cred.c
+F:	rust/kernel/cred.rs
+F:	Documentation/security/credentials.rst
+
+INTEL CRPS COMMON REDUNDANT PSU DRIVER
+M:	Ninad Palsule <ninad@linux.ibm.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/crps.rst
+F:	drivers/hwmon/pmbus/crps.c
+
+CRYPTO API
+M:	Herbert Xu <herbert@gondor.apana.org.au>
+M:	"David S. Miller" <davem@davemloft.net>
+L:	linux-crypto@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/herbert/cryptodev-2.6.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git
+F:	Documentation/crypto/
+F:	Documentation/devicetree/bindings/crypto/
+F:	arch/*/crypto/
+F:	crypto/
+F:	drivers/crypto/
+F:	include/crypto/
+F:	include/linux/crypto*
+
+CRYPTO LIBRARY
+M:	Eric Biggers <ebiggers@kernel.org>
+M:	Jason A. Donenfeld <Jason@zx2c4.com>
+M:	Ard Biesheuvel <ardb@kernel.org>
+L:	linux-crypto@vger.kernel.org
+S:	Maintained
+T:	git https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git libcrypto-next
+T:	git https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git libcrypto-fixes
+F:	lib/crypto/
+F:	scripts/crypto/
+
+CRYPTO SPEED TEST COMPARE
+M:	Wang Jinchao <wangjinchao@xfusion.com>
+L:	linux-crypto@vger.kernel.org
+S:	Maintained
+F:	tools/crypto/tcrypt/tcrypt_speed_compare.py
+
+CS3308 MEDIA DRIVER
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Odd Fixes
+W:	http://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/i2c/cs3308.c
+
+CS5535 Audio ALSA driver
+M:	Jaya Kumar <jayakumar.alsa@gmail.com>
+S:	Maintained
+F:	sound/pci/cs5535audio/
+
+CTU CAN FD DRIVER
+M:	Pavel Pisa <pisa@cmp.felk.cvut.cz>
+M:	Ondrej Ille <ondrej.ille@gmail.com>
+L:	linux-can@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/can/ctu,ctucanfd.yaml
+F:	drivers/net/can/ctucanfd/
+
+CVE ASSIGNMENT CONTACT
+M:	CVE Assignment Team <cve@kernel.org>
+S:	Maintained
+F:	Documentation/process/cve.rst
+
+CW1200 WLAN driver
+S:	Orphan
+L:	linux-wireless@vger.kernel.org
+F:	drivers/net/wireless/st/
+F:	include/linux/platform_data/net-cw1200.h
+
+CX18 VIDEO4LINUX DRIVER
+M:	Andy Walls <awalls@md.metrocast.net>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/pci/cx18/
+F:	include/uapi/linux/ivtv*
+
+CX2341X MPEG ENCODER HELPER MODULE
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/m

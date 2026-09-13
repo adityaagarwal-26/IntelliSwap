@@ -1,0 +1,155 @@
+edia.git
+F:	drivers/media/common/cx2341x*
+F:	include/media/drv-intf/cx2341x.h
+
+CX24120 MEDIA DRIVER
+M:	Jemma Denson <jdenson@gmail.com>
+M:	Patrick Boettcher <patrick.boettcher@posteo.de>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/dvb-frontends/cx24120*
+
+CX88 VIDEO4LINUX DRIVER
+M:	Mauro Carvalho Chehab <mchehab@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Odd fixes
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	Documentation/driver-api/media/drivers/cx88*
+F:	drivers/media/pci/cx88/
+
+CXD2820R MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/dvb-frontends/cxd2820r*
+
+CXGB3 ETHERNET DRIVER (CXGB3)
+M:	Potnuri Bharat Teja <bharat@chelsio.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	http://www.chelsio.com
+F:	drivers/net/ethernet/chelsio/cxgb3/
+
+CXGB3 ISCSI DRIVER (CXGB3I)
+M:	Varun Prakash <varun@chelsio.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+W:	http://www.chelsio.com
+F:	drivers/scsi/cxgbi/cxgb3i
+
+CXGB4 CRYPTO DRIVER (chcr)
+M:	Ayush Sawal <ayush.sawal@chelsio.com>
+L:	linux-crypto@vger.kernel.org
+S:	Supported
+W:	http://www.chelsio.com
+F:	drivers/crypto/chelsio
+
+CXGB4 ETHERNET DRIVER (CXGB4)
+M:	Potnuri Bharat Teja <bharat@chelsio.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	http://www.chelsio.com
+F:	drivers/net/ethernet/chelsio/cxgb4/
+
+CXGB4 INLINE CRYPTO DRIVER
+M:	Ayush Sawal <ayush.sawal@chelsio.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	http://www.chelsio.com
+F:	drivers/net/ethernet/chelsio/inline_crypto/
+
+CXGB4 ISCSI DRIVER (CXGB4I)
+M:	Varun Prakash <varun@chelsio.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+W:	http://www.chelsio.com
+F:	drivers/scsi/cxgbi/cxgb4i
+
+CXGB4 IWARP RNIC DRIVER (IW_CXGB4)
+M:	Potnuri Bharat Teja <bharat@chelsio.com>
+L:	linux-rdma@vger.kernel.org
+S:	Supported
+W:	http://www.openfabrics.org
+F:	drivers/infiniband/hw/cxgb4/
+F:	include/uapi/rdma/cxgb4-abi.h
+
+CXGB4VF ETHERNET DRIVER (CXGB4VF)
+M:	Potnuri Bharat Teja <bharat@chelsio.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	http://www.chelsio.com
+F:	drivers/net/ethernet/chelsio/cxgb4vf/
+
+CYBERPRO FB DRIVER
+M:	Russell King <linux@armlinux.org.uk>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://www.armlinux.org.uk/
+F:	drivers/video/fbdev/cyber2000fb.*
+
+CYCLADES PC300 DRIVER
+S:	Orphan
+F:	drivers/net/wan/pc300*
+
+CYPRESS CY8C95X0 PINCTRL DRIVER
+M:	Patrick Rudolph <patrick.rudolph@9elements.com>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/pinctrl/pinctrl-cy8c95x0.c
+
+CYPRESS CY8CTMA140 TOUCHSCREEN DRIVER
+M:	Linus Walleij <linusw@kernel.org>
+L:	linux-input@vger.kernel.org
+S:	Maintained
+F:	drivers/input/touchscreen/cy8ctma140.c
+
+CYPRESS STREETFIGHTER TOUCHKEYS DRIVER
+M:	Yassine Oudjana <y.oudjana@protonmail.com>
+L:	linux-input@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/input/cypress-sf.yaml
+F:	drivers/input/keyboard/cypress-sf.c
+
+CYPRESS_FIRMWARE MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/common/cypress_firmware*
+
+CYTTSP TOUCHSCREEN DRIVER
+M:	Linus Walleij <linusw@kernel.org>
+L:	linux-input@vger.kernel.org
+S:	Maintained
+F:	drivers/input/touchscreen/cyttsp*
+
+D-LINK DIR-685 TOUCHKEYS DRIVER
+M:	Linus Walleij <linusw@kernel.org>
+L:	linux-input@vger.kernel.org
+S:	Supported
+F:	drivers/input/keyboard/dlink-dir685-touchkeys.c
+
+DALLAS/MAXIM DS1685-FAMILY REAL TIME CLOCK
+M:	Joshua Kinard <linux@kumba.dev>
+S:	Maintained
+F:	drivers/rtc/rtc-ds1685.c
+F:	include/linux/rtc/ds1685.h
+
+DASHARO ACPI PLATFORM DRIVER
+M:	Michał Kopeć <michal.kopec@3mdeb.com>
+S:	Maintained
+W:	https://docs.dasharo.com/
+F:	drivers/platform/x86/dasharo-acpi.c
+
+DAMON
+M:	SJ Park <sj@kernel.org>
+L:	damon@lists.linux.dev
+L:	linux-mm@kvack.org
+S:	Maintained
+W:	https://damonitor.github.io
+P:	Documentation/mm/damon/maintainer-profile.rst
+T:	git git://git.kernel.org/pub/scm/linux/kernel/gi

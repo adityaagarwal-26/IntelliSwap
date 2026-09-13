@@ -1,0 +1,122 @@
+cm450*
+F:	arch/arm/configs/wpcm450_defconfig
+F:	arch/arm/mach-npcm/wpcm450.c
+F:	drivers/*/*/*wpcm*
+F:	drivers/*/*wpcm*
+
+ARM/NXP S32G ARCHITECTURE
+R:	Chester Lin <chester62515@gmail.com>
+R:	Matthias Brugger <mbrugger@suse.com>
+R:	Ghennadi Procopciuc <ghennadi.procopciuc@oss.nxp.com>
+R:	NXP S32 Linux Team <s32@nxp.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/rtc/nxp,s32g-rtc.yaml
+F:	arch/arm64/boot/dts/freescale/s32g*.dts*
+F:	drivers/pinctrl/nxp/
+F:	drivers/rtc/rtc-s32g.c
+
+ARM/NXP S32G PCIE CONTROLLER DRIVER
+M:	Ciprian Marian Costea <ciprianmarian.costea@oss.nxp.com>
+R:	NXP S32 Linux Team <s32@nxp.com>
+L:	imx@lists.linux.dev
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/pci/nxp,s32g-pcie.yaml
+F:	drivers/pci/controller/dwc/pcie-nxp-s32g*
+
+ARM/NXP S32G/S32R DWMAC ETHERNET DRIVER
+M:	Jan Petrous <jan.petrous@oss.nxp.com>
+R:	s32@nxp.com
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/nxp,s32-dwmac.yaml
+F:	drivers/net/ethernet/stmicro/stmmac/dwmac-s32.c
+
+ARM/Orion SoC/Technologic Systems TS-78xx platform support
+M:	Alexander Clouter <alex@digriz.org.uk>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://www.digriz.org.uk/ts78xx/kernel
+F:	arch/arm/mach-orion5x/ts78xx-*
+
+ARM/QUALCOMM CHROMEBOOK SUPPORT
+R:	cros-qcom-dts-watchers@chromium.org
+F:	arch/arm64/boot/dts/qcom/sc7180*
+F:	arch/arm64/boot/dts/qcom/sc7280*
+
+ARM/QUALCOMM MAILING LIST
+L:	linux-arm-msm@vger.kernel.org
+C:	irc://irc.oftc.net/linux-msm
+F:	Documentation/devicetree/bindings/*/qcom*
+F:	Documentation/devicetree/bindings/soc/qcom/
+F:	arch/arm/boot/dts/qcom/
+F:	arch/arm/configs/qcom_defconfig
+F:	arch/arm/mach-qcom/
+F:	arch/arm64/boot/dts/qcom/
+F:	drivers/*/*/pm8???-*
+F:	drivers/*/*/qcom*
+F:	drivers/*/*/qcom/
+F:	drivers/*/qcom*
+F:	drivers/*/qcom/
+F:	drivers/bluetooth/btqcomsmd.c
+F:	drivers/clocksource/timer-qcom.c
+F:	drivers/cpuidle/cpuidle-qcom-spm.c
+F:	drivers/extcon/extcon-qcom*
+F:	drivers/i2c/busses/i2c-qcom-geni.c
+F:	drivers/i2c/busses/i2c-qup.c
+F:	drivers/iommu/msm*
+F:	drivers/mfd/ssbi.c
+F:	drivers/mmc/host/mmci_qcom*
+F:	drivers/mmc/host/sdhci-msm.c
+F:	drivers/pci/controller/dwc/pcie-qcom*
+F:	drivers/phy/qualcomm/
+F:	drivers/power/*/msm*
+F:	drivers/reset/reset-qcom-*
+F:	drivers/rtc/rtc-pm8xxx.c
+F:	drivers/spi/spi-geni-qcom.c
+F:	drivers/spi/spi-qcom-qspi.c
+F:	drivers/spi/spi-qup.c
+F:	drivers/tty/serial/msm_serial.c
+F:	drivers/ufs/host/ufs-qcom*
+F:	drivers/usb/dwc3/dwc3-qcom.c
+F:	include/dt-bindings/*/qcom*
+F:	include/linux/*/qcom*
+F:	include/linux/soc/qcom/
+
+ARM/QUALCOMM SUPPORT
+M:	Bjorn Andersson <andersson@kernel.org>
+M:	Konrad Dybcio <konradybcio@kernel.org>
+L:	linux-arm-msm@vger.kernel.org
+S:	Maintained
+C:	irc://irc.oftc.net/linux-msm
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git
+F:	Documentation/devicetree/bindings/arm/qcom-soc.yaml
+F:	Documentation/devicetree/bindings/arm/qcom.yaml
+F:	Documentation/devicetree/bindings/bus/qcom*
+F:	Documentation/devicetree/bindings/cache/qcom,llcc.yaml
+F:	Documentation/devicetree/bindings/firmware/qcom,scm.yaml
+F:	Documentation/devicetree/bindings/reserved-memory/qcom*
+F:	Documentation/devicetree/bindings/soc/qcom/
+F:	arch/arm/boot/dts/qcom/
+F:	arch/arm/configs/qcom_defconfig
+F:	arch/arm/mach-qcom/
+F:	arch/arm64/boot/dts/qcom/
+F:	drivers/bus/qcom*
+F:	drivers/firmware/qcom/
+F:	drivers/soc/qcom/
+F:	drivers/watchdog/gunyah_wdt.c
+F:	include/dt-bindings/arm/qcom,ids.h
+F:	include/dt-bindings/firmware/qcom,scm.h
+F:	include/dt-bindings/soc/qcom*
+F:	include/linux/firmware/qcom
+F:	include/linux/soc/qcom/
+F:	include/soc/qcom/
+
+ARM/RDA MICRO ARCHITECTURE
+M:	Manivannan Sadhasivam <mani@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-unisoc@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/rda.yaml
+F:	Documentation/devicetree/bindings/gpio/gpio-rda.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/rd

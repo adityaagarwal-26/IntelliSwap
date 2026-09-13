@@ -1,0 +1,128 @@
+er.kernel.org
+S:	Maintained
+F:	drivers/soc/fsl/dpio
+
+DPAA2 ETHERNET DRIVER
+M:	Ioana Ciornei <ioana.ciornei@nxp.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/device_drivers/ethernet/freescale/dpaa2/ethernet-driver.rst
+F:	Documentation/networking/device_drivers/ethernet/freescale/dpaa2/mac-phy-support.rst
+F:	drivers/net/ethernet/freescale/dpaa2/Kconfig
+F:	drivers/net/ethernet/freescale/dpaa2/Makefile
+F:	drivers/net/ethernet/freescale/dpaa2/dpaa2-eth*
+F:	drivers/net/ethernet/freescale/dpaa2/dpaa2-mac*
+F:	drivers/net/ethernet/freescale/dpaa2/dpaa2-xsk*
+F:	drivers/net/ethernet/freescale/dpaa2/dpkg.h
+F:	drivers/net/ethernet/freescale/dpaa2/dpmac*
+F:	drivers/net/ethernet/freescale/dpaa2/dpni*
+
+DPAA2 ETHERNET SWITCH DRIVER
+M:	Ioana Ciornei <ioana.ciornei@nxp.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/device_drivers/ethernet/freescale/dpaa2/switch-driver.rst
+F:	drivers/net/ethernet/freescale/dpaa2/dpaa2-switch*
+F:	drivers/net/ethernet/freescale/dpaa2/dpsw*
+
+DPLL SUBSYSTEM
+M:	Vadim Fedorenko <vadim.fedorenko@linux.dev>
+M:	Arkadiusz Kubalewski <arkadiusz.kubalewski@intel.com>
+M:	Jiri Pirko <jiri@resnulli.us>
+R:	Ivan Vecera <ivecera@redhat.com>
+L:	netdev@vger.kernel.org
+S:	Supported
+F:	Documentation/devicetree/bindings/dpll/dpll-device.yaml
+F:	Documentation/devicetree/bindings/dpll/dpll-pin.yaml
+F:	Documentation/driver-api/dpll.rst
+F:	drivers/dpll/
+F:	include/linux/dpll.h
+F:	include/uapi/linux/dpll.h
+
+DRBD DRIVER
+M:	Philipp Reisner <philipp.reisner@linbit.com>
+M:	Lars Ellenberg <lars.ellenberg@linbit.com>
+M:	Christoph Böhmwalder <christoph.boehmwalder@linbit.com>
+L:	drbd-dev@lists.linux.dev
+S:	Supported
+W:	http://www.drbd.org
+T:	git git://git.linbit.com/linux-drbd.git
+T:	git git://git.linbit.com/drbd-8.4.git
+F:	Documentation/admin-guide/blockdev/
+F:	drivers/block/drbd/
+F:	include/linux/drbd*
+F:	lib/lru_cache.c
+
+DREAMCHIP RPPX1 ISP
+M:	Jacopo Mondi <jacopo.mondi+renesas@ideasonboard.com>
+M:	Jai Luthra <jai.luthra+renesas@ideasonboard.com>
+M:	Niklas Söderlund <niklas.soderlund@ragnatech.se>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/userspace-api/media/v4l/metafmt-rppx1.rst
+F:	drivers/media/platform/dreamchip/rppx1/
+F:	include/uapi/linux/media/dreamchip/rppx1-config.h
+
+DRIVER COMPONENT FRAMEWORK
+L:	dri-devel@lists.freedesktop.org
+F:	drivers/base/component.c
+F:	include/linux/component.h
+
+DRIVER CORE, KOBJECTS, DEBUGFS AND SYSFS
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Danilo Krummrich <dakr@kernel.org>
+L:	driver-core@lists.linux.dev
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git
+F:	Documentation/core-api/kobject.rst
+F:	Documentation/driver-api/driver-model/
+F:	drivers/base/
+F:	fs/debugfs/
+F:	fs/sysfs/
+F:	include/linux/device/
+F:	include/linux/debugfs.h
+F:	include/linux/device.h
+F:	include/linux/fwnode.h
+F:	include/linux/kobj*
+F:	include/linux/ksysfs.h
+F:	include/linux/property.h
+F:	include/linux/sys_soc.h
+F:	include/linux/sysfs.h
+F:	kernel/ksysfs.c
+F:	lib/kobj*
+F:	rust/kernel/debugfs.rs
+F:	rust/kernel/debugfs/
+F:	rust/kernel/device.rs
+F:	rust/kernel/device/
+F:	rust/kernel/device_id.rs
+F:	rust/kernel/devres.rs
+F:	rust/kernel/driver.rs
+F:	rust/kernel/faux.rs
+F:	rust/kernel/platform.rs
+F:	rust/kernel/soc.rs
+F:	samples/rust/rust_debugfs.rs
+F:	samples/rust/rust_debugfs_scoped.rs
+F:	samples/rust/rust_driver_platform.rs
+F:	samples/rust/rust_driver_faux.rs
+F:	samples/rust/rust_soc.rs
+
+DRIVERS FOR OMAP ADAPTIVE VOLTAGE SCALING (AVS)
+M:	Nishanth Menon <nm@ti.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	drivers/soc/ti/smartreflex.c
+F:	include/linux/power/smartreflex.h
+
+DRM ACCEL DRIVERS FOR INTEL VPU
+M:	Karol Wachowski <karol.wachowski@linux.intel.com>
+M:	Andrzej Kacprowski <andrzej.kacprowski@linux.intel.com>
+L:	dri-devel@lists.freedesktop.org
+S:	Supported
+T:	git https://gitlab.freedesktop.org/drm/misc/kernel.git
+F:	Documentation/ABI/obsolete/sysfs-driver-ivpu
+F:	Documentation/ABI/testing/sysfs-driver-ivpu
+F:	drivers/accel/ivpu/
+F:	include/uapi/drm/ivpu_accel.h
+
+D

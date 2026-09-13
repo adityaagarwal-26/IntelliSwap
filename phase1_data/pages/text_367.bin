@@ -1,0 +1,132 @@
+nclude/linux/devfreq-event.h
+
+DEVICE I/O & IRQ [RUST]
+M:	Danilo Krummrich <dakr@kernel.org>
+M:	Alice Ryhl <aliceryhl@google.com>
+M:	Daniel Almeida <daniel.almeida@collabora.com>
+L:	driver-core@lists.linux.dev
+S:	Supported
+W:	https://rust-for-linux.com
+B:	https://github.com/Rust-for-Linux/linux/issues
+C:	https://rust-for-linux.zulipchat.com
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git
+F:	rust/kernel/io.rs
+F:	rust/kernel/io/
+F:	rust/kernel/irq.rs
+F:	rust/kernel/irq/
+
+DEVICE RESOURCE MANAGEMENT HELPERS
+M:	Hans de Goede <hansg@kernel.org>
+R:	Matti Vaittinen <mazziesaccount@gmail.com>
+S:	Maintained
+F:	include/linux/devm-helpers.h
+
+DEVICE-MAPPER  (LVM)
+M:	Alasdair Kergon <agk@redhat.com>
+M:	Mike Snitzer <snitzer@kernel.org>
+M:	Mikulas Patocka <mpatocka@redhat.com>
+M:	Benjamin Marzinski <bmarzins@redhat.com>
+L:	dm-devel@lists.linux.dev
+S:	Maintained
+Q:	http://patchwork.kernel.org/project/dm-devel/list/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm.git
+F:	Documentation/admin-guide/device-mapper/
+F:	drivers/md/Kconfig
+F:	drivers/md/Makefile
+F:	drivers/md/dm*
+F:	drivers/md/persistent-data/
+F:	include/linux/device-mapper.h
+F:	include/linux/dm-*.h
+F:	include/uapi/linux/dm-*.h
+
+DEVICE-MAPPER VDO TARGET
+M:	Matthew Sakai <msakai@redhat.com>
+L:	dm-devel@lists.linux.dev
+S:	Maintained
+F:	Documentation/admin-guide/device-mapper/vdo*.rst
+F:	drivers/md/dm-vdo/
+
+DEVICE-MAPPER PCACHE TARGET
+M:	Dongsheng Yang <dongsheng.yang@linux.dev>
+M:	Zheng Gu <cengku@gmail.com>
+L:	dm-devel@lists.linux.dev
+S:	Maintained
+F:	Documentation/admin-guide/device-mapper/dm-pcache.rst
+F:	drivers/md/dm-pcache/
+
+DEVLINK
+M:	Jiri Pirko <jiri@resnulli.us>
+L:	netdev@vger.kernel.org
+S:	Supported
+F:	Documentation/networking/devlink
+F:	include/net/devlink.h
+F:	include/uapi/linux/devlink.h
+F:	net/devlink/
+
+DFROBOT SD2405AL RTC DRIVER
+M:	Tóth János <gomba007@gmail.com>
+L:	linux-rtc@vger.kernel.org
+S:	Maintained
+F:	drivers/rtc/rtc-sd2405al.c
+
+DFROBOT SEN0322 DRIVER
+M:	Tóth János <gomba007@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	drivers/iio/chemical/sen0322.c
+
+DH ELECTRONICS DHSOM SOM AND BOARD SUPPORT
+M:	Christoph Niedermaier <cniedermaier@dh-electronics.com>
+M:	Marek Vasut <marex@denx.de>
+L:	kernel@dh-electronics.com
+S:	Maintained
+N:	dhcom
+N:	dhcor
+N:	dhsom
+
+DIALOG SEMICONDUCTOR DRIVERS
+M:	Support Opensource <support.opensource@diasemi.com>
+S:	Supported
+W:	http://www.dialog-semiconductor.com/products
+F:	Documentation/devicetree/bindings/input/dlg,da72??.yaml
+F:	Documentation/devicetree/bindings/input/dlg,da9062-onkey.yaml
+F:	Documentation/devicetree/bindings/mfd/da90*.txt
+F:	Documentation/devicetree/bindings/mfd/dlg,da90*.yaml
+F:	Documentation/devicetree/bindings/regulator/dlg,da9*.yaml
+F:	Documentation/devicetree/bindings/regulator/dlg,slg51000.yaml
+F:	Documentation/devicetree/bindings/sound/da[79]*.txt
+F:	Documentation/devicetree/bindings/sound/dlg,da7213.yaml
+F:	Documentation/devicetree/bindings/thermal/dlg,da9062-thermal.yaml
+F:	Documentation/devicetree/bindings/watchdog/dlg,da9062-watchdog.yaml
+F:	Documentation/hwmon/da90??.rst
+F:	drivers/gpio/gpio-da90??.c
+F:	drivers/hwmon/da90??-hwmon.c
+F:	drivers/iio/adc/da91??-*.c
+F:	drivers/input/misc/da72??.[ch]
+F:	drivers/input/misc/da90??_onkey.c
+F:	drivers/input/touchscreen/da9052_tsi.c
+F:	drivers/leds/leds-da90??.c
+F:	drivers/mfd/da903x.c
+F:	drivers/mfd/da90??-*.c
+F:	drivers/mfd/da91??-*.c
+F:	drivers/pinctrl/pinctrl-da90??.c
+F:	drivers/power/supply/da9052-battery.c
+F:	drivers/power/supply/da91??-*.c
+F:	drivers/regulator/da9???-regulator.[ch]
+F:	drivers/regulator/slg51000-regulator.[ch]
+F:	drivers/rtc/rtc-da90??.c
+F:	drivers/thermal/da90??-thermal.c
+F:	drivers/video/backlight/da90??_bl.c
+F:	drivers/watchdog/da90??_wdt.c
+F:	include/dt-bindings/regulator/dlg,da9*-regulator.h
+F:	include/linux/mfd/da903x.h
+F:	include/linux/mfd/da9052/
+F:	include/linux/mfd/da9055/
+F:	include/linux/mfd/da9062/
+F:	include/linux/mfd/da9063/
+F:	include/linux/mfd/da9150/
+F:	include/linux/regulator/da9211.h
+F:	include/sound/da[79]*.h
+F:	sound/soc/codecs/da[79]*.[ch]
+
+DIAM

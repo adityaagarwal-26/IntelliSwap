@@ -1,0 +1,111 @@
+A ART SOC
+M:	Krzysztof Kozlowski <krzk@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Odd Fixes
+F:	Documentation/devicetree/bindings/arm/moxart.yaml
+F:	Documentation/devicetree/bindings/clock/moxa,moxart-clock.yaml
+F:	arch/arm/boot/dts/moxa/
+F:	drivers/clk/clk-moxart.c
+
+ARM/MStar/Sigmastar Armv7 SoC support
+M:	Daniel Palmer <daniel@thingy.jp>
+M:	Romain Perier <romain.perier@gmail.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://linux-chenxing.org/
+T:	git https://github.com/linux-chenxing/linux.git
+F:	Documentation/devicetree/bindings/arm/mstar/*
+F:	Documentation/devicetree/bindings/clock/mstar,msc313-mpll.yaml
+F:	Documentation/devicetree/bindings/gpio/mstar,msc313-gpio.yaml
+F:	arch/arm/boot/dts/sigmastar/
+F:	arch/arm/mach-mstar/
+F:	drivers/clk/mstar/
+F:	drivers/clocksource/timer-msc313e.c
+F:	drivers/gpio/gpio-msc313.c
+F:	drivers/rtc/rtc-msc313.c
+F:	drivers/watchdog/msc313e_wdt.c
+F:	include/dt-bindings/clock/mstar-*
+F:	include/dt-bindings/gpio/msc313-gpio.h
+
+ARM/NOMADIK/Ux500 ARCHITECTURES
+M:	Linus Walleij <linusw@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-nomadik.git
+F:	Documentation/devicetree/bindings/arm/st,nomadik.yaml
+F:	Documentation/devicetree/bindings/arm/ux500.yaml
+F:	Documentation/devicetree/bindings/arm/ux500/
+F:	Documentation/devicetree/bindings/gpio/st,nomadik-gpio.yaml
+F:	Documentation/devicetree/bindings/i2c/st,nomadik-i2c.yaml
+F:	arch/arm/boot/dts/st/ste-*
+F:	arch/arm/mach-nomadik/
+F:	arch/arm/mach-ux500/
+F:	drivers/clk/clk-nomadik.c
+F:	drivers/clocksource/clksrc-dbx500-prcmu.c
+F:	drivers/dma/ste_dma40*
+F:	drivers/pmdomain/st/ste-ux500-pm-domain.c
+F:	drivers/gpio/gpio-nomadik.c
+F:	drivers/i2c/busses/i2c-nomadik.c
+F:	drivers/iio/adc/ab8500-gpadc.c
+F:	drivers/mfd/ab8500*
+F:	drivers/mfd/abx500*
+F:	drivers/mfd/db8500*
+F:	drivers/pinctrl/nomadik/
+F:	drivers/rtc/rtc-ab8500.c
+F:	drivers/rtc/rtc-pl031.c
+F:	drivers/soc/ux500/
+
+ARM/NUVOTON MA35 ARCHITECTURE
+M:	Jacky Huang <ychuang3@nuvoton.com>
+M:	Shan-Chun Hung <schung@nuvoton.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+F:	Documentation/devicetree/bindings/*/*/*ma35*
+F:	Documentation/devicetree/bindings/*/*ma35*
+F:	arch/arm64/boot/dts/nuvoton/*ma35*
+F:	drivers/*/*/*ma35*
+F:	drivers/*/*ma35*
+K:	ma35d1
+
+ARM/NUVOTON NPCM ARCHITECTURE
+M:	Andrew Jeffery <andrew@codeconstruct.com.au>
+M:	Avi Fishman <avifishman70@gmail.com>
+M:	Tomer Maimon <tmaimon77@gmail.com>
+M:	Tali Perry <tali.perry1@gmail.com>
+R:	Patrick Venture <venture@google.com>
+R:	Nancy Yuen <yuenn@google.com>
+R:	Benjamin Fair <benjaminfair@google.com>
+L:	openbmc@lists.ozlabs.org (moderated for non-subscribers)
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux.git
+F:	Documentation/devicetree/bindings/*/*/*npcm*
+F:	Documentation/devicetree/bindings/*/*npcm*
+F:	Documentation/devicetree/bindings/rtc/nuvoton,nct3018y.yaml
+F:	arch/arm/boot/dts/nuvoton/nuvoton-npcm*
+F:	arch/arm/mach-npcm/
+F:	arch/arm64/boot/dts/nuvoton/
+F:	drivers/*/*/*npcm*
+F:	drivers/*/*npcm*
+F:	drivers/rtc/rtc-nct3018y.c
+F:	include/dt-bindings/clock/nuvoton,npcm7xx-clock.h
+F:	include/dt-bindings/clock/nuvoton,npcm845-clk.h
+
+ARM/NUVOTON NPCM VIDEO ENGINE DRIVER
+M:	Joseph Liu <kwliu@nuvoton.com>
+M:	Marvin Lin <kflin@nuvoton.com>
+L:	linux-media@vger.kernel.org
+L:	openbmc@lists.ozlabs.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/nuvoton,npcm-ece.yaml
+F:	Documentation/devicetree/bindings/media/nuvoton,npcm-vcd.yaml
+F:	Documentation/userspace-api/media/drivers/npcm-video.rst
+F:	drivers/media/platform/nuvoton/
+F:	include/uapi/linux/npcm-video.h
+
+ARM/NUVOTON WPCM450 ARCHITECTURE
+M:	Jonathan Neuschäfer <j.neuschaefer@gmx.net>
+L:	openbmc@lists.ozlabs.org (moderated for non-subscribers)
+S:	Maintained
+W:	https://github.com/neuschaefer/wpcm450/wiki
+F:	Documentation/devicetree/bindings/*/*wpcm*
+F:	arch/arm/boot/dts/nuvoton/nuvoton-wp

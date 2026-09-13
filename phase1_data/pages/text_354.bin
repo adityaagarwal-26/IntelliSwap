@@ -1,0 +1,138 @@
+x.c
+
+BTRFS FILE SYSTEM
+M:	David Sterba <dsterba@suse.com>
+R:	Chris Mason <mason@kernel.org>
+L:	linux-btrfs@vger.kernel.org
+S:	Maintained
+W:	https://btrfs.readthedocs.io
+Q:	https://patchwork.kernel.org/project/linux-btrfs/list/
+C:	irc://irc.libera.chat/btrfs
+T:	git https://github.com/btrfs/linux.git for-next
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git for-next
+F:	Documentation/filesystems/btrfs.rst
+F:	fs/btrfs/
+F:	include/linux/btrfs*
+F:	include/trace/events/btrfs.h
+F:	include/uapi/linux/btrfs*
+
+BTTV VIDEO4LINUX DRIVER
+M:	Mauro Carvalho Chehab <mchehab@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Odd fixes
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	Documentation/driver-api/media/drivers/bttv*
+F:	drivers/media/pci/bt8xx/bttv*
+
+BUS FREQUENCY DRIVER FOR SAMSUNG EXYNOS
+M:	Chanwoo Choi <cw00.choi@samsung.com>
+L:	linux-samsung-soc@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux.git
+F:	Documentation/devicetree/bindings/interconnect/samsung,exynos-bus.yaml
+F:	drivers/devfreq/exynos-bus.c
+
+BUSLOGIC SCSI DRIVER
+M:	Khalid Aziz <khalid@gonehiking.org>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	drivers/scsi/BusLogic.*
+F:	drivers/scsi/FlashPoint.*
+
+BXCAN CAN NETWORK DRIVER
+M:	Dario Binacchi <dario.binacchi@amarulasolutions.com>
+L:	linux-can@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/can/st,stm32-bxcan.yaml
+F:	drivers/net/can/bxcan.c
+
+C-MEDIA CMI8788 DRIVER
+M:	Clemens Ladisch <clemens@ladisch.de>
+L:	linux-sound@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+F:	sound/pci/oxygen/
+
+C-SKY ARCHITECTURE
+M:	Guo Ren <guoren@kernel.org>
+L:	linux-csky@vger.kernel.org
+S:	Supported
+T:	git https://github.com/c-sky/csky-linux.git
+F:	Documentation/devicetree/bindings/csky/
+F:	Documentation/devicetree/bindings/interrupt-controller/csky,*
+F:	Documentation/devicetree/bindings/timer/csky,*
+F:	arch/csky/
+F:	drivers/clocksource/timer-gx6605s.c
+F:	drivers/clocksource/timer-mp-csky.c
+F:	drivers/irqchip/irq-csky-*
+N:	csky
+K:	csky
+
+CA8210 IEEE-802.15.4 RADIO DRIVER
+L:	linux-wpan@vger.kernel.org
+S:	Orphan
+W:	https://github.com/Cascoda/ca8210-linux.git
+F:	Documentation/devicetree/bindings/net/ieee802154/ca8210.txt
+F:	drivers/net/ieee802154/ca8210.c
+
+CACHEFILES: FS-CACHE BACKEND FOR CACHING ON MOUNTED FILESYSTEMS
+M:	David Howells <dhowells@redhat.com>
+L:	netfs@lists.linux.dev
+S:	Supported
+F:	Documentation/filesystems/caching/cachefiles.rst
+F:	fs/cachefiles/
+
+CACHESTAT: PAGE CACHE STATS FOR A FILE
+M:	Nhat Pham <nphamcs@gmail.com>
+M:	Johannes Weiner <hannes@cmpxchg.org>
+L:	linux-mm@kvack.org
+S:	Maintained
+F:	tools/testing/selftests/cachestat/test_cachestat.c
+
+CADENCE MIPI-CSI2 BRIDGES
+M:	Maxime Ripard <mripard@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/cdns,*.txt
+F:	Documentation/devicetree/bindings/media/cdns,csi2rx.yaml
+F:	drivers/media/platform/cadence/cdns-csi2*
+F:	include/media/cadence/cdns-csi2*
+
+CADENCE NAND DRIVER
+L:	linux-mtd@lists.infradead.org
+S:	Orphan
+F:	Documentation/devicetree/bindings/mtd/cdns,hp-nfc.yaml
+F:	drivers/mtd/nand/raw/cadence-nand-controller.c
+
+CADENCE USB3 DRD IP DRIVER
+M:	Peter Chen <peter.chen@kernel.org>
+M:	Pawel Laszczak <pawell@cadence.com>
+R:	Roger Quadros <rogerq@kernel.org>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb.git
+F:	Documentation/devicetree/bindings/usb/cdns,usb3.yaml
+F:	drivers/usb/cdns3/
+X:	drivers/usb/cdns3/cdnsp*
+
+CADENCE USBHS DRIVER
+M:	Pawel Laszczak <pawell@cadence.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	drivers/usb/gadget/udc/cdns2
+
+CADENCE USBSSP DRD IP DRIVER
+M:	Pawel Laszczak <pawell@cadence.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/usb.git
+F:	drivers/usb/cdns3/
+X:	drivers/usb/cdns3/cdns3*
+
+CADET FM/AM RADIO RECEIVER DRIVER
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+W:	https://linuxtv.org
+T:	git gi

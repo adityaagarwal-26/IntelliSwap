@@ -1,0 +1,179 @@
+)
+D: x86/HPET
+
+N: Antti Palosaari
+E: crope@iki.fi
+D: Various DVB drivers
+W: https://palosaari.fi/linux/
+S: Yliopistokatu 1 D 513
+S: FI-90570 Oulu
+S: FINLAND
+
+N: Kyungmin Park
+E: kyungmin.park@samsung.com
+D: Samsung S5Pv210 and Exynos4210 mobile platforms
+
+N: David Parsons
+E: orc@pell.chi.il.us
+D: improved memory detection code.
+
+N: Ivan Passos
+E: ivan@cyclades.com
+D: Author of the Cyclades-PC300 synchronous card driver
+D: Maintainer of the Cyclom-Y/Cyclades-Z asynchronous card driver
+S: Cyclades Corp
+S: 41934 Christy St
+S: Fremont, CA 94538
+S: USA
+
+N: Mikulas Patocka
+E: mikulas@artax.karlin.mff.cuni.cz
+W: https://artax.karlin.mff.cuni.cz/~mikulas/
+P: 1024/BB11D2D5 A0 F1 28 4A C4 14 1E CF  92 58 7A 8F 69 BC A4 D3
+D: Read/write HPFS filesystem
+S: Weissova 8
+S: 644 00 Brno
+S: Czech Republic
+
+N: Vojtech Pavlik
+E: vojtech@suse.cz
+D: Joystick driver
+D: arcnet-hardware readme
+D: Minor ARCnet hacking
+D: USB (HID, ACM, Printer ...)
+S: Ucitelska 1576
+S: Prague 8
+S: 182 00 Czech Republic
+
+N: Rick Payne
+D: RFC2385 Support for TCP
+
+N: Barak A. Pearlmutter
+E: bap@cs.unm.edu
+W: https://www.cs.unm.edu/~bap/
+P: 512/602D785D 9B A1 83 CD EE CB AD 93  20 C6 4C B7 F5 E9 60 D4
+D: Author of mark-and-sweep GC integrated by Alan Cox
+S: Computer Science Department
+S: FEC 313
+S: University of New Mexico
+S: Albuquerque, New Mexico 87131
+S: USA
+
+N: Avery Pennarun
+E: apenwarr@worldvisions.ca
+W: http://www.worldvisions.ca/~apenwarr/
+D: ARCnet driver
+D: "make xconfig" improvements
+D: Various minor hacking
+S: RR #5, 497 Pole Line Road
+S: Thunder Bay, Ontario
+S: CANADA P7C 5M9
+
+N: Inaky Perez-Gonzalez
+E: inaky.perez-gonzalez@intel.com
+E: linux-wimax@intel.com
+E: inakypg@yahoo.com
+D: WiMAX stack
+D: Intel Wireless WiMAX Connection 2400 driver
+
+N: Yuri Per
+E: yuri@pts.mipt.ru
+D: Some smbfs fixes
+S: Demonstratsii 8-382
+S: Tula 300000
+S: Russia
+
+N: Thomas Petazzoni
+E: thomas.petazzoni@bootlin.com
+D: Driver for the Marvell Armada 370/XP network unit.
+
+N: Gordon Peters
+E: GordPeters@smarttech.com
+D: Isochronous receive for IEEE 1394 driver (OHCI module).
+D: Bugfixes for the aforementioned.
+S: Calgary, Alberta
+S: Canada
+
+N: Johnnie Peters
+E: jpeters@phx.mcd.mot.com
+D: Motorola PowerPC changes for PReP
+S: 2900 S. Diable Way
+S: Tempe, Arizona 85282
+S: USA
+
+N: Kirk Petersen
+E: kirk@speakeasy.org
+W: http://www.speakeasy.org/~kirk/
+D: implemented kmod
+D: modularized BSD Unix domain sockets
+
+N: Martin Kasper Petersen
+E: mkp@mkp.net
+D: PA-RISC port
+D: XFS file system
+D: kiobuf based block I/O work
+S: 314 Frank St.
+S: Ottawa, Ontario
+S: Canada K2P 0X8
+
+N: Mikael Pettersson
+E: mikpelinux@gmail.com
+D: Miscellaneous fixes
+
+N: Reed H. Petty
+E: rhp@draper.net
+W: http://www.draper.net
+D: Loop device driver extensions
+D: Encryption transfer modules (no export)
+S: Post Office Box 1815
+S: Harrison, Arkansas  72602-1815
+S: USA
+
+N: Kai Petzke
+E: petzke@teltarif.de
+W: http://www.teltarif.de/
+P: 1024/B42868C1 D9 59 B9 98 BB 93 05 38  2E 3E 31 79 C3 65 5D E1
+D: Driver for Laser Magnetic Storage CD-ROM
+D: Some kernel bug fixes
+D: Port of the database Postgres
+D: Book: "Linux verstehen und anwenden" (Hanser-Verlag)
+S: Triftstra=DFe 55
+S: 13353 Berlin
+S: Germany
+
+N: Gustavo Pimentel
+E: gustavo.pimentel@synopsys.com
+D: PCI driver for Synopsys DesignWare
+D: Synopsys DesignWare eDMA driver
+D: Synopsys DesignWare xData traffic generator
+
+N: Emanuel Pirker
+E: epirker@edu.uni-klu.ac.at
+D: AIC5800 IEEE 1394, RAW I/O on 1394
+D: Starter of Linux1394 effort
+S: ask per mail for current address
+
+N: Boris Pismenny
+E: borisp@mellanox.com
+D: Kernel TLS implementation and offload support.
+
+N: Nicolas Pitre
+E: nico@fluxnic.net
+D: StrongARM SA1100 support integrator & hacker
+D: Xscale PXA architecture
+D: unified SMC 91C9x/91C11x ethernet driver (smc91x)
+S: Montreal, Quebec, Canada
+
+N: Ken Pizzini
+E: ken@halcyon.com
+D: CDROM driver "sonycd535" (Sony CDU-535/531)
+
+N: Mathieu Poirier
+E: mathieu.poirier@linaro.org
+D: CoreSight kernel subsystem, Maintainer 2014-2022
+D: Perf tool support for CoreSight
+
+N: Stelian Pop
+E: stelian@popies.net
+P: 1024D/EDBB6147 7B36 0E07 04BC 11DC A7A0  D3F7 7185 9E7A EDBB 6147
+D: 

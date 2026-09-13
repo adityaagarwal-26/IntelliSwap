@@ -1,0 +1,135 @@
+R:	Benjamin Gaignard <benjamin.gaignard@collabora.com>
+R:	Brian Starkey <Brian.Starkey@arm.com>
+R:	John Stultz <jstultz@google.com>
+R:	T.J. Mercier <tjmercier@google.com>
+L:	linux-media@vger.kernel.org
+L:	dri-devel@lists.freedesktop.org
+L:	linaro-mm-sig@lists.linaro.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://gitlab.freedesktop.org/drm/misc/kernel.git
+F:	Documentation/userspace-api/dma-buf-heaps.rst
+F:	drivers/dma-buf/dma-heap.c
+F:	drivers/dma-buf/heaps/*
+F:	include/linux/dma-heap.h
+F:	include/uapi/linux/dma-heap.h
+F:	tools/testing/selftests/dmabuf-heaps/
+
+DMC FREQUENCY DRIVER FOR SAMSUNG EXYNOS5422
+M:	Lukasz Luba <lukasz.luba@arm.com>
+L:	linux-pm@vger.kernel.org
+L:	linux-samsung-soc@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/memory-controllers/samsung,exynos5422-dmc.yaml
+F:	drivers/memory/samsung/exynos5422-dmc.c
+
+DME1737 HARDWARE MONITOR DRIVER
+M:	Juerg Haefliger <juergh@proton.me>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/dme1737.rst
+F:	drivers/hwmon/dme1737.c
+
+DMI/SMBIOS SUPPORT
+M:	Jean Delvare <jdelvare@suse.com>
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/jdelvare/staging.git dmi-for-next
+F:	Documentation/ABI/testing/sysfs-firmware-dmi-tables
+F:	drivers/firmware/dmi-id.c
+F:	drivers/firmware/dmi_scan.c
+F:	include/linux/dmi.h
+
+DOCUMENTATION
+M:	Jonathan Corbet <corbet@lwn.net>
+R:	Shuah Khan <skhan@linuxfoundation.org>
+R:	Randy Dunlap <rdunlap@infradead.org>
+L:	linux-doc@vger.kernel.org
+S:	Maintained
+P:	Documentation/doc-guide/maintainer-profile.rst
+T:	git git://git.lwn.net/linux.git docs-next
+F:	Documentation/
+F:	tools/lib/python/
+F:	tools/docs/
+F:	tools/net/ynl/pyynl/lib/doc_generator.py
+X:	Documentation/ABI/
+X:	Documentation/admin-guide/media/
+X:	Documentation/devicetree/
+X:	Documentation/driver-api/media/
+X:	Documentation/firmware-guide/acpi/
+X:	Documentation/i2c/
+X:	Documentation/netlink/
+X:	Documentation/power/
+X:	Documentation/spi/
+X:	Documentation/userspace-api/media/
+
+DOCUMENTATION PROCESS
+M:	Jonathan Corbet <corbet@lwn.net>
+R:	Shuah Khan <skhan@linuxfoundation.org>
+L:	workflows@vger.kernel.org
+S:	Maintained
+F:	Documentation/dev-tools/
+F:	Documentation/maintainer/
+F:	Documentation/process/
+
+DOCUMENTATION REPORTING ISSUES
+M:	Thorsten Leemhuis <linux@leemhuis.info>
+L:	linux-doc@vger.kernel.org
+S:	Maintained
+F:	Documentation/admin-guide/bug-bisect.rst
+F:	Documentation/admin-guide/quickly-build-trimmed-linux.rst
+F:	Documentation/admin-guide/reporting-issues.rst
+F:	Documentation/admin-guide/verify-bugs-and-bisect-regressions.rst
+
+DOCUMENTATION SCRIPTS
+M:	Mauro Carvalho Chehab <mchehab@kernel.org>
+L:	linux-doc@vger.kernel.org
+S:	Maintained
+F:	Documentation/sphinx/
+F:	tools/docs/
+F:	tools/lib/python/*
+F:	tools/unittests/*
+
+DOCUMENTATION/ITALIAN
+M:	Federico Vaga <federico.vaga@vaga.pv.it>
+L:	linux-doc@vger.kernel.org
+S:	Maintained
+F:	Documentation/translations/it_IT
+
+DOCUMENTATION/JAPANESE
+R:	Akira Yokosawa <akiyks@gmail.com>
+L:	linux-doc@vger.kernel.org
+S:	Maintained
+F:	Documentation/translations/ja_JP
+
+DONGWOON DW9714 LENS VOICE COIL DRIVER
+M:	Sakari Ailus <sakari.ailus@linux.intel.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+T:	git git://linuxtv.org/media.git
+F:	Documentation/devicetree/bindings/media/i2c/dongwoon,dw9714.yaml
+F:	drivers/media/i2c/dw9714.c
+
+DONGWOON DW9719 LENS VOICE COIL DRIVER
+M:	Daniel Scally <dan.scally@ideasonboard.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/i2c/dw9719.c
+
+DONGWOON DW9768 LENS VOICE COIL DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+T:	git git://linuxtv.org/media.git
+F:	Documentation/devicetree/bindings/media/i2c/dongwoon,dw9768.yaml
+F:	drivers/media/i2c/dw9768.c
+
+DONGWOON DW9807 LENS VOICE COIL DRIVER
+M:	Sakari Ailus <sakari.ailus@linux.intel.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+T:	git git://linuxtv.org/media.git
+F:	Documentation/devicetree/bindings/media/i2c/dongwoon,dw9807-vcm.yaml
+F:	drivers/media/i2c/dw9807-vcm.c
+
+DPAA2 DATAPATH I/O (DPIO) DRIVER
+M:	Ioana Ciornei <ioana.ciornei@nxp.com>
+L:	linux-kernel@vg

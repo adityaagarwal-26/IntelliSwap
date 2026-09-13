@@ -1,0 +1,4 @@
+raw_sources/text/linux_shallow/
+raw_sources/text/requests_repo/
+__pycache__/
+*.pyc

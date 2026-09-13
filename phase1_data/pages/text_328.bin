@@ -1,0 +1,121 @@
+drivers/iommu/arm/arm-smmu-v3/arm-smmu-v3-sva.c
+
+ARM SUB-ARCHITECTURES
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+C:	irc://irc.libera.chat/armlinux
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+F:	arch/arm/mach-*/
+F:	arch/arm/plat-*/
+
+ARM/ACTIONS SEMI ARCHITECTURE
+M:	Andreas Färber <afaerber@suse.de>
+M:	Manivannan Sadhasivam <mani@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-actions@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/actions.yaml
+F:	Documentation/devicetree/bindings/clock/actions,owl-cmu.yaml
+F:	Documentation/devicetree/bindings/dma/owl-dma.yaml
+F:	Documentation/devicetree/bindings/i2c/i2c-owl.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/actions,owl-sirq.yaml
+F:	Documentation/devicetree/bindings/mmc/owl-mmc.yaml
+F:	Documentation/devicetree/bindings/net/actions,owl-emac.yaml
+F:	Documentation/devicetree/bindings/pinctrl/actions,*
+F:	Documentation/devicetree/bindings/power/actions,s500-sps.yaml
+F:	Documentation/devicetree/bindings/timer/actions,owl-timer.yaml
+F:	arch/arm/boot/dts/actions/
+F:	arch/arm/mach-actions/
+F:	arch/arm64/boot/dts/actions/
+F:	drivers/clk/actions/
+F:	drivers/clocksource/timer-owl*
+F:	drivers/dma/owl-dma.c
+F:	drivers/i2c/busses/i2c-owl.c
+F:	drivers/irqchip/irq-owl-sirq.c
+F:	drivers/mmc/host/owl-mmc.c
+F:	drivers/net/ethernet/actions/
+F:	drivers/pinctrl/actions/*
+F:	drivers/pmdomain/actions/
+F:	include/dt-bindings/power/owl-*
+F:	include/dt-bindings/reset/actions,*
+F:	include/linux/soc/actions/
+N:	owl
+
+ARM/AIROHA SOC SUPPORT
+M:	Matthias Brugger <matthias.bgg@gmail.com>
+M:	AngeloGioacchino Del Regno <angelogioacchino.delregno@collabora.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-mediatek@lists.infradead.org (moderated for non-subscribers)
+S:	Odd Fixes
+F:	arch/arm/boot/dts/airoha/
+F:	arch/arm64/boot/dts/airoha/
+
+ARM/Allwinner SoC Clock Support
+M:	Emilio López <emilio@elopez.com.ar>
+S:	Maintained
+F:	drivers/clk/sunxi/
+
+ARM/Allwinner sunXi SoC support
+M:	Chen-Yu Tsai <wens@kernel.org>
+M:	Jernej Skrabec <jernej.skrabec@gmail.com>
+M:	Samuel Holland <samuel@sholland.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-sunxi@lists.linux.dev
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux.git
+F:	arch/arm/mach-sunxi/
+F:	arch/arm64/boot/dts/allwinner/
+F:	drivers/clk/sunxi-ng/
+F:	drivers/pinctrl/sunxi/
+F:	drivers/soc/sunxi/
+N:	allwinner
+N:	sun[x456789]i
+N:	sun[25]0i
+
+ARM/ALPHASCALE ARCHITECTURE
+M:	Krzysztof Kozlowski <krzk@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Odd Fixes
+F:	arch/arm/boot/dts/alphascale/
+F:	drivers/clk/clk-asm9260.c
+F:	drivers/clocksource/asm9260_timer.c
+F:	drivers/rtc/rtc-asm9260.c
+F:	drivers/watchdog/asm9260_wdt.c
+
+ARM/AMD PENSANDO ARM64 ARCHITECTURE
+M:	Brad Larson <blarson@amd.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+F:	Documentation/devicetree/bindings/*/amd,pensando*
+F:	arch/arm64/boot/dts/amd/elba*
+
+ARM/Amlogic Meson SoC CLOCK FRAMEWORK
+M:	Neil Armstrong <neil.armstrong@linaro.org>
+M:	Jerome Brunet <jbrunet@baylibre.com>
+L:	linux-amlogic@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/clock/amlogic*
+F:	drivers/clk/meson/
+F:	include/dt-bindings/clock/amlogic,a1*
+F:	include/dt-bindings/clock/gxbb*
+F:	include/dt-bindings/clock/meson*
+
+ARM/Amlogic Meson SoC Crypto Drivers
+M:	Corentin Labbe <clabbe@baylibre.com>
+L:	linux-crypto@vger.kernel.org
+L:	linux-amlogic@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/crypto/amlogic*
+F:	drivers/crypto/amlogic/
+
+ARM/Amlogic Meson SoC Sound Drivers
+M:	Jerome Brunet <jbrunet@baylibre.com>
+L:	linux-sound@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/sound/amlogic*
+F:	sound/soc/meson/
+
+ARM/Amlogic Meson SoC support
+M:	Neil Armstrong <neil.armstrong@linaro.org>
+M:	Kevin Hilman <khilman@baylibre.com>
+R:	Je

@@ -1,0 +1,139 @@
+OND SYSTEMS GPIO-MM GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-gpio-mm.c
+
+DIBS (DIRECT INTERNAL BUFFER SHARING)
+M:	Alexandra Winter <wintera@linux.ibm.com>
+L:	netdev@vger.kernel.org
+S:	Supported
+F:	drivers/dibs/
+F:	include/linux/dibs.h
+
+DIGITEQ AUTOMOTIVE MGB4 V4L2 DRIVER
+M:	Martin Tuma <martin.tuma@digiteqautomotive.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/admin-guide/media/mgb4.rst
+F:	drivers/media/pci/mgb4/
+
+DIOLAN U2C-12 I2C DRIVER
+M:	Guenter Roeck <linux@roeck-us.net>
+L:	linux-i2c@vger.kernel.org
+S:	Maintained
+F:	drivers/i2c/busses/i2c-diolan-u2c.c
+
+DIRECTORY NOTIFICATION (DNOTIFY)
+M:	Jan Kara <jack@suse.cz>
+R:	Amir Goldstein <amir73il@gmail.com>
+L:	linux-fsdevel@vger.kernel.org
+S:	Maintained
+F:	Documentation/filesystems/dnotify.rst
+F:	fs/notify/dnotify/
+F:	include/linux/dnotify.h
+
+DISK GEOMETRY AND PARTITION HANDLING
+M:	Andries Brouwer <aeb@cwi.nl>
+S:	Maintained
+W:	http://www.win.tue.nl/~aeb/linux/Large-Disk.html
+W:	http://www.win.tue.nl/~aeb/linux/zip/zip-1.html
+W:	http://www.win.tue.nl/~aeb/partitions/partition_types-1.html
+
+DISKQUOTA
+M:	Jan Kara <jack@suse.com>
+S:	Maintained
+F:	Documentation/filesystems/quota.rst
+F:	fs/quota/
+F:	include/linux/quota*.h
+F:	include/uapi/linux/quota*.h
+
+DISPLAYLINK USB 2.0 FRAMEBUFFER DRIVER (UDLFB)
+M:	Bernie Thompson <bernie@plugable.com>
+L:	linux-fbdev@vger.kernel.org
+S:	Maintained
+W:	http://plugable.com/category/projects/udlfb/
+F:	Documentation/fb/udlfb.rst
+F:	drivers/video/fbdev/udlfb.c
+F:	include/video/udlfb.h
+
+DISTRIBUTED LOCK MANAGER (DLM)
+M:	Alexander Aring <aahringo@redhat.com>
+M:	David Teigland <teigland@redhat.com>
+L:	gfs2@lists.linux.dev
+S:	Supported
+W:	https://pagure.io/dlm
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/teigland/linux-dlm.git
+F:	fs/dlm/
+
+DMA BUFFER SHARING FRAMEWORK
+M:	Sumit Semwal <sumit.semwal@linaro.org>
+M:	Christian König <christian.koenig@amd.com>
+L:	linux-media@vger.kernel.org
+L:	dri-devel@lists.freedesktop.org
+L:	linaro-mm-sig@lists.linaro.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://gitlab.freedesktop.org/drm/misc/kernel.git
+F:	Documentation/driver-api/dma-buf.rst
+F:	Documentation/userspace-api/dma-buf-alloc-exchange.rst
+F:	drivers/dma-buf/
+F:	include/linux/*fence.h
+F:	include/linux/dma-buf.h
+F:	include/linux/dma-buf/
+F:	include/linux/dma-resv.h
+F:	rust/helpers/dma-resv.c
+K:	\bdma_(?:buf|fence|resv)\b
+
+DMA GENERIC OFFLOAD ENGINE SUBSYSTEM
+M:	Vinod Koul <vkoul@kernel.org>
+R:	Frank Li <Frank.Li@kernel.org>
+L:	dmaengine@vger.kernel.org
+S:	Maintained
+Q:	https://patchwork.kernel.org/project/linux-dmaengine/list/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
+F:	Documentation/devicetree/bindings/dma/
+F:	Documentation/driver-api/dmaengine/
+F:	drivers/dma/
+F:	include/dt-bindings/dma/
+F:	include/linux/dma/
+F:	include/linux/dmaengine.h
+F:	include/linux/of_dma.h
+
+DMA MAPPING BENCHMARK
+M:	Barry Song <baohua@kernel.org>
+M:	Qinxin Xia <xiaqinxin@huawei.com>
+L:	iommu@lists.linux.dev
+F:	kernel/dma/map_benchmark.c
+F:	tools/dma/
+
+DMA MAPPING HELPERS
+M:	Marek Szyprowski <m.szyprowski@samsung.com>
+R:	Robin Murphy <robin.murphy@arm.com>
+L:	iommu@lists.linux.dev
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux.git
+F:	include/asm-generic/dma-mapping.h
+F:	include/linux/dma-direct.h
+F:	include/linux/dma-map-ops.h
+F:	include/linux/dma-mapping.h
+F:	include/linux/swiotlb.h
+F:	kernel/dma/
+
+DMA MAPPING & SCATTERLIST API [RUST]
+M:	Danilo Krummrich <dakr@kernel.org>
+R:	Abdiel Janulgue <abdiel.janulgue@gmail.com>
+R:	Daniel Almeida <daniel.almeida@collabora.com>
+R:	Robin Murphy <robin.murphy@arm.com>
+R:	Andreas Hindborg <a.hindborg@kernel.org>
+L:	driver-core@lists.linux.dev
+S:	Supported
+W:	https://rust-for-linux.com
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git
+F:	rust/helpers/dma.c
+F:	rust/helpers/scatterlist.c
+F:	rust/kernel/dma.rs
+F:	rust/kernel/scatterlist.rs
+F:	samples/rust/rust_dma.rs
+
+DMA-BUF HEAPS FRAMEWORK
+M:	Sumit Semwal <sumit.semwal@linaro.org>

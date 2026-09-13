@@ -1,0 +1,133 @@
+IT] (BPF-programmable network device)
+M:	Daniel Borkmann <daniel@iogearbox.net>
+M:	Nikolay Aleksandrov <razor@blackwall.org>
+L:	bpf@vger.kernel.org
+L:	netdev@vger.kernel.org
+S:	Supported
+F:	drivers/net/netkit.c
+F:	include/net/netkit.h
+F:	tools/testing/selftests/bpf/prog_tests/tc_netkit.c
+F:	tools/testing/selftests/drivers/net/hw/nk_qlease.py
+F:	tools/testing/selftests/net/nk_qlease.py
+
+BPF [NETWORKING] (tcx & tc BPF, sock_addr)
+M:	Daniel Borkmann <daniel@iogearbox.net>
+R:	John Fastabend <john.fastabend@gmail.com>
+R:	Stanislav Fomichev <sdf@fomichev.me>
+R:	Martin KaFai Lau <martin.lau@linux.dev>
+L:	bpf@vger.kernel.org
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	include/net/tcx.h
+F:	kernel/bpf/tcx.c
+F:	net/core/filter.c
+F:	net/sched/act_bpf.c
+F:	net/sched/cls_bpf.c
+
+BPF [RINGBUF]
+M:	Andrii Nakryiko <andrii@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	kernel/bpf/ringbuf.c
+
+BPF [SECURITY & LSM] (Security Audit and Enforcement using BPF)
+M:	KP Singh <kpsingh@kernel.org>
+M:	Matt Bobrowski <matt@bobrowski.net>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	Documentation/bpf/prog_lsm.rst
+F:	include/linux/bpf_lsm.h
+F:	kernel/bpf/bpf_lsm.c
+F:	kernel/bpf/bpf_lsm_proto.c
+F:	kernel/trace/bpf_trace.c
+F:	security/bpf/
+
+BPF [SELFTESTS] (Test Runners & Infrastructure)
+M:	Andrii Nakryiko <andrii@kernel.org>
+M:	Eduard Zingerman <eddyz87@gmail.com>
+R:	Ihor Solodrai <ihor.solodrai@linux.dev>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	tools/testing/selftests/bpf/
+
+BPF [TOOLING] (bpftool)
+M:	Quentin Monnet <qmo@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	kernel/bpf/disasm.*
+F:	tools/bpf/bpftool/
+
+BPF [TRACING]
+M:	Song Liu <song@kernel.org>
+R:	Jiri Olsa <jolsa@kernel.org>
+R:	Ihor Solodrai <ihor.solodrai@linux.dev>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	kernel/bpf/stackmap.c
+F:	kernel/trace/bpf_trace.c
+F:	lib/buildid.c
+
+BROADCOM APDS9160 AMBIENT LIGHT SENSOR AND PROXIMITY DRIVER
+M:	Mikael Gonella-Bolduc <m.gonella.bolduc@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/light/brcm,apds9160.yaml
+F:	drivers/iio/light/apds9160.c
+
+BROADCOM APDS9999 AMBIENT LIGHT SENSOR DRIVER
+M:	Jose A. Perez de Azpillaga <azpijr@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/light/brcm,apds9999.yaml
+F:	drivers/iio/light/apds9999.c
+
+BROADCOM ASP 2.0 ETHERNET DRIVER
+M:	Justin Chen <justin.chen@broadcom.com>
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+L:	bcm-kernel-feedback-list@broadcom.com
+L:	netdev@vger.kernel.org
+S:	Supported
+F:	Documentation/devicetree/bindings/net/brcm,asp-v2.0.yaml
+F:	drivers/net/ethernet/broadcom/asp2/
+
+BROADCOM B44 10/100 ETHERNET DRIVER
+M:	Michael Chan <michael.chan@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/broadcom/b44.*
+
+BROADCOM B53/SF2 ETHERNET SWITCH DRIVER
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+M:	Jonas Gorski <jonas.gorski@gmail.com>
+L:	netdev@vger.kernel.org
+L:	openwrt-devel@lists.openwrt.org (subscribers-only)
+S:	Supported
+F:	Documentation/devicetree/bindings/net/dsa/brcm,b53.yaml
+F:	drivers/net/dsa/b53/*
+F:	drivers/net/dsa/bcm_sf2*
+F:	include/linux/dsa/brcm.h
+F:	include/linux/platform_data/b53.h
+F:	net/dsa/tag_brcm.c
+
+BROADCOM BCM2711/BCM2835 ARM ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-rpi-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/broadcom/stblinux.git
+F:	Documentation/devicetree/bindings/pci/brcm,stb-pcie.yaml
+F:	drivers/pci/controller/pcie-brcmstb.c
+F:	drivers/platform/raspberrypi/vchiq-*
+F:	drivers/staging/vc04_services
+F:	include/linux/raspberrypi/vchiq*
+N:	bcm2711
+N:	bcm2712
+N:	bcm283*
+N:	raspberrypi
+
+BROADCOM BCM281XX/BCM11XXX/BCM216XX ARM ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+M:	Ray Jui <rjui@broadcom.com>
+M:	Scott Branden <sbranden@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-l

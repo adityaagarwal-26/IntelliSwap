@@ -1,0 +1,125 @@
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Viresh Kumar <viresh.kumar@linaro.org>
+R:	Jie Zhan <zhanjie9@hisilicon.com>
+R:	Lifeng Zheng <zhenglifeng1@huawei.com>
+R:	Pierre Gondois <pierre.gondois@arm.com>
+R:	Sumit Gupta <sumitg@nvidia.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	drivers/cpufreq/cppc_cpufreq.c
+
+CPU FREQUENCY DRIVERS - VEXPRESS SPC ARM BIG LITTLE
+M:	Viresh Kumar <viresh.kumar@linaro.org>
+M:	Sudeep Holla <sudeep.holla@kernel.org>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+W:	http://www.arm.com/products/processors/technologies/biglittleprocessing.php
+F:	drivers/cpufreq/vexpress-spc-cpufreq.c
+
+CPU FREQUENCY DRIVERS - VIRTUAL MACHINE CPUFREQ
+M:	Saravana Kannan <saravanak@kernel.org>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	drivers/cpufreq/virtual-cpufreq.c
+
+CPU FREQUENCY SCALING FRAMEWORK
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Viresh Kumar <viresh.kumar@linaro.org>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+B:	https://bugzilla.kernel.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm.git (For ARM Updates)
+F:	Documentation/admin-guide/pm/cpufreq.rst
+F:	Documentation/admin-guide/pm/intel_pstate.rst
+F:	Documentation/cpu-freq/
+F:	Documentation/devicetree/bindings/cpufreq/
+F:	drivers/cpufreq/
+F:	include/linux/cpufreq.h
+F:	include/linux/sched/cpufreq.h
+F:	kernel/sched/cpufreq*.c
+F:	rust/kernel/cpufreq.rs
+F:	tools/testing/selftests/cpufreq/
+
+CPU HOTPLUG
+M:	Thomas Gleixner <tglx@kernel.org>
+M:	Peter Zijlstra <peterz@infradead.org>
+L:	linux-kernel@vger.kernel.org
+S:	Maintained
+P:	Documentation/process/maintainer-tip.rst
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git smp/core
+F:	include/linux/cpu.h
+F:	include/linux/cpuhotplug.h
+F:	include/linux/cpuhplock.h
+F:	include/linux/smpboot.h
+F:	kernel/cpu.c
+F:	kernel/smpboot.*
+F:	rust/helpers/cpu.c
+F:	rust/kernel/cpu.rs
+
+CPU IDLE TIME MANAGEMENT FRAMEWORK
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Daniel Lezcano <daniel.lezcano@kernel.org>
+R:	Christian Loehle <christian.loehle@arm.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+B:	https://bugzilla.kernel.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm.git
+F:	Documentation/admin-guide/pm/cpuidle.rst
+F:	Documentation/driver-api/pm/cpuidle.rst
+F:	drivers/cpuidle/
+F:	include/linux/cpuidle.h
+
+CPU POWER MONITORING SUBSYSTEM
+M:	Thomas Renninger <trenn@suse.com>
+M:	Shuah Khan <shuah@kernel.org>
+M:	Shuah Khan <skhan@linuxfoundation.org>
+M:	John B. Wyatt IV <jwyatt@redhat.com>
+M:	John B. Wyatt IV <sageofredondo@gmail.com>
+M:	John Kacur <jkacur@redhat.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	tools/power/cpupower/
+
+CPUID/MSR DRIVER
+M:	"H. Peter Anvin" <hpa@zytor.com>
+S:	Maintained
+F:	arch/x86/kernel/cpuid.c
+F:	arch/x86/kernel/msr.c
+
+CPUIDLE DRIVER - ARM BIG LITTLE
+M:	Lorenzo Pieralisi <lpieralisi@kernel.org>
+M:	Daniel Lezcano <daniel.lezcano@kernel.org>
+L:	linux-pm@vger.kernel.org
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm.git
+F:	drivers/cpuidle/cpuidle-big_little.c
+
+CPUIDLE DRIVER - ARM EXYNOS
+M:	Daniel Lezcano <daniel.lezcano@kernel.org>
+M:	Kukjin Kim <kgene@kernel.org>
+R:	Krzysztof Kozlowski <krzk@kernel.org>
+L:	linux-pm@vger.kernel.org
+L:	linux-samsung-soc@vger.kernel.org
+S:	Maintained
+F:	arch/arm/mach-exynos/pm.c
+F:	drivers/cpuidle/cpuidle-exynos.c
+F:	include/linux/platform_data/cpuidle-exynos.h
+
+CPUIDLE DRIVER - ARM PSCI
+M:	Lorenzo Pieralisi <lpieralisi@kernel.org>
+M:	Sudeep Holla <sudeep.holla@kernel.org>
+M:	Ulf Hansson <ulfh@kernel.org>
+L:	linux-pm@vger.kernel.org
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git
+F:	drivers/cpuidle/cpuidle-psci.c
+
+CPUIDLE DRIVER - ARM PSCI PM DOMAIN
+M:	Ulf Hansson <ulfh@kernel.org>
+L:	linux-pm@vger.kernel.org
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/

@@ -1,0 +1,130 @@
+ained
+F:	Documentation/devicetree/bindings/net/apm,xgene-enet.yaml
+F:	Documentation/devicetree/bindings/net/apm,xgene-mdio-rgmii.yaml
+F:	drivers/net/ethernet/apm/xgene/
+F:	drivers/net/mdio/mdio-xgene.c
+
+APPLIED MICRO (APM) X-GENE SOC PMU
+M:	Khuong Dinh <khuong@os.amperecomputing.com>
+S:	Supported
+F:	Documentation/admin-guide/perf/xgene-pmu.rst
+F:	Documentation/devicetree/bindings/perf/apm,xgene-pmu.yaml
+F:	drivers/perf/xgene_pmu.c
+
+APPLIED MICRO QT2025 PHY DRIVER
+M:	FUJITA Tomonori <fujita.tomonori@gmail.com>
+R:	Trevor Gross <tmgross@umich.edu>
+L:	netdev@vger.kernel.org
+L:	rust-for-linux@vger.kernel.org
+S:	Maintained
+F:	drivers/net/phy/qt2025.rs
+
+APTINA CAMERA SENSOR PLL
+M:	Laurent Pinchart <Laurent.pinchart@ideasonboard.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	drivers/media/i2c/aptina-pll.*
+
+AQUACOMPUTER D5 NEXT PUMP SENSOR DRIVER
+M:	Aleksa Savic <savicaleksa83@gmail.com>
+M:	Jack Doan <me@jackdoan.com>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/aquacomputer_d5next.rst
+F:	drivers/hwmon/aquacomputer_d5next.c
+
+AQUANTIA ETHERNET DRIVER (atlantic)
+M:	Sukhdeep Singh <sukhdeeps@marvell.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	https://www.marvell.com/
+Q:	https://patchwork.kernel.org/project/netdevbpf/list/
+F:	Documentation/networking/device_drivers/ethernet/aquantia/atlantic.rst
+F:	drivers/net/ethernet/aquantia/atlantic/
+
+AQUANTIA ETHERNET DRIVER PTP SUBSYSTEM
+M:	Sukhdeep Singh <sukhdeeps@marvell.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+W:	http://www.aquantia.com
+F:	drivers/net/ethernet/aquantia/atlantic/aq_ptp*
+
+AR0521 ON SEMICONDUCTOR CAMERA SENSOR DRIVER
+M:	Krzysztof Hałasa <khalasa@piap.pl>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/i2c/onnn,ar0521.yaml
+F:	drivers/media/i2c/ar0521.c
+
+ARASAN NAND CONTROLLER DRIVER
+M:	Miquel Raynal <miquel.raynal@bootlin.com>
+R:	Michal Simek <michal.simek@amd.com>
+L:	linux-mtd@lists.infradead.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/mtd/arasan,nand-controller.yaml
+F:	drivers/mtd/nand/raw/arasan-nand-controller.c
+
+ARC FRAMEBUFFER DRIVER
+M:	Jaya Kumar <jayalk@intworks.biz>
+S:	Maintained
+F:	drivers/video/fbdev/arcfb.c
+F:	drivers/video/fbdev/core/fb_defio.c
+
+ARC PGU DRM DRIVER
+M:	Alexey Brodkin <abrodkin@synopsys.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/display/snps,arcpgu.txt
+F:	drivers/gpu/drm/tiny/arcpgu.c
+
+ARCNET NETWORK LAYER
+M:	Michael Grzeschik <mgr@kernel.org>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/arcnet/
+F:	include/uapi/linux/if_arcnet.h
+
+ARCTIC FAN CONTROLLER DRIVER
+M:	Aureo Serrano de Souza <aureo.serrano@arctic.de>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/arctic_fan_controller.rst
+F:	drivers/hwmon/arctic_fan_controller.c
+
+ARM AND ARM64 SoC SUB-ARCHITECTURES (COMMON PARTS)
+M:	Arnd Bergmann <arnd@arndb.de>
+M:	Krzysztof Kozlowski <krzk@kernel.org>
+M:	Alexandre Belloni <alexandre.belloni@bootlin.com>
+M:	Linus Walleij <linusw@kernel.org>
+R:	Drew Fustini <fustini@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	soc@lists.linux.dev
+S:	Maintained
+P:	Documentation/process/maintainer-soc.rst
+C:	irc://irc.libera.chat/armlinux
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git
+F:	Documentation/process/maintainer-soc*.rst
+F:	arch/arm/boot/dts/Makefile
+F:	arch/arm64/boot/dts/Makefile
+
+ARM ARCHITECTED TIMER DRIVER
+M:	Mark Rutland <mark.rutland@arm.com>
+M:	Marc Zyngier <maz@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/include/asm/arch_timer.h
+F:	arch/arm64/include/asm/arch_timer.h
+F:	drivers/clocksource/arm_arch_timer.c
+F:	drivers/clocksource/arm_arch_timer_mmio.c
+
+ARM ETHOS-U NPU DRIVER
+M:	Rob Herring (Arm) <robh@kernel.org>
+M:	Tomeu Vizoso <tomeu@tomeuvizoso.net>
+L:	dri-devel@lists.freedesktop.org
+S:	Supported
+T:	git https://gitlab.freedesktop.org/drm/misc/kernel.git
+F:	drivers/accel/ethosu/
+F:	include/uapi/drm/ethosu_accel.h
+
+ARM GENERIC INTERRUPT CONTROLLER DRIVERS
+M:	Marc Zyngier <maz@kernel.org>
+L:	linux-arm-kernel@l

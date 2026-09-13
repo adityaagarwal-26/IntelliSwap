@@ -1,0 +1,156 @@
+	This is at least a partial credits-file of people that have
+	contributed to the Linux project.  It is sorted by name and
+	formatted to allow easy grepping and beautification by
+	scripts.  The fields are: name (N), email (E), web-address
+	(W), PGP key ID and fingerprint (P), description (D), and
+	snail-mail address (S).
+	Thanks,
+
+			Linus
+----------
+
+N: Matti Aarnio
+E: mea@nic.funet.fi
+D: Alpha systems hacking, IPv6 and other network related stuff
+D: One of assisting postmasters for vger.kernel.org's lists
+S: (ask for current address)
+S: Finland
+
+N: Kishon Vijay Abraham I
+E: kishon@kernel.org
+D: Generic Phy Framework
+
+N: Thomas Abraham
+E: thomas.ab@samsung.com
+D: Samsung pin controller driver
+
+N: Jose Abreu
+E: jose.abreu@synopsys.com
+D: Synopsys DesignWare XPCS MDIO/PCS driver.
+
+N: Dragos Acostachioaie
+E: dragos@iname.com
+W: http://www.arbornet.org/~dragos
+D: /proc/sysvipc
+S: C. Negri 6, bl. D3
+S: Iasi 6600
+S: Romania
+
+N: Mark Adler
+E: madler@alumni.caltech.edu
+W: https://alumnus.caltech.edu/~madler/
+D: zlib decompression
+
+N: Monalisa Agrawal
+E: magrawal@nortelnetworks.com
+D: Basic Interphase 5575 driver with UBR and ABR support.
+S: 75 Donald St, Apt 42
+S: Weymouth, MA 02188
+S: USA
+
+N: Dave Airlie
+E: airlied@linux.ie
+W: http://www.csn.ul.ie/~airlied
+D: NFS over TCP patches
+D: in-kernel DRM Maintainer
+S: Longford, Ireland
+S: Sydney, Australia
+
+N: Tigran A. Aivazian
+E: tigran@aivazian.fsnet.co.uk
+W: http://www.moses.uklinux.net/patches
+D: BFS filesystem
+D: Intel IA32 CPU microcode update support
+D: Various kernel patches
+S: United Kingdom
+
+N: Werner Almesberger
+E: werner@almesberger.net
+W: https://www.almesberger.net/
+D: dosfs, LILO, some fd features, ATM, various other hacks here and there
+S: Buenos Aires
+S: Argentina
+
+N: Tim Alpaerts
+E: tim_alpaerts@toyota-motor-europe.com
+D: 802.2 class II logical link control layer,
+D: the humble start of an opening towards the IBM SNA protocols
+S: Klaproosstraat 72 c 10
+S: B-2610 Wilrijk-Antwerpen
+S: Belgium
+
+N: Anton Altaparmakov
+E: anton@tuxera.com
+W: http://www.tuxera.com/
+D: Author of new NTFS driver, various other kernel hacks.
+S: Christ's College
+S: Cambridge CB2 3BU
+S: United Kingdom
+
+N: C. Scott Ananian
+E: cananian@alumni.princeton.edu
+W: http://www.pdos.lcs.mit.edu/~cananian
+P: 1024/85AD9EED AD C0 49 08 91 67 DF D7  FA 04 1A EE 09 E8 44 B0
+D: Unix98 pty support.
+D: APM update to 1.2 spec.
+D: /devfs hacking.
+S: 7 Kiwi Loop
+S: Howell, NJ 07731
+S: USA
+
+N: Erik Andersen
+E: andersen@codepoet.org
+W: https://www.codepoet.org/
+P: 1024D/30D39057 1BC4 2742 E885 E4DE 9301  0C82 5F9B 643E 30D3 9057
+D: Maintainer of ide-cd and Uniform CD-ROM driver,
+D: ATAPI CD-Changer support, Major 2.1.x CD-ROM update.
+S: 352 North 525 East
+S: Springville, Utah 84663
+S: USA
+
+N: Michael Ang
+E: mang@subcarrier.org
+W: http://www.subcarrier.org/mang
+D: Linux/PA-RISC hacker
+S: 85 Frank St.
+S: Ottawa, Ontario
+S: Canada K2P 0X3
+
+N: H. Peter Anvin
+E: hpa@zytor.com
+W: https://www.zytor.com/~hpa/
+P: 2047/2A960705 BA 03 D3 2C 14 A8 A8 BD  1E DF FE 69 EE 35 BD 74
+D: Author of the SYSLINUX boot loader, maintainer of the linux.* news
+D: hierarchy and the Linux Device List; various kernel hacks
+S: 4390 Albany Drive #46
+S: San Jose, California 95129
+S: USA
+
+N: Andrea Arcangeli
+E: andrea@suse.de
+W: https://www.kernel.org/pub/linux/kernel/people/andrea/
+P: 1024D/68B9CB43 13D9 8355 295F 4823 7C49  C012 DFA1 686E 68B9 CB43
+P: 1024R/CB4660B9 CC A0 71 81 F4 A0 63 AC  C0 4B 81 1D 8C 15 C8 E5
+D: Parport hacker
+D: Implemented a workaround for some interrupt buggy printers
+D: Author of pscan that helps to fix lp/parport bugs
+D: Author of lil (Linux Interrupt Latency benchmark)
+D: Fixed the shm swap deallocation at swapoff time (try_to_unuse message)
+D: VM hacker
+D: Various other kernel hacks
+S: Imola 40026
+S: Italy
+
+N: Derek Atkins
+E: warlord@MIT.EDU
+D: Linux-AFS Port, random kernel hacker,
+D: VFS fixes (new notify_change in particular)
+D: Moving all VFS access checks into the file systems
+S: MIT Room E15-341
+S: 20 Ames Street
+S: Cambridge, Massachusetts 02139
+S: USA
+
+N: Michel Aubry
+E: giovanni <giovanni@sudfr.com>
+D: Aladdin 1

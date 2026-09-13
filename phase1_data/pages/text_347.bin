@@ -1,0 +1,143 @@
+r-Linux/linux.git rust-block-next
+F:	drivers/block/rnull/
+F:	rust/kernel/block.rs
+F:	rust/kernel/block/
+
+BLOCK2MTD DRIVER
+M:	Joern Engel <joern@lazybastard.org>
+L:	linux-mtd@lists.infradead.org
+S:	Maintained
+F:	drivers/mtd/devices/block2mtd.c
+
+BLUETOOTH DRIVERS
+M:	Marcel Holtmann <marcel@holtmann.org>
+M:	Luiz Augusto von Dentz <luiz.dentz@gmail.com>
+L:	linux-bluetooth@vger.kernel.org
+S:	Supported
+W:	http://www.bluez.org/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next.git
+F:	Documentation/ABI/testing/sysfs-bus-pci-drivers-btintel_pcie
+F:	Documentation/devicetree/bindings/net/bluetooth/
+F:	drivers/bluetooth/
+
+BLUETOOTH SUBSYSTEM
+M:	Marcel Holtmann <marcel@holtmann.org>
+M:	Luiz Augusto von Dentz <luiz.dentz@gmail.com>
+L:	linux-bluetooth@vger.kernel.org
+S:	Supported
+W:	http://www.bluez.org/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next.git
+F:	Documentation/ABI/stable/sysfs-class-bluetooth
+F:	include/net/bluetooth/
+F:	net/bluetooth/
+
+BLZP1600 GPIO DRIVER
+M:	James Cowgill <james.cowgill@blaize.com>
+M:	Matt Redfearn <matt.redfearn@blaize.com>
+M:	Neil Jones <neil.jones@blaize.com>
+M:	Nikolaos Pasaloukos <nikolaos.pasaloukos@blaize.com>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/gpio/blaize,blzp1600-gpio.yaml
+F:	drivers/gpio/gpio-blzp1600.c
+
+BONDING DRIVER
+M:	Jay Vosburgh <jv@jvosburgh.net>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/bonding.rst
+F:	drivers/net/bonding/
+F:	include/net/bond*
+F:	include/uapi/linux/if_bonding.h
+F:	tools/testing/selftests/drivers/net/bonding/
+
+BOSCH SENSORTEC BMA220 ACCELEROMETER IIO DRIVER
+M:	Petre Rodan <petre.rodan@subdimension.ro>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/accel/bosch,bma220.yaml
+F:	drivers/iio/accel/bma220*
+
+BOSCH SENSORTEC BMA400 ACCELEROMETER IIO DRIVER
+M:	Dan Robertson <dan@dlrobertson.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/accel/bosch,bma400.yaml
+F:	drivers/iio/accel/bma400*
+
+BOSCH SENSORTEC BMI270 IMU IIO DRIVER
+M:	Alex Lanzano <lanzano.alex@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/imu/bosch,bmi270.yaml
+F:	drivers/iio/imu/bmi270/
+
+BOSCH SENSORTEC BMI323 IMU IIO DRIVER
+M:	Jagath Jog J <jagathjog1996@gmail.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/imu/bosch,bmi323.yaml
+F:	drivers/iio/imu/bmi323/
+
+BPF JIT for ARC
+M:	Shahab Vahedi <list+bpf@vahedi.org>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	arch/arc/net/
+
+BPF JIT for ARM
+M:	Russell King <linux@armlinux.org.uk>
+M:	Puranjay Mohan <puranjay@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	arch/arm/net/
+
+BPF JIT for ARM64
+M:	Daniel Borkmann <daniel@iogearbox.net>
+M:	Alexei Starovoitov <ast@kernel.org>
+M:	Puranjay Mohan <puranjay@kernel.org>
+R:	Xu Kuohai <xukuohai@huaweicloud.com>
+L:	bpf@vger.kernel.org
+S:	Supported
+F:	arch/arm64/net/
+
+BPF JIT for LOONGARCH
+M:	Tiezhu Yang <yangtiezhu@loongson.cn>
+R:	Hengqi Chen <hengqi.chen@gmail.com>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	arch/loongarch/net/
+
+BPF JIT for MIPS (32-BIT AND 64-BIT)
+M:	Johan Almbladh <johan.almbladh@anyfinetworks.com>
+M:	Paul Burton <paulburton@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	arch/mips/net/
+
+BPF JIT for NFP NICs
+M:	Jakub Kicinski <kuba@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Odd Fixes
+F:	drivers/net/ethernet/netronome/nfp/bpf/
+
+BPF JIT for POWERPC (32-BIT AND 64-BIT)
+M:	Hari Bathini <hbathini@linux.ibm.com>
+M:	Christophe Leroy (CS GROUP) <chleroy@kernel.org>
+R:	Naveen N Rao <naveen@kernel.org>
+L:	bpf@vger.kernel.org
+S:	Supported
+F:	arch/powerpc/net/
+
+BPF JIT for RISC-V (32-bit)
+M:	Luke Nelson <luke.r.nels@gmail.com>
+M:	Xi Wang <xi.wang@gmail.com>
+L:	bpf@vger.kernel.org
+S:	Maintained
+F:	arch/riscv/net/
+X:	arch/riscv/net/bpf_jit_comp64.c
+
+BPF JIT for RISC-V (64-bit)
+M:	Björn Töpel <bjo

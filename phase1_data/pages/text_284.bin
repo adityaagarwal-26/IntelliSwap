@@ -1,0 +1,172 @@
+/www.volkswagen.de
+D: Controller Area Network (network layer core)
+S: Brieffach 1776
+S: 38436 Wolfsburg
+S: Germany
+
+N: Jon Tombs
+E: jon@gte.esi.us.es
+W: http://www.esi.us.es/~jon
+D: NFS mmap()
+D: XF86_S3
+D: Kernel modules
+D: Parts of various other programs (xfig, open, ...)
+S: C/ Federico Garcia Lorca 1 10-A
+S: Sevilla 41005
+S: Spain
+
+N: Björn Töpel
+E: bjorn@kernel.org
+D: AF_XDP
+S: Gothenburg
+S: Sweden
+
+N: Linus Torvalds
+E: torvalds@linux-foundation.org
+D: Original kernel hacker
+S: Portland, Oregon 97005
+S: USA
+
+N: Marcelo Tosatti
+E: marcelo@kvack.org
+D: v2.4 kernel maintainer
+S: Brazil
+
+N: Stefan Traby
+E: stefan@quant-x.com
+D: Minor Alpha kernel hacks
+S: Mitterlasznitzstr. 13
+S: 8302 Nestelbach
+S: Austria
+
+N: Jeff Tranter
+E: tranter@pobox.com
+D: Enhancements to Joystick driver
+D: Author of Sound HOWTO and CD-ROM HOWTO
+D: Author of several small utilities
+D: (bogomips, scope, eject, statserial)
+S: 1 Laurie Court
+S: Kanata, Ontario
+S: Canada K2L 1S2
+
+N: Andrew Tridgell
+E: tridge@samba.org
+W: https://samba.org/tridge/
+D: dosemu, networking, samba
+S: 3 Ballow Crescent
+S: MacGregor A.C.T 2615
+S: Australia
+
+N: Josh Triplett
+E: josh@joshtriplett.org
+P: 4096R/8AFF873D 758E 5042 E397 4BA3 3A9C  1E67 0ED9 A3DF 8AFF 873D
+D: RCU and rcutorture
+D: lock annotations, finding and fixing lock bugs
+D: kernel tinification
+
+N: Winfried Trümper
+E: winni@xpilot.org
+W: http://www.shop.de/~winni/
+D: German HOWTO, Crash-Kurs Linux (German, 100 comprehensive pages)
+D: CD-Writing HOWTO, various mini-HOWTOs
+D: One-week tutorials on Linux twice a year (free of charge)
+D: Linux-Workshop Köln (aka LUG Cologne, Germany), Installfests
+S: Tacitusstr. 6
+S: D-50968 Köln
+
+N: Tsu-Sheng Tsao
+E: tsusheng@scf.usc.edu
+D: IGMP (Internet Group Management Protocol) version 2
+S: 2F 14 ALY 31 LN 166 SEC 1 SHIH-PEI RD
+S: Taipei
+S: Taiwan 112
+S: Republic of China
+S: 24335 Delta Drive
+S: Diamond Bar, California 91765
+S: USA
+
+N: Theodore Ts'o
+E: tytso@mit.edu
+D: Random Linux hacker
+D: Maintainer of tsx-11.mit.edu ftp archive
+D: Maintainer of c.o.l.* Usenet<->mail gateway
+D: Author of serial driver
+D: Author of the new e2fsck
+D: Author of job control and system call restart code
+D: Author of ramdisk device driver
+D: Author of loopback device driver
+D: Author of /dev/random driver
+S: MIT Room E40-343
+S: 1 Amherst Street
+S: Cambridge, Massachusetts 02139
+S: USA
+
+N: Luben Tuikov
+E: Luben Tuikov <ltuikov89@gmail.com>
+D: Maintainer of the DRM GPU Scheduler
+
+N: Simmule Turner
+E: sturner@tele-tv.com
+D: Added swapping to filesystem
+S: 4226 Landgreen Street
+S: Rockville, Maryland 20853
+S: USA
+
+N: Michael Turquette
+E: mturquette@baylibre.com
+D: common clk maintenance
+
+N: Stephen Tweedie
+E: sct@redhat.com
+P: 1024/E7A417AD E2 FE A4 20 34 EC ED FC 7D 7E 67 8D E0 31 D1 69
+P: 1024D/43BE7544 D2A4 8556 08E6 90E7 076C  BA3F 243F 20A4 43BE 7544
+D: Second extended file system developer
+D: General filesystem hacker
+D: kswap vm management code
+S: 44 Campbell Park Crescent
+S: Edinburgh EH13 0HT
+S: United Kingdom
+
+N: Thomas Uhl
+E: uhl@sun1.rz.fh-heilbronn.de
+D: Application programmer
+D: Linux promoter
+D: Author of a German book on Linux
+S: Obere Heerbergstrasse 17
+S: 97078 Wuerzburg
+S: Germany
+
+N: Jason Uhlenkott
+E: juhlenko@akamai.com
+D: I3000 EDAC driver
+
+N: Greg Ungerer
+E: gerg@snapgear.com
+D: uClinux kernel hacker
+D: Port uClinux to the Motorola ColdFire CPU
+D: Author of Stallion multiport serial drivers
+S: SnapGear Inc.
+S: 825 Stanley St
+S: Woolloongabba. QLD. 4102
+S: Australia
+
+N: Jeffrey A. Uphoff
+E: juphoff@transmeta.com
+E: jeff.uphoff@linux.org
+P: 1024/9ED505C5 D7 BB CA AA 10 45 40 1B  16 19 0A C0 38 A0 3E CB
+D: Linux Security/Alert mailing lists' moderator/maintainer.
+D: NSM (rpc.statd) developer.
+D: PAM S/Key module developer.
+D: 'dip' contributor.
+D: AIPS port, astronomical community support.
+S: Transmeta Corporation
+S: 2540 Mission College Blvd.
+S: Santa Clara, CA 95054
+S: USA
+
+N: Matthias Urlichs
+E: smurf@smurf.noris.de
+E: smurf@debian.org
+E: matthias@urlichs.de
+D: Consultant, developer, kernel hacker
+D: In a previous life, worked on Streams/ISDN/BSD networking code for Linux

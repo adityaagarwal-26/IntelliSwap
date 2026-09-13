@@ -1,0 +1,150 @@
+t/akpm/mm
+T:	quilt git://git.kernel.org/pub/scm/linux/kernel/git/akpm/25-new
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/sj/linux.git damon/next
+F:	Documentation/ABI/testing/sysfs-kernel-mm-damon
+F:	Documentation/admin-guide/mm/damon/
+F:	Documentation/mm/damon/
+F:	include/linux/damon.h
+F:	include/trace/events/damon.h
+F:	mm/damon/
+F:	samples/damon/
+F:	tools/testing/selftests/damon/
+
+DAVICOM FAST ETHERNET (DMFE) NETWORK DRIVER
+L:	netdev@vger.kernel.org
+S:	Orphan
+F:	Documentation/networking/device_drivers/ethernet/dec/dmfe.rst
+F:	drivers/net/ethernet/dec/tulip/dmfe.c
+
+DC390/AM53C974 SCSI driver
+M:	Hannes Reinecke <hare@suse.com>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	drivers/scsi/am53c974.c
+
+DC395x SCSI driver
+M:	Oliver Neukum <oliver@neukum.org>
+M:	Ali Akcaagac <aliakc@web.de>
+M:	Jamie Lenehan <lenehan@twibble.org>
+S:	Maintained
+F:	Documentation/scsi/dc395x.rst
+F:	drivers/scsi/dc395x.*
+
+DEBUGOBJECTS:
+M:	Thomas Gleixner <tglx@kernel.org>
+L:	linux-kernel@vger.kernel.org
+S:	Maintained
+P:	Documentation/process/maintainer-tip.rst
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git core/debugobjects
+F:	include/linux/debugobjects.h
+F:	lib/debugobjects.c
+
+DEC LANCE NETWORK DRIVER
+M:	"Maciej W. Rozycki" <macro@orcam.me.uk>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/amd/declance.c
+
+DECSTATION PLATFORM SUPPORT
+M:	"Maciej W. Rozycki" <macro@orcam.me.uk>
+L:	linux-mips@vger.kernel.org
+S:	Maintained
+F:	arch/mips/dec/
+F:	arch/mips/include/asm/dec/
+F:	arch/mips/include/asm/mach-dec/
+
+DEFXX FDDI NETWORK DRIVER
+M:	"Maciej W. Rozycki" <macro@orcam.me.uk>
+S:	Maintained
+F:	drivers/net/fddi/defxx.*
+
+DEFZA FDDI NETWORK DRIVER
+M:	"Maciej W. Rozycki" <macro@orcam.me.uk>
+S:	Maintained
+F:	drivers/net/fddi/defza.*
+
+DEINTERLACE DRIVERS FOR ALLWINNER H3
+M:	Jernej Skrabec <jernej.skrabec@gmail.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+T:	git git://linuxtv.org/media.git
+F:	Documentation/devicetree/bindings/media/allwinner,sun8i-h3-deinterlace.yaml
+F:	drivers/media/platform/sunxi/sun8i-di/
+
+DELL LAPTOP DRIVER
+M:	Matthew Garrett <mjg59@srcf.ucam.org>
+M:	Pali Rohár <pali@kernel.org>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-laptop.c
+
+DELL LAPTOP FREEFALL DRIVER
+M:	Pali Rohár <pali@kernel.org>
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-smo8800.c
+
+DELL LAPTOP RBTN DRIVER
+M:	Pali Rohár <pali@kernel.org>
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-rbtn.*
+
+DELL LAPTOP SMM DRIVER
+M:	Pali Rohár <pali@kernel.org>
+S:	Maintained
+F:	Documentation/ABI/obsolete/procfs-i8k
+F:	drivers/hwmon/dell-smm-hwmon.c
+F:	include/uapi/linux/i8k.h
+
+DELL PC DRIVER
+M:	Lyndon Sanche <lsanche@lyndeno.ca>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-pc.c
+
+DELL REMOTE BIOS UPDATE DRIVER
+M:	Stuart Hayes <stuart.w.hayes@gmail.com>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell_rbu.c
+
+DELL SMBIOS DRIVER
+M:	Pali Rohár <pali@kernel.org>
+L:	Dell.Client.Kernel@dell.com
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-smbios.*
+
+DELL SMBIOS SMM DRIVER
+L:	Dell.Client.Kernel@dell.com
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-smbios-smm.c
+
+DELL SMBIOS WMI DRIVER
+L:	Dell.Client.Kernel@dell.com
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-smbios-wmi.c
+F:	tools/wmi/dell-smbios-example.c
+
+DELL SYSTEMS MANAGEMENT BASE DRIVER (dcdbas)
+M:	Stuart Hayes <stuart.w.hayes@gmail.com>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	Documentation/userspace-api/dcdbas.rst
+F:	drivers/platform/x86/dell/dcdbas.*
+
+DELL WMI DDV DRIVER
+M:	Armin Wolf <W_Armin@gmx.de>
+S:	Maintained
+F:	Documentation/ABI/testing/debugfs-dell-wmi-ddv
+F:	Documentation/ABI/testing/sysfs-platform-dell-wmi-ddv
+F:	Documentation/wmi/devices/dell-wmi-ddv.rst
+F:	drivers/platform/x86/dell/dell-wmi-ddv.c
+
+DELL WMI DESCRIPTOR DRIVER
+L:	Dell.Client.Kernel@dell.com
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-wmi-descriptor.c
+
+DE

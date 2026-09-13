@@ -1,0 +1,184 @@
+system maintainer
+
+N: Jakob Kemi
+E: jakob.kemi@telia.com
+D: V4L W9966 Webcam driver
+S: Forsbyvägen 33
+S: 74143 Knivsta
+S: Sweden
+
+N: Fred N. van Kempen
+E: waltje@linux.com
+D: NET-2
+D: Drivers
+D: Kernel cleanups
+S: Korte Heul 95
+S: 1403 ND  BUSSUM
+S: The Netherlands
+
+N: Martin Kepplinger-Novakovic
+E: martink@posteo.de
+P: 4096R/5AB387D3 F208 2B88 0F9E 4239 3468  6E3F 5003 98DF 5AB3 87D3
+D: mma8452 accelerators iio driver
+D: pegasus_notetaker input driver
+D: imx8m media and hi846 sensor driver
+D: Kernel fixes and cleanups
+S: Keplerstr. 6
+S: 4050 Traun
+S: Austria
+
+N: Karl Keyte
+E: karl@koft.com
+D: Disk usage statistics and modifications to line printer driver
+S: 26a Sheen Road
+S: Richmond
+S: Surrey
+S: TW9 1AE
+S: United Kingdom
+
+N: Marko Kiiskila
+E: marko@iprg.nokia.com
+D: Author of ATM Lan Emulation
+S: 660 Harvard Ave. #7
+S: Santa Clara, CA 95051
+S: USA
+
+N: Joonsoo Kim
+E: iamjoonsoo.kim@lge.com
+D: Slab allocators
+
+N: Kukjin Kim
+E: kgene@kernel.org
+D: Samsung S3C, S5P and Exynos ARM architectures
+
+N: Milo Kim
+D: TI LP855x, LP8727 and LP8788 drivers
+
+N: Sangbeom Kim
+E: sbkim73@samsung.com
+D: Samsung SoC Audio (ASoC) drivers
+D: Samsung PMIC (RTC, regulators, MFD) drivers
+
+N: Russell King
+E: rmk@arm.linux.org.uk
+D: Linux/arm integrator, maintainer & hacker
+D: Acornfb, Cyber2000fb author
+S: Burgh Heath, Tadworth, Surrey.
+S: England
+
+N: Olaf Kirch
+E: okir@monad.swb.de
+D: Author of the Linux Network Administrators' Guide
+S: Kattreinstr 38
+S: D-64295
+S: Germany
+
+N: Avi Kivity
+E: avi.kivity@gmail.com
+D: Kernel-based Virtual Machine (KVM)
+S: Ra'annana, Israel
+
+N: Andi Kleen
+E: andi@firstfloor.org
+W: http://www.halobates.de
+D: network, x86, NUMA, various hacks
+S: Schwalbenstr. 96
+S: 85551 Ottobrunn
+S: Germany
+
+N: Ian Kluft
+E: ikluft@thunder.sbay.org
+W: http://www.kluft.com/~ikluft/
+D: NET-1 beta testing & minor patches, original Smail binary packages for
+D: Slackware and Debian, vote-taker for 2nd comp.os.linux reorganization
+S: Post Office Box 611311
+S: San Jose, California 95161-1311
+S: USA
+
+N: Hartmut Knaack
+E: knaack.h@gmx.de
+D: IIO subsystem and drivers
+
+N: Thorsten Knabe
+E: Thorsten Knabe <tek@rbg.informatik.tu-darmstadt.de>
+E: Thorsten Knabe <tek01@hrzpub.tu-darmstadt.de>
+W: http://www.student.informatik.tu-darmstadt.de/~tek
+W: http://www.tu-darmstadt.de/~tek01
+P: 1024/3BC8D885 8C 29 C5 0A C0 D1 D6 F4  20 D4 2D AB 29 F6 D0 60
+D: AD1816 sound driver
+S: Am Bergfried 10
+S: 63225 Langen
+S: Germany
+
+N: Alain L. Knaff
+E: Alain.Knaff@lll.lu
+D: floppy driver
+S: 19, rue Jean l'Aveugle
+S: L-1148 Luxembourg-City
+S: Luxembourg
+
+N: Gerd Knorr
+W: http://bytesex.org
+E: kraxel@bytesex.org
+E: kraxel@suse.de
+D: video4linux, bttv, vesafb, some scsi, misc fixes
+
+N: Hans J. Koch
+D: USERSPACE I/O, MAX6650
+D: Hans passed away in June 2016, and will be greatly missed.
+W: https://lwn.net/Articles/691000/
+
+N: Harald Koenig
+E: koenig@tat.physik.uni-tuebingen.de
+D: XFree86 (S3), DCF77, some kernel hacks and fixes
+S: Koenigsberger Str. 90
+S: D-72336 Balingen
+S: Germany
+
+N: Rudolf Koenig
+E: rfkoenig@immd4.informatik.uni-erlangen.de
+D: The Linux Support Team Erlangen
+
+N: Andreas Koensgen
+E: ajk@comnets.uni-bremen.de
+D: 6pack driver for AX.25
+
+N: Harald Koerfgen
+E: hkoerfg@web.de
+D: Linux/MIPS kernel hacks and fixes,
+D: DECstation port, Sharp Mobilon port
+S: D-50931 Koeln
+S: Germany
+
+N: Willy Konynenberg
+E: willy@xos.nl
+W: http://www.xos.nl/
+D: IP transparent proxy support
+S: X/OS Experts in Open Systems BV
+S: Kruislaan 419
+S: 1098 VA Amsterdam
+S: The Netherlands
+
+N: Goran Koruga
+E: korugag@siol.net
+D: cpufrequtils (precursor to cpupowerutils)
+S: Slovenia
+
+N: Jiri Kosina
+E: jikos@jikos.cz
+E: jkosina@suse.cz
+D: Generic HID layer - original code split, fixes
+D: Various ACPI fixes, keeping correct battery state through suspend
+D: various lockdep annotations, autofs and other random bugfixes
+S: Prague, Czech Republic
+
+N: Ishizaki Kou
+E: kou.ishizaki@toshiba.co.jp
+D: Spidernet driver for PowerPC Cell platforms
+
+N: Gene Kozin
+E: 74604.152@compuserve.com
+W: https://www.sangoma.com
+D: WAN Router & Sangoma WAN drivers
+S: Sangoma Technologies Inc.
+S: 7170 Warden Avenue

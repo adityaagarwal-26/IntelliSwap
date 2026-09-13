@@ -1,0 +1,192 @@
+suspend-to-ram/disk,
+D: Altera SoCFPGA and Nokia N900 support.
+S: Czech Republic
+
+N: Olivia Mackall
+E: olivia@selenic.com
+D: SLOB slab allocator
+
+N: Paul Mackerras
+E: paulus@samba.org
+D: PPP driver
+D: Linux for PowerPC
+D: Linux port for PCI Power Macintosh
+
+N: Pat Mackinlay
+E: pat@it.com.au
+D: 8 bit XT hard disk driver
+D: Miscellaneous ST0x, TMC-8xx and other SCSI hacking
+S: 25 McMillan Street
+S: Victoria Park 6100
+S: Australia
+
+N: James B. MacLean
+E: macleajb@ednet.ns.ca
+W: http://www.ednet.ns.ca/~macleajb/dosemu.html
+D: Former Coordinator of DOSEMU releases
+D: Program in DOSEMU
+S: PO BOX 220, HFX. CENTRAL
+S: Halifax, Nova Scotia
+S: Canada B3J 3C8
+
+N: Kai Mäkisara
+E: Kai.Makisara@kolumbus.fi
+D: SCSI Tape Driver
+
+N: Asit Mallick
+E: asit.k.mallick@intel.com
+D: Linux/IA-64
+S: 2200 Mission College Blvd
+S: Santa Clara, CA 95052
+S: USA
+
+N: Petko Manolov
+E: petkan@users.sourceforge.net
+D: USB ethernet pegasus/pegasus-II driver
+D: USB ethernet rtl8150 driver
+D: optimizing i[45]86 string routines
+D: i386 task switching hacks
+S: 482 Shadowgraph Dr.
+S: San Jose, CA  95110
+S: USA
+
+N: Michal Marek
+E: michal.lkml@markovi.net
+D: Kbuild Maintainer 2009-2017
+
+N: Martin Mares
+E: mj@ucw.cz
+W: http://www.ucw.cz/~mj/
+D: BIOS video mode handling code
+D: MOXA C-218 serial board driver
+D: Network autoconfiguration
+D: PCI subsystem
+D: Random kernel hacking
+S: Kankovskeho 1241
+S: 182 00 Praha 8
+S: Czech Republic
+
+N: John A. Martin
+E: jam@acm.org
+W: http://www.tux.org/~jam/
+P: 1024/04456D53 9D A3 6C 6B 88 80 8A 61  D7 06 22 4F 95 40 CE D2
+P: 1024/3B986635 5A61 7EE6 9E20 51FB 59FB  2DA5 3E18 DD55 3B98 6635
+D: FSSTND contributor
+D: Credit file compilator
+
+N: Kevin E. Martin
+E: martin@cs.unc.edu
+D: Developed original accelerated X servers included in XFree86
+D: XF86_Mach64
+D: XF86_Mach32
+D: XF86_Mach8
+D: XF86_8514
+D: cfdisk (curses based disk partitioning program)
+
+N: Mat Martineau
+E: martineau@kernel.org
+D: MPTCP subsystem co-maintainer
+D: Keyctl restricted keyring and Diffie-Hellman UAPI
+D: Bluetooth L2CAP ERTM mode and AMP
+S: USA
+
+N: John S. Marvin
+E: jsm@fc.hp.com
+D: PA-RISC port
+S: Hewlett Packard
+S: MS 42
+S: 3404 E. Harmony Road
+S: Fort Collins, CO 80528
+S: USA
+
+N: Jon Mason
+E: jdmason@kudzu.us
+D: Neterion 10GbE drivers (s2io/vxge)
+
+N: Torben Mathiasen
+E: torben.mathiasen@compaq.com
+E: torben@kernel.dk
+W: http://tlan.kernel.dk
+D: ThunderLAN maintainer
+D: ThunderLAN updates and other kernel fixes.
+S: Bremensgade 29, st.th
+S: 2300 Copenhagen S
+S: Denmark
+
+N: Claudio S. Matsuoka
+E: cmatsuoka@gmail.com
+E: claudio@mandriva.com
+W: http://helllabs.org/~claudio
+D: V4L, OV511 and HDA-codec hacks
+S: Conectiva S.A.
+S: Souza Naves 1250
+S: 80050-040  Curitiba PR
+S: Brazil
+
+N: Heinz Mauelshagen
+E: mge@EZ-Darmstadt.Telekom.de
+D: Logical Volume Manager
+S: Bartningstr. 12
+S: 64289 Darmstadt
+S: Germany
+
+N: Mark W. McClelland
+E: mmcclell@bigfoot.com
+E: mark@alpha.dyndns.org
+W: http://alpha.dyndns.org/ov511/
+P: 1024D/357375CC 317C 58AC 1B39 2AB0 AB96  EB38 0B6F 731F 3573 75CC
+D: OV511 driver
+S: (address available on request)
+S: USA
+
+N: Ian McDonald
+E: ian.mcdonald@jandi.co.nz
+E: imcdnzl@gmail.com
+W: http://wand.net.nz/~iam4
+W: http://imcdnzl.blogspot.com
+D: DCCP, CCID3
+S: Hamilton
+S: New Zealand
+
+N: Patrick McHardy
+E: kaber@trash.net
+P: 1024D/12155E80 B128 7DE6 FF0A C2B2 48BE  AB4C C9D4 964E 1215 5E80
+D: netfilter: endless number of bugfixes
+D: netfilter: CLASSIFY target
+D: netfilter: addrtype match
+D: tc: HFSC scheduler
+S: Freiburg
+S: Germany
+
+N: Paul E. McKenney
+E: paulmck@us.ibm.com
+W: http://www.rdrop.com/users/paulmck/
+D: RCU and variants
+D: rcutorture module
+
+N: Bradley McLean
+E: brad@bradpc.gaylord.com
+D: Device driver hacker
+D: General kernel debugger
+S: 249 Nichols Avenue
+S: Syracuse, New York 13206
+S: USA
+
+N: Kyle McMartin
+E: kyle@mcmartin.ca
+D: Linux/PARISC hacker
+D: AD1889 sound driver
+S: Ottawa, Canada
+
+N: Peter Meerwald-Stadler
+E: pmeerw@pmeerw.net
+W: https://pmeerw.net
+D: IIO reviewing, drivers
+S: Schießstandstr. 3a
+S: A-5061 Elsbethen
+S: Austria
+
+N: Dirk Melchers
+E: dirk@merlin.nbg.sub.org
+D: 8 bit XT hard disk driver for OMTI5520
+S: Schloesslei

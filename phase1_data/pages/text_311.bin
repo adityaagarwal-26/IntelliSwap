@@ -1,0 +1,144 @@
+l.org
+S:	Maintained
+F:	drivers/counter/104-quad-8.c
+
+ACCES IDIO-16 GPIO LIBRARY
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-idio-16.c
+F:	drivers/gpio/gpio-idio-16.h
+
+ACCES PCI-IDIO-16 GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-pci-idio-16.c
+
+ACCES PCIe-IDIO-24 GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-pcie-idio-24.c
+
+ACER ASPIRE ONE TEMPERATURE AND FAN DRIVER
+M:	Peter Kaestle <peter@piie.net>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+W:	http://piie.net/?section=acerhdf
+F:	drivers/platform/x86/acerhdf.c
+
+ACER WMI LAPTOP EXTRAS
+M:	"Lee, Chun-Yi" <jlee@suse.com>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/acer-wmi.c
+
+ACPI
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+R:	Len Brown <lenb@kernel.org>
+L:	linux-acpi@vger.kernel.org
+S:	Supported
+Q:	https://patchwork.kernel.org/project/linux-acpi/list/
+B:	https://bugzilla.kernel.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+F:	Documentation/ABI/testing/configfs-acpi
+F:	Documentation/ABI/testing/sysfs-bus-acpi
+F:	Documentation/firmware-guide/acpi/
+F:	arch/x86/kernel/acpi/
+F:	arch/x86/pci/acpi.c
+F:	drivers/acpi/
+F:	drivers/pci/*/*acpi*
+F:	drivers/pci/*acpi*
+F:	drivers/pnp/pnpacpi/
+F:	include/acpi/
+F:	include/linux/acpi.h
+F:	include/linux/fwnode.h
+F:	include/linux/fw_table.h
+F:	lib/fw_table.c
+F:	rust/kernel/acpi.rs
+F:	tools/power/acpi/
+
+ACPI APEI
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+R:	Tony Luck <tony.luck@intel.com>
+R:	Borislav Petkov <bp@alien8.de>
+R:	Hanjun Guo <guohanjun@huawei.com>
+R:	Mauro Carvalho Chehab <mchehab@kernel.org>
+R:	Shuai Xue <xueshuai@linux.alibaba.com>
+L:	linux-acpi@vger.kernel.org
+F:	drivers/acpi/apei/
+F:	drivers/firmware/efi/cper*
+
+ACPI COMPONENT ARCHITECTURE (ACPICA)
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Maciej Wieczor-Retman <maciej.wieczor-retman@intel.com>
+M:	Pawel Chmielewski <pawel.chmielewski@intel.com>
+L:	linux-acpi@vger.kernel.org
+L:	acpica-devel@lists.linux.dev
+S:	Supported
+W:	https://acpica.org/
+W:	https://github.com/open-acpica/acpica/
+Q:	https://patchwork.kernel.org/project/linux-acpi/list/
+B:	https://bugzilla.kernel.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+F:	drivers/acpi/acpica/
+F:	include/acpi/
+F:	tools/power/acpi/
+
+ACPI FOR ARM64 (ACPI/arm64)
+M:	Lorenzo Pieralisi <lpieralisi@kernel.org>
+M:	Hanjun Guo <guohanjun@huawei.com>
+M:	Sudeep Holla <sudeep.holla@kernel.org>
+M:	Catalin Marinas <catalin.marinas@arm.com>
+M:	Will Deacon <will@kernel.org>
+L:	linux-acpi@vger.kernel.org
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	drivers/acpi/arm64
+F:	include/linux/acpi_iort.h
+
+ACPI FOR RISC-V (ACPI/riscv)
+M:	Sunil V L <sunilvl@ventanamicro.com>
+L:	linux-acpi@vger.kernel.org
+L:	linux-riscv@lists.infradead.org
+S:	Maintained
+F:	drivers/acpi/riscv/
+F:	include/linux/acpi_rimt.h
+
+ACPI PCC(Platform Communication Channel) MAILBOX DRIVER
+M:	Sudeep Holla <sudeep.holla@kernel.org>
+L:	linux-acpi@vger.kernel.org
+S:	Supported
+F:	drivers/mailbox/pcc.c
+
+ACPI PMIC DRIVERS
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Len Brown <lenb@kernel.org>
+R:	Andy Shevchenko <andy@kernel.org>
+R:	Mika Westerberg <westeri@kernel.org>
+L:	linux-acpi@vger.kernel.org
+S:	Supported
+Q:	https://patchwork.kernel.org/project/linux-acpi/list/
+B:	https://bugzilla.kernel.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+F:	drivers/acpi/pmic/
+
+ACPI QUICKSTART DRIVER
+M:	Armin Wolf <W_Armin@gmx.de>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/quickstart.c
+
+ACPI SERIAL MULTI INSTANTIATE DRIVER
+M:	Hans de Goede <hansg@kernel.org>
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/serial-multi-instantiate.c
+
+ACPI THERMAL DRIVER
+M:	Rafael J. Wysocki <rafael@kernel.org>
+R:	Zhang Rui <rui.zhang@intel.com>
+L:	linux-acpi@vger.kernel.org
+S:	Supported
+B:	https://bug

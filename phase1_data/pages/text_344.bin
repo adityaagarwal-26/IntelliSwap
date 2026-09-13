@@ -1,0 +1,132 @@
+ed
+F:	Documentation/atomic_*.txt
+F:	arch/*/include/asm/atomic*.h
+F:	include/*/atomic*.h
+F:	include/linux/refcount.h
+F:	scripts/atomic/
+F:	rust/kernel/sync/atomic.rs
+F:	rust/kernel/sync/atomic/
+F:	rust/kernel/sync/refcount.rs
+
+ATTO EXPRESSSAS SAS/SATA RAID SCSI DRIVER
+M:	Bradley Grove <linuxdrivers@attotech.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+W:	http://www.attotech.com
+F:	drivers/scsi/esas2r
+
+ATUSB IEEE 802.15.4 RADIO DRIVER
+M:	Stefan Schmidt <stefan@datenfreihafen.org>
+L:	linux-wpan@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ieee802154/at86rf230.h
+F:	drivers/net/ieee802154/atusb.c
+F:	drivers/net/ieee802154/atusb.h
+
+AUDIT SUBSYSTEM
+M:	Paul Moore <paul@paul-moore.com>
+M:	Eric Paris <eparis@redhat.com>
+L:	audit@vger.kernel.org
+S:	Supported
+W:	https://github.com/linux-audit
+Q:	https://patchwork.kernel.org/project/audit/list
+B:	mailto:audit@vger.kernel.org
+P:	https://github.com/linux-audit/audit-kernel/blob/main/README.md
+T:	git https://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit.git
+F:	include/asm-generic/audit_*.h
+F:	include/linux/audit.h
+F:	include/linux/audit_arch.h
+F:	include/uapi/linux/audit.h
+F:	kernel/audit*
+F:	lib/*audit.c
+K:	\baudit_[a-z_0-9]\+\b
+
+AUTOFDO BUILD
+M:	Rong Xu <xur@google.com>
+M:	Han Shen <shenhan@google.com>
+S:	Supported
+F:	Documentation/dev-tools/autofdo.rst
+F:	scripts/Makefile.autofdo
+
+AUXILIARY BUS DRIVER
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+M:	"Rafael J. Wysocki" <rafael@kernel.org>
+M:	Danilo Krummrich <dakr@kernel.org>
+R:	Dave Ertman <david.m.ertman@intel.com>
+R:	Ira Weiny <iweiny@kernel.org>
+R:	Leon Romanovsky <leon@kernel.org>
+L:	driver-core@lists.linux.dev
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git
+F:	Documentation/driver-api/auxiliary_bus.rst
+F:	drivers/base/auxiliary.c
+F:	include/linux/auxiliary_bus.h
+F:	rust/helpers/auxiliary.c
+F:	rust/kernel/auxiliary.rs
+F:	samples/rust/rust_driver_auxiliary.rs
+
+AUXILIARY DISPLAY DRIVERS
+M:	Andy Shevchenko <andy@kernel.org>
+R:	Geert Uytterhoeven <geert@linux-m68k.org>
+S:	Odd Fixes
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay.git
+F:	Documentation/devicetree/bindings/auxdisplay/
+F:	drivers/auxdisplay/
+F:	include/linux/cfag12864b.h
+F:	include/uapi/linux/map_to_14segment.h
+F:	include/uapi/linux/map_to_7segment.h
+
+AVAGO APDS9306 AMBIENT LIGHT SENSOR DRIVER
+M:	Subhajit Ghosh <subhajit.ghosh@tweaklogic.com>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/light/avago,apds9300.yaml
+F:	drivers/iio/light/apds9306.c
+
+AVIA HX711 ANALOG DIGITAL CONVERTER IIO DRIVER
+M:	Andreas Klinger <ak@it-klinger.de>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/iio/adc/avia-hx711.yaml
+F:	drivers/iio/adc/hx711.c
+
+AVMATRIX HWS CAPTURE DRIVER
+M:	Ben Hoff <hoff.benjamin.k@gmail.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	drivers/media/pci/hws/
+
+AWINIC AW99706 WLED BACKLIGHT DRIVER
+M:	Junjie Cao <junjie.cao@linux.dev>
+S:	Maintained
+F:	Documentation/devicetree/bindings/leds/backlight/awinic,aw99706.yaml
+F:	drivers/video/backlight/aw99706.c
+
+AXENTIA ARM DEVICES
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Orphan
+F:	arch/arm/boot/dts/microchip/at91-linea.dtsi
+F:	arch/arm/boot/dts/microchip/at91-natte.dtsi
+F:	arch/arm/boot/dts/microchip/at91-nattis-2-natte-2.dts
+F:	arch/arm/boot/dts/microchip/at91-tse850-3.dts
+
+AXENTIA ASOC DRIVERS
+L:	linux-sound@vger.kernel.org
+S:	Orphan
+F:	Documentation/devicetree/bindings/sound/axentia,*
+F:	sound/soc/atmel/tse850-pcm5142.c
+
+AXIS ARTPEC ARM64 SoC SUPPORT
+M:	Jesper Nilsson <jesper.nilsson@axis.com>
+M:	Lars Persson <lars.persson@axis.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+L:	linux-samsung-soc@vger.kernel.org
+L:	linux-arm-kernel@axis.com
+S:	Maintained
+F:	Documentation/devicetree/bindings/clock/axis,artpec*-clock.yaml
+F:	arch/arm64/boot/dts/exynos/axis/
+F:	drivers/clk/samsung/clk-artpec*.c
+F:	include/dt-bindings/clock/axis,artpec*-clk.h
+
+AXI-FAN-CONTROL HARDWARE MONITOR DRIVER
+M:	Nuno Sá <nuno.sa@anal

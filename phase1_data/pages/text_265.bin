@@ -1,0 +1,184 @@
+E: ulfc@bun.falkenberg.se
+
+N: Ed Carp
+E: ecarp@netcom.com
+D: uucp, elm, pine, pico port
+D: cron, at(1) developer
+S: 48287 Sawleaf
+S: Fremont, California 94539
+S: USA
+
+N: Tomas Cech
+E: sleep_walker@suse.com
+D: arm/palm treo support
+
+N: Florent Chabaud
+E: florent.chabaud@polytechnique.org
+D: software suspend
+S: SGDN/DCSSI/SDS/LTI
+S: 58, Bd Latour-Maubourg
+S: 75700 Paris 07 SP
+S: France
+
+N: Gordon Chaffee
+E: chaffee@cs.berkeley.edu
+W: http://bmrc.berkeley.edu/people/chaffee/
+D: vfat, fat32, joliet, native language support
+S: 3700 Warwick Road
+S: Fremont, California 94555
+S: USA
+
+N: Chih-Jen Chang
+E: chihjenc@scf.usc.edu
+E: chihjen@iis.sinica.edu.tw
+D: IGMP (Internet Group Management Protocol) version 2
+S: 3F, 65 Tajen street
+S: Tamsui town, Taipei county,
+S: Taiwan 251
+S: Republic of China
+
+N: Michael Elizabeth Chastain
+E: mec@shout.net
+D: Configure, Menuconfig, xconfig
+
+N: Mauro Carvalho Chehab
+E: m.chehab@samsung.org
+E: mchehab@osg.samsung.com
+E: mchehab@infradead.org
+D: Media subsystem (V4L/DVB) drivers and core
+D: EDAC drivers and EDAC 3.0 core rework
+S: Brazil
+
+N: Landen Chao
+E: Landen.Chao@mediatek.com
+D: MT7531 Ethernet switch support
+
+N: Raymond Chen
+E: raymondc@microsoft.com
+D: Author of Configure script
+S: 14509 NE 39th Street #1096
+S: Bellevue, Washington 98007
+S: USA
+
+N: Chris Cheney
+E: chris.cheney@gmail.com
+E: ccheney@redhat.com
+P: 1024D/8E384AF2 2D31 1927 87D7 1F24 9FF9  1BC5 D106 5AB3 8E38 4AF2
+D: Vista Imaging usb webcam driver
+S: 2308 Therrell Way
+S: McKinney, TX 75070
+S: USA
+
+N: Stuart Cheshire
+E: cheshire@cs.stanford.edu
+D: Author of Starmode Radio IP (STRIP) driver
+D: Originator of design for new combined interrupt handlers
+S: William Gates Department
+S: Stanford University
+S: Stanford, California 94305
+S: USA
+
+N: Carlos Chinea
+E: carlos.chinea@nokia.com
+E: cch.devel@gmail.com
+D: Author of HSI Subsystem
+
+N: Randolph Chung
+E: tausq@debian.org
+D: Linux/PA-RISC hacker
+S: Hong Kong
+
+N: Juan Jose Ciarlante
+W: http://juanjox.kernelnotes.org/
+E: jjciarla@raiz.uncu.edu.ar
+E: jjo@mendoza.gov.ar
+D: Network driver alias support
+D: IP masq hashing and app modules
+D: IP masq 2.1 features and bugs
+S: Las Cuevas 2385 - Bo Guemes
+S: Las Heras, Mendoza CP 5539
+S: Argentina
+
+N: Jay Cliburn
+E: jcliburn@gmail.com
+D: ATLX Ethernet drivers
+
+N: Steven P. Cole
+E: scole@lanl.gov
+E: elenstev@mesatop.com
+D: Various build fixes and kernel documentation.
+S: Los Alamos, New Mexico
+S: USA
+
+N: Hamish Coleman
+E: hamish@zot.apana.org.au
+D: SEEQ8005 network driver
+S: 98 Paxton Street
+S: East Malvern, Victoria, 3145
+S: Australia
+
+N: Neil Conway
+E: nconway.list@ukaea.org.uk
+D: Assorted sched/mm titbits
+S: Oxfordshire, UK.
+
+N: Kees Cook
+E: kees@outflux.net
+E: kees@ubuntu.com
+E: keescook@chromium.org
+W: http://outflux.net/blog/
+P: 4096R/DC6DC026 A5C3 F68F 229D D60F 723E  6E13 8972 F4DF DC6D C026
+D: Various security things, bug fixes, and documentation.
+S: (ask for current address)
+S: Portland, Oregon
+S: USA
+
+N: Jason Cooper
+D: ARM/Marvell SOC co-maintainer
+D: irqchip co-maintainer
+D: MVEBU PCI DRIVER co-maintainer
+
+N: Robin Cornelius
+E: robincornelius@users.sourceforge.net
+D: Ralink rt2x00 WLAN driver
+S: Cornwall, U.K.
+
+N: Mark Corner
+E: mcorner@umich.edu
+W: http://www.eecs.umich.edu/~mcorner/
+D: USB Bluetooth Driver
+S: University of Michigan
+S: Ann Arbor, MI
+
+N: Michael Cornwell
+E: cornwell@acm.org
+D: Original designer and co-author of ATA Taskfile
+D: Kernel module SMART utilities
+S: Santa Cruz, California
+S: USA
+
+N: Luis Correia
+E: luisfcorreia@gmail.com
+D: Ralink rt2x00 WLAN driver
+S: Belas, Portugal
+
+N: Benoît Cousson
+E: bcousson@baylibre.com
+D: TI OMAP Devicetree platforms
+D: TI OMAP HWMOD boards
+
+N: Alan Cox
+W: http://www.linux.org.uk/diary/
+D: Linux Networking (0.99.10->2.0.29)
+D: Original Appletalk, AX.25, and IPX code
+D: 3c501 hacker
+D: Watchdog timer drivers
+D: Linux/SMP x86 (up to 2.0 only)
+D: Initial Mac68K port
+D: Video4Linux design, bw-qcam and PMS driver ports.
+D: IDE modularisation work
+D: Z85230 driver
+D: Former security contact point (please use vendor-sec@lst.de)
+D: ex 2.2 maintainer
+D: 2.1.x modular sound
+D: Assigned maj

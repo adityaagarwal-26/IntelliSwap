@@ -1,0 +1,172 @@
+ffman
+E: mhoffman@lightlink.com
+D: asb100, lm93 and smsc47b397 hardware monitoring drivers
+D: hwmon subsystem core
+D: hwmon subsystem maintainer
+D: i2c-sis96x and i2c-stub SMBus drivers
+S: USA
+
+N: James Hogan
+E: jhogan@kernel.org
+D: Metag architecture maintainer
+D: TZ1090 SoC maintainer
+
+N: Dirk Hohndel
+E: hohndel@suse.de
+D: The XFree86[tm] Project
+D: USB mouse maintainer
+S: SuSE Rhein/Main AG
+S: Mergenthalerallee 45-47
+S: 65760 Eschborn
+S: Germany
+
+N: Kenji Hollis
+E: kenji@bitgate.com
+W: https://www.bitgate.com/
+D: Berkshire PC Watchdog Driver
+D: Small/Industrial Driver Project
+
+N: Nick Holloway
+E: Nick.Holloway@pyrites.org.uk
+W: https://www.pyrites.org.uk/
+P: 1024/36115A04 F4E1 3384 FCFD C055 15D6  BA4C AB03 FBF8 3611 5A04
+D: Occasional Linux hacker...
+S: (ask for current address)
+S: United Kingdom
+
+N: Ron Holt
+E: ron@holt.org
+E: rholt@netcom.com
+W: http://www.holt.org/
+W: http://www.ronholt.com/
+D: Kernel development
+D: Kernel LDT modifications to support Wabi and Wine
+S: Holtron Internetics, Inc.
+S: 998 East 900 South, Suite 26
+S: Provo, Utah 84606-5607
+S: USA
+
+N: Marcel Holtmann
+E: marcel@holtmann.org
+W: http://www.holtmann.org
+D: Maintainer of the Linux Bluetooth Subsystem
+D: Author and maintainer of the various Bluetooth HCI drivers
+D: Author and maintainer of the CAPI message transport protocol driver
+D: Author and maintainer of the Bluetooth HID protocol driver
+D: Various other Bluetooth related patches, cleanups and fixes
+S: Germany
+
+N: Rob W. W. Hooft
+E: hooft@EMBL-Heidelberg.DE
+D: Shared libs for graphics-tools and for the f2c compiler
+D: Some kernel programming on the floppy and sound drivers in early days
+D: Some other hacks to get different kinds of programs to work for linux
+S: Panoramastrasse 18
+S: D-69126 Heidelberg
+S: Germany
+
+N: Neil Horman
+M: nhorman@tuxdriver.com
+D: SCTP protocol maintainer.
+
+N: Simon Horman
+M: horms@verge.net.au
+D: Renesas ARM/ARM64 SoC maintainer
+
+N: Christopher Horn
+E: chorn@warwick.net
+D: Miscellaneous sysctl hacks
+S: 36 Mudtown Road
+S: Wantage, New Jersey 07461
+S: USA
+
+N: Harald Hoyer
+E: harald@redhat.com
+W: https://www.harald-hoyer.de
+D: ip_masq_quake
+D: md boot support
+S: Am Strand 5
+S: D-19063 Schwerin
+S: Germany
+
+N: Haowen Hu
+E: srcres258@furdevs.cn
+D: Traditional Chinese (zh_TW) documentation translation and maintenance
+
+N: Jan Hubicka
+E: hubicka@freesoft.cz
+E: hubicka@suse.cz
+W: http://www.paru.cas.cz/~hubicka/
+D: Random kernel tweaks and fixes.
+S: Dukelskych bojovniku 1944
+S: Tabor 390 03
+S: Czech Republic
+
+N: David Huggins-Daines
+E: dhd@debian.org
+E: dhd@eradicator.org
+E: dhd@cepstral.com
+D: PA-RISC port
+D: Nubus subsystem
+D: Generic 68k Macintosh framebuffer driver
+D: STI framebuffer tweaks
+D: LTPC driver tweaks
+S: 110 S. 12th St., Apt. A
+S: Pittsburgh, PA 15203-1250
+S: USA
+
+N: Gareth Hughes
+E: gareth.hughes@acm.org
+D: Pentium III FXSR, SSE support
+D: Author/maintainer of most DRM drivers (especially ATI, MGA)
+D: Core DRM templates, general DRM and 3D-related hacking
+S: No fixed address
+
+N: Woojung Huh
+E: woojung.huh@microchip.com
+D: Microchip LAN78XX USB Ethernet driver
+
+N: Kenn Humborg
+E: kenn@wombat.ie
+D: Mods to loop device to support sparse backing files
+S: Ballinagard
+S: Roscommon
+S: Ireland
+
+N: Michael Hunold
+E: michael@mihu.de
+W: http://www.mihu.de/linux/
+D: Generic saa7146 video4linux-2 driver core,
+D: Driver for the "Multimedia eXtension Board", "dpc7146",
+D: "Hexium Orion", "Hexium Gemini"
+
+N: Miguel de Icaza Amozurrutia
+E: miguel@nuclecu.unam.mx
+D: Linux/SPARC team, Midnight Commander maintainer
+S: Avenida Copilco 162, 22-1003
+S: Mexico, DF
+S: Mexico
+
+N: Ian Jackson
+E: iwj10@cus.cam.ac.uk
+E: ijackson@nyx.cs.du.edu
+D: FAQ maintainer and poster of the daily postings
+D: FSSTND group member
+D: Debian core team member and maintainer of several Debian packages
+S: 2 Lexington Close
+S: Cambridge
+S: CB3 0DS
+S: United Kingdom
+
+N: Andreas Jaeger
+E: aj@suse.de
+D: Various smaller kernel fixes
+D: glibc developer
+S: Gottfried-Kinkel-Str. 18
+S: D 67659 Kaiserslautern
+S: Germany
+
+N: Mike Jagdis
+E: jaggy@purplet.demon.co.uk
+E: Mike.Jagdis@purplet.demon.co.uk
+D: iBCS personal

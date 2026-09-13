@@ -1,0 +1,137 @@
+ncy-ad9523
+F:	Documentation/ABI/testing/sysfs-bus-iio-frequency-adf4350
+F:	Documentation/devicetree/bindings/iio/*/adi,*
+F:	Documentation/devicetree/bindings/iio/adc/lltc,ltc2496.yaml
+F:	Documentation/devicetree/bindings/iio/adc/lltc,ltc2497.yaml
+F:	Documentation/iio/ad7606.rst
+F:	drivers/iio/*/ad*
+F:	drivers/iio/adc/ltc249*
+F:	drivers/iio/amplifiers/hmc425a.c
+F:	drivers/staging/iio/*/ad*
+X:	drivers/iio/*/adjd*
+
+ANALOGBITS PLL LIBRARIES
+M:	Paul Walmsley <pjw@kernel.org>
+M:	Samuel Holland <samuel.holland@sifive.com>
+S:	Supported
+F:	drivers/clk/analogbits/*
+F:	include/linux/clk/analogbits*
+
+ANDES ATCSPI200 SPI DRIVER
+M:	CL Wang <cl634@andestech.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/spi/andestech,ae350-spi.yaml
+F:	drivers/spi/spi-atcspi200.c
+
+ANDES ATCWDT200 WATCHDOG DRIVER
+M:	CL Wang <cl634@andestech.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/watchdog/andestech,ae350-wdt.yaml
+F:	drivers/watchdog/atcwdt200_wdt.c
+
+ANDROID DRIVERS
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+M:	Arve Hjønnevåg <arve@android.com>
+M:	Todd Kjos <tkjos@android.com>
+M:	Christian Brauner <christian@brauner.io>
+M:	Carlos Llamas <cmllamas@google.com>
+M:	Alice Ryhl <aliceryhl@google.com>
+L:	linux-kernel@vger.kernel.org
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git
+F:	Documentation/netlink/specs/binder.yaml
+F:	drivers/android/
+
+ANDROID GOLDFISH PIC DRIVER
+M:	Miodrag Dinic <miodrag.dinic@mips.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/interrupt-controller/google,goldfish-pic.yaml
+F:	drivers/irqchip/irq-goldfish-pic.c
+
+ANDROID GOLDFISH RTC DRIVER
+M:	Jiaxun Yang <jiaxun.yang@flygoat.com>
+S:	Supported
+F:	drivers/rtc/rtc-goldfish.c
+
+AOA (Apple Onboard Audio) ALSA DRIVER
+M:	Johannes Berg <johannes@sipsolutions.net>
+L:	linuxppc-dev@lists.ozlabs.org
+L:	linux-sound@vger.kernel.org
+S:	Maintained
+F:	sound/aoa/
+
+APEX EMBEDDED SYSTEMS STX104 IIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	drivers/iio/addac/stx104.c
+
+APM DRIVER
+M:	Jiri Kosina <jikos@kernel.org>
+S:	Odd fixes
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/jikos/apm.git
+F:	arch/x86/kernel/apm_32.c
+F:	drivers/char/apm-emulation.c
+F:	include/linux/apm_bios.h
+F:	include/uapi/linux/apm_bios.h
+
+APPARMOR SECURITY MODULE
+M:	John Johansen <john.johansen@canonical.com>
+M:	John Johansen <john@apparmor.net>
+M:	Georgia Garcia <georgia.garcia@canonical.com>
+L:	apparmor@lists.ubuntu.com (moderated for non-subscribers)
+S:	Supported
+W:	apparmor.net
+B:	https://gitlab.com/apparmor/apparmor-kernel
+C:	irc://irc.oftc.net/apparmor
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
+T:	https://gitlab.com/apparmor/apparmor-kernel.git
+F:	Documentation/admin-guide/LSM/apparmor.rst
+F:	security/apparmor/
+
+APPLE BCM5974 MULTITOUCH DRIVER
+M:	Henrik Rydberg <rydberg@bitmath.org>
+L:	linux-input@vger.kernel.org
+S:	Odd fixes
+F:	drivers/input/mouse/bcm5974.c
+
+APPLE PCIE CONTROLLER DRIVER
+M:	Marc Zyngier <maz@kernel.org>
+L:	linux-pci@vger.kernel.org
+S:	Maintained
+F:	drivers/pci/controller/pcie-apple.c
+
+APPLE SMC DRIVER
+M:	Henrik Rydberg <rydberg@bitmath.org>
+L:	linux-hwmon@vger.kernel.org
+S:	Odd fixes
+F:	drivers/hwmon/applesmc.c
+
+APPLETALK NETWORK LAYER
+L:	netdev@vger.kernel.org
+S:	Obsolete
+F:	include/uapi/linux/atalk.h
+F:	include/uapi/linux/if_ltalk.h
+
+APPLIED MICRO (APM) X-GENE DEVICE TREE SUPPORT
+M:	Khuong Dinh <khuong@os.amperecomputing.com>
+S:	Supported
+F:	arch/arm64/boot/dts/apm/
+
+APPLIED MICRO (APM) X-GENE SOC EDAC
+M:	Khuong Dinh <khuong@os.amperecomputing.com>
+S:	Supported
+F:	Documentation/devicetree/bindings/edac/apm,xgene-edac.yaml
+F:	drivers/edac/xgene_edac.c
+
+APPLIED MICRO (APM) X-GENE SOC ETHERNET (V2) DRIVER
+M:	Iyappan Subramanian <iyappan@os.amperecomputing.com>
+M:	Keyur Chudgar <keyur@os.amperecomputing.com>
+S:	Maintained
+F:	drivers/net/ethernet/apm/xgene-v2/
+
+APPLIED MICRO (APM) X-GENE SOC ETHERNET DRIVER
+M:	Iyappan Subramanian <iyappan@os.amperecomputing.com>
+M:	Keyur Chudgar <keyur@os.amperecomputing.com>
+M:	Quan Nguyen <quan@os.amperecomputing.com>
+S:	Maint

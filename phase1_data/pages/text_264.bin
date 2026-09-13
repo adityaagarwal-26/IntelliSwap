@@ -1,0 +1,177 @@
+P policy routing by mark
+D: Various fixes (mostly networking)
+S: Montreal, Quebec
+S: Canada
+
+N: Zoltán Böszörményi
+E: zboszor@mail.externet.hu
+D: MTRR emulation with Cyrix style ARR registers, Athlon MTRR support
+
+N: John Boyd
+E: boyd@cis.ohio-state.edu
+D: Co-author of wd7000 SCSI driver
+S: 101 Curl Drive #591
+S: Columbus, Ohio 43210
+S: USA
+
+N: Peter Braam
+E: braam@clusterfs.com
+W: http://www.clusterfs.com/
+D: Coda & InterMezzo filesystems
+S: 181 McNeil
+S: Canmore, AB
+S: Canada, T1W 2R9
+
+N: Ryan Bradetich
+E: rbradetich@uswest.net
+D: Linux/PA-RISC hacker
+S: 1200 Goldenrod Dr.
+S: Nampa, Idaho 83686
+S: USA
+
+N: Dirk J. Brandewie
+E: dirk.j.brandewie@intel.com
+E: linux-wimax@intel.com
+D: Intel Wireless WiMAX Connection 2400 SDIO driver
+
+N: Derrick J. Brashear
+E: shadow@dementia.org
+W: http://www.dementia.org/~shadow
+P: 512/71EC9367 C5 29 0F BC 83 51 B9 F0  BC 05 89 A0 4F 1F 30 05
+D: Author of Sparc CS4231 audio driver, random Sparc work
+S: 403 Gilmore Avenue
+S: Trafford, Pennsylvania 15085
+S: USA
+
+N: Dag Brattli
+E: dagb@cs.uit.no
+W: http://www.cs.uit.no/~dagb
+D: IrDA Subsystem
+S: 19. Wellington Road
+S: Lancaster, LA1 4DN
+S: UK, England
+
+N: Lars Brinkhoff
+E: lars@nocrew.org
+W: http://lars.nocrew.org/
+D: dsp56k device driver
+D: ptrace proxy in user mode kernel port
+S: Kopmansg 2
+S: 411 13  Goteborg
+S: Sweden
+
+N: Daniel Bristot de Oliveira
+D: Scheduler contributions, notably: SCHED_DEADLINE
+D: Real-time Linux Analysis
+D: Runtime Verification
+D: OS Noise and Latency Tracers
+S: Brazil and Italy
+
+N: Paul Bristow
+E: paul@paulbristow.net
+W: https://paulbristow.net/linux/idefloppy.html
+D: Maintainer of IDE/ATAPI floppy driver
+
+N: Stefano Brivio
+E: stefano.brivio@polimi.it
+D: Broadcom B43 driver
+
+N: Dominik Brodowski
+E: linux@brodo.de
+W: https://www.brodo.de/
+P: 1024D/725B37C6  190F 3E77 9C89 3B6D BECD  46EE 67C3 0308 725B 37C6
+D: parts of CPUFreq code, ACPI bugfixes, PCMCIA rewrite, cpufrequtils
+S: Tuebingen, Germany
+
+N: Andries Brouwer
+E: aeb@cwi.nl
+D: random Linux hacker
+S: Bessemerstraat 21
+S: Amsterdam
+S: The Netherlands
+
+N: NeilBrown
+E: neil@brown.name
+P: 4096R/566281B9 1BC6 29EB D390 D870 7B5F  497A 39EC 9EDD 5662 81B9
+D: NFSD Maintainer 2000-2007
+D: MD Maintainer 2001-2016
+
+N: Zach Brown
+E: zab@zabbo.net
+D: maestro pci sound
+
+N: Zefan Li
+D: Contribution to control group stuff
+
+N: David Brownell
+D: Kernel engineer, mentor, and friend.  Maintained USB EHCI and
+D: gadget layers, SPI subsystem, GPIO subsystem, and more than a few
+D: device drivers.  His encouragement also helped many engineers get
+D: started working on the Linux kernel.  David passed away in early
+D: 2011, and will be greatly missed.
+W: https://lore.kernel.org/lkml/20110405034819.GA7872@kroah.com
+
+N: Gary Brubaker
+E: xavyer@ix.netcom.com
+D: USB Serial Empeg Empeg-car Mark I/II Driver
+
+N: Matthias Bruestle
+E: m@mbsks.franken.de
+D: REINER SCT cyberJack pinpad/e-com USB chipcard reader driver
+S: Germany
+
+N: Adrian Bunk
+P: 1024D/4F12B400  B29C E71E FE19 6755 5C8A  84D4 99FC EA98 4F12 B400
+D: misc kernel hacking and testing
+
+N: Ray Burr
+E: ryb@nightmare.com
+D: Original author of Amiga FFS filesystem
+S: Orlando, Florida
+S: USA
+
+N: Paul Burton
+E: paulburton@kernel.org
+W: https://pburton.com
+D: MIPS maintainer 2018-2020
+
+N: Lennert Buytenhek
+E: kernel@wantstofly.org
+D: Original (2.4) rewrite of the ethernet bridging code
+D: Various ARM bits and pieces
+S: Ravenhorst 58
+S: 2317 AK Leiden
+S: The Netherlands
+
+N: Michael Callahan
+E: callahan@maths.ox.ac.uk
+D: PPP for Linux
+S: The Mathematical Institute
+S: 25-29 St Giles
+S: Oxford
+S: United Kingdom
+
+N: Bingbu Cao
+E: bingbu.cao@amd.com
+D: Ipu6, ipu7 and camera sensor drivers
+
+N: Luiz Fernando N. Capitulino
+E: lcapitulino@mandriva.com.br
+E: lcapitulino@gmail.com
+W: http://www.cpu.eti.br
+D: misc kernel hacking
+S: Mandriva
+S: Brazil
+
+N: Remy Card
+E: Remy.Card@masi.ibp.fr
+E: Remy.Card@linux.org
+D: Extended file system [defunct] designer and developer
+D: Second extended file system designer and developer
+S: Institut Blaise Pascal
+S: 4 Place Jussieu
+S: 75252 Paris Cedex 05
+S: France
+
+N: Ulf Carlsson
+D: SGI Indy audio (HAL2) drivers

@@ -1,0 +1,173 @@
+nnemoen
+M: Haavard Skinnemoen <hskinnemoen@gmail.com>
+D: AVR32 architecture port to Linux and maintainer.
+
+N: Rick Sladkey
+E: jrs@world.std.com
+D: utility hacker: Emacs, NFS server, mount, kmem-ps, UPS debugger, strace, GDB
+D: library hacker: RPC, profil(3), realpath(3), regexp.h
+D: kernel hacker: unnamed block devs, NFS client, fast select, precision timer
+S: 24 Avon Place
+S: Arlington, Massachusetts 02174
+S: USA
+
+N: Craig Small
+E: csmall@triode.apana.org.au
+E: vk2xlz@gonzo.vk2xlz.ampr.org (packet radio)
+D: Gracilis PackeTwin device driver
+D: RSPF daemon
+S: 10 Stockalls Place
+S: Minto, NSW, 2566
+S: Australia
+
+N: Tim Small
+E: tim@buttersideup.com
+D: Intel 82443BX/GX (440BX/GX chipset) EDAC driver
+D: Radisys 82600 embedded chipset EDAC driver
+
+N: Stephen Smalley
+E: sds@tycho.nsa.gov
+D: portions of the Linux Security Module (LSM) framework and security modules
+
+N: Chris Smith
+E: csmith@convex.com
+D: Read only HPFS filesystem
+S: Richardson, Texas
+S: USA
+
+N: Christopher Smith
+E: x@xman.org
+D: Tulip net driver hacker
+
+N: Mark Smith
+E: mark.smith@comdev.cc
+D: Multicast support in bonding driver
+
+N: Miquel van Smoorenburg
+E: miquels@cistron.nl
+D: Kernel and net hacker. Sysvinit, minicom. doing Debian stuff.
+S: Cistron Internet Services
+S: PO-Box 297
+S: 2400 AG, Alphen aan den Rijn
+S: The Netherlands
+
+N: Scott Snyder
+E: snyder@fnald0.fnal.gov
+D: ATAPI cdrom driver
+S: MS 352, Fermilab
+S: Post Office Box 500
+S: Batavia, Illinois 60510
+S: USA
+
+N: Jes Sorensen
+E: jes@trained-monkey.org
+D: HIPPI support and Essential RoadRunner driver
+
+N: Leo Spiekman
+E: leo@netlabs.net
+W: http://www.netlabs.net/hp/leo/
+D: Optics Storage 8000AT cdrom driver
+S: Cliffwood, New Jersey 07721
+S: USA
+
+N: Manfred Spraul
+E: manfred@colorfullife.com
+W: http://www.colorfullife.com/~manfred
+D: Lots of tiny hacks. Larger improvements to SysV IPC msg,
+D: slab, pipe, select.
+S: 71701 Schwieberdingen
+S: Germany
+
+N: Andrew Stanley-Jones
+E: asj@lanmedia.com
+D: LanMedia Corp. Device WAN card device driver
+S: #102, 686 W. Maude Ave
+S: Sunyvale, CA 94086
+S: USA
+
+N: Michael Still
+E: mikal@stillhq.com
+W: http://www.stillhq.com
+D: Various janitorial patches
+D: mandocs and mandocs_install build targets
+S: (Email me and ask)
+S: Australia
+
+N: Henrik Storner
+E: storner@image.dk
+W: http://www.image.dk/~storner/
+W: https://www.sslug.dk/
+D: Configure script: Invented tristate for module-configuration
+D: vfat/msdos integration, kerneld docs, Linux promotion
+D: Miscellaneous bug-fixes
+S: Chr. Winthersvej 1 B, st.th.
+S: DK-1860 Frederiksberg C
+S: Denmark
+
+N: Dan Streetman
+E: ddstreet@ieee.org
+D: Maintenance and development of zswap
+D: Creation and maintenance of the zpool API
+D: Maintenace of the zbud allocator
+
+N: Drew Sullivan
+E: drew@ss.org
+W: http://www.ss.org/
+P: 1024/ACFFA969 5A 9C 42 AB E4 24 82 31  99 56 00 BF D3 2B 25 46
+D: iBCS2 developer
+S: 22 Irvington Cres.
+S: Willowdale, Ontario
+S: Canada M2N 2Z1
+
+N: Adam Sulmicki
+E: adam@cfar.umd.edu
+W: http://www.eax.com
+D: core networking fixes
+D: patch-kernel enhancements
+D: misc kernel fixes and updates
+
+N: Adrian Sun
+E: asun@cobaltnet.com
+D: hfs support
+D: alpha rtc port, random appletalk fixes
+S: Department of Zoology, University of Washington
+S: Seattle, WA  98195-1800
+S: USA
+
+N: York Sun
+E: york.sun@nxp.com
+D: Freescale DDR EDAC
+
+N: Eugene Surovegin
+E: ebs@ebshome.net
+W: https://kernel.ebshome.net/
+P: 1024D/AE5467F1 FF22 39F1 6728 89F6 6E6C  2365 7602 F33D AE54 67F1
+D: Embedded PowerPC 4xx: EMAC, I2C, PIC and random hacks/fixes
+S: Sunnyvale, California 94085
+S: USA
+
+N: Corey Thomas
+E: corey@world.std.com
+W: http://world.std.com/~corey/index.html
+D: Raylink/WebGear wireless LAN device driver (ray_cs) author
+S: 145 Howard St.
+S: Northborough, MA 01532
+S: USA
+
+N: Doug Thompson
+E: dougthompson@xmission.com
+D: EDAC
+
+N: Tommy Thorn
+E: Tommy.Thorn@irisa.fr
+W: http://www.irisa.fr/prive/thorn/index.html
+P: 512/B4AFC909 BC BF 6D B1 52 26 1E D6  E3 2F A3 24 2A 84 FE 21
+D: Device driver hacker (aha1542 & plip)
+S: IRISA
+S: Universit=E9 de Rennes I
+S: F-35042 Rennes Cedex
+S: France
+
+N: Urs Thuermann
+E: urs.thuermann@volkswagen.de
+W: https:/

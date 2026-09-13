@@ -1,0 +1,125 @@
+ist@broadcom.com>
+S:	Maintained
+T:	git https://github.com/broadcom/mach-bcm
+F:	arch/arm/mach-bcm/
+N:	bcm281*
+N:	bcm113*
+N:	bcm216*
+N:	kona
+
+BROADCOM BCM2835 CAMERA DRIVERS
+M:	Raspberry Pi Kernel Maintenance <kernel-list@raspberrypi.com>
+L:	linux-media@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/brcm,bcm2835-unicam.yaml
+F:	drivers/media/platform/broadcom/bcm2835-unicam*
+
+BROADCOM BCM47XX MIPS ARCHITECTURE
+M:	Hauke Mehrtens <hauke@hauke-m.de>
+M:	Rafał Miłecki <zajec5@gmail.com>
+L:	linux-mips@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/mips/brcm/
+F:	arch/mips/bcm47xx/*
+F:	arch/mips/include/asm/mach-bcm47xx/*
+
+BROADCOM BCM4908 ETHERNET DRIVER
+M:	Rafał Miłecki <rafal@milecki.pl>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/brcm,bcm4908-enet.yaml
+F:	drivers/net/ethernet/broadcom/bcm4908_enet.*
+F:	drivers/net/ethernet/broadcom/unimac.h
+
+BROADCOM BCM4908 PINMUX DRIVER
+M:	Rafał Miłecki <rafal@milecki.pl>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/pinctrl/brcm,bcm4908-pinctrl.yaml
+F:	drivers/pinctrl/bcm/pinctrl-bcm4908.c
+
+BROADCOM BCM5301X ARM ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+M:	Hauke Mehrtens <hauke@hauke-m.de>
+M:	Rafał Miłecki <zajec5@gmail.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/boot/dts/broadcom/bcm-ns.dtsi
+F:	arch/arm/boot/dts/broadcom/bcm470*
+F:	arch/arm/boot/dts/broadcom/bcm5301*
+F:	arch/arm/boot/dts/broadcom/bcm953012*
+F:	arch/arm/mach-bcm/bcm_5301x.c
+
+BROADCOM BCM53573 ARM ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+M:	Rafał Miłecki <rafal@milecki.pl>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	arch/arm/boot/dts/broadcom/bcm47189*
+F:	arch/arm/boot/dts/broadcom/bcm53573*
+
+BROADCOM BCM63XX/BCM33XX UDC DRIVER
+M:	Kevin Cernekee <cernekee@gmail.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	drivers/usb/gadget/udc/bcm63xx_udc.*
+
+BROADCOM BCM7XXX ARM ARCHITECTURE
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/broadcom/stblinux.git
+F:	Documentation/devicetree/bindings/pci/brcm,stb-pcie.yaml
+F:	arch/arm/boot/dts/broadcom/bcm7*.dts*
+F:	arch/arm/include/asm/hardware/cache-b15-rac.h
+F:	arch/arm/mach-bcm/*brcmstb*
+F:	arch/arm/mm/cache-b15-rac.c
+F:	drivers/bus/brcmstb_gisb.c
+F:	drivers/pci/controller/pcie-brcmstb.c
+N:	brcmstb
+N:	bcm7038
+N:	bcm7120
+
+BROADCOM BCMBCA ARM ARCHITECTURE
+M:	William Zhang <william.zhang@broadcom.com>
+M:	Anand Gore <anand.gore@broadcom.com>
+M:	Kursad Oney <kursad.oney@broadcom.com>
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+M:	Rafał Miłecki <rafal@milecki.pl>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git https://github.com/broadcom/stblinux.git
+F:	Documentation/devicetree/bindings/arm/bcm/brcm,bcmbca.yaml
+F:	arch/arm64/boot/dts/broadcom/bcmbca/*
+N:	bcmbca
+N:	bcm[9]?47622
+N:	bcm[9]?4912
+N:	bcm[9]?63138
+N:	bcm[9]?63146
+N:	bcm[9]?63148
+N:	bcm[9]?63158
+N:	bcm[9]?63178
+N:	bcm[9]?6756
+N:	bcm[9]?6813
+N:	bcm[9]?6846
+N:	bcm[9]?6855
+N:	bcm[9]?6856
+N:	bcm[9]?6858
+N:	bcm[9]?6878
+
+BROADCOM BDC DRIVER
+M:	Justin Chen <justin.chen@broadcom.com>
+M:	Al Cooper <alcooperx@gmail.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/usb/brcm,bdc.yaml
+F:	drivers/usb/gadget/udc/bdc/
+
+BROA

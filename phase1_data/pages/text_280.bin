@@ -1,0 +1,185 @@
+random kernel hacks
+S: Paimpont, France
+
+N: Pete Popov
+E: pete_popov@yahoo.com
+D: Linux/MIPS AMD/Alchemy Port and mips hacking and debugging
+S: San Jose, CA 95134
+S: USA
+
+N: Matt Porter
+E: mporter@kernel.crashing.org
+D: Motorola PowerPC PReP support
+D: cPCI PowerPC support
+D: Embedded PowerPC 4xx/6xx/7xx/74xx support
+S: Chandler, Arizona 85249
+S: USA
+
+N: Frederic Potter
+E: fpotter@cirpack.com
+D: Some PCI kernel support
+
+N: Rui Prior
+E: rprior@inescn.pt
+D: ATM device driver for NICStAR based cards
+
+N: Roopa Prabhu
+E: roopa@nvidia.com
+D: Bridge co-maintainer, vxlan and networking contributor
+
+N: Stefan Probst
+E: sp@caldera.de
+D: The Linux Support Team Erlangen, 1993-97
+S: Caldera (Deutschland) GmbH
+S: Lazarettstrasse 8
+S: 91054 Erlangen
+S: Germany
+
+N: Giuliano Procida
+E: myxie@debian.org,gprocida@madge.com
+D: Madge Ambassador driver (Collage 155 Server ATM adapter)
+D: Madge Horizon driver (Collage 25 and 155 Client ATM adapters)
+P: 1024/93898735 D3 9E F4 F7 6D 8D 2F 3A  38 BA 06 7C 2B 33 43 7D
+S: Madge Networks
+S: Framewood Road
+S: Wexham SL3 6PJ
+S: United Kingdom
+
+N: Richard Purdie
+E: rpurdie@rpsys.net
+D: Backlight subsystem maintainer
+S: United Kingdom
+
+N: Tian Shu Qiu
+D: Ipu6, ipu7 and camera sensor drivers
+
+N: Daniel Quinlan
+E: quinlan@pathname.com
+W: https://www.pathname.com/~quinlan/
+D: FSSTND coordinator; FHS editor
+D: random Linux documentation, patches, and hacks
+S: 4390 Albany Drive #41A
+S: San Jose, California 95129
+S: USA
+
+N: Juan Quintela
+E: quintela@fi.udc.es
+D: Memory Management hacking
+S: LFCIA
+S: Departamento de Computación
+S: Universidade da Coruña
+S: E-15071
+S: A Coruña
+S: Spain
+
+N: Augusto Cesar Radtke
+E: bishop@sekure.org
+W: http://bishop.sekure.org
+D: {copy,get,put}_user calls updates
+D: Miscellaneous hacks
+S: R. Otto Marquardt, 226 - Garcia
+S: 89020-350 Blumenau - Santa Catarina
+S: Brazil
+
+N: Goutham Rao
+E: goutham.rao@intel.com
+D: Linux/IA-64
+S: 2200 Mission College Blvd
+S: Santa Clara, CA 95052
+S: USA
+
+N: Anil Ravindranath
+E: anil_ravindranath@pmc-sierra.com
+D: PMC-Sierra MaxRAID driver
+
+N: Dwaipayan Ray
+E: dwaipayanray1@gmail.com
+D: checkpatch improvements
+
+N: Eric S. Raymond
+E: esr@thyrsus.com
+W: http://www.tuxedo.org/~esr/
+D: terminfo master file maintainer
+D: Editor: Installation HOWTO, Distributions HOWTO, XFree86 HOWTO
+D: Author: fetchmail, Emacs VC mode, Emacs GUD mode
+S: 6 Karen Drive
+S: Malvern, Pennsylvania 19355
+S: USA
+
+N: Stefan Reinauer
+E: stepan@linux.de
+W: http://www.freiburg.linux.de/~stepan/
+D: Modularization of some filesystems
+D: /proc/sound, minor fixes
+S: Schlossbergring 9
+S: 79098 Freiburg
+S: Germany
+
+N: Gerrit Renker
+E: gerrit@erg.abdn.ac.uk
+D: DCCP protocol support.
+
+N: Thomas Renninger
+E: trenn@suse.de
+D: cpupowerutils
+S: SUSE Linux GmbH
+S: Germany
+
+N: Joerg Reuter
+E: jreuter@yaina.de
+W: http://yaina.de/jreuter/
+W: http://www.qsl.net/dl1bke/
+D: Generic Z8530 driver, AX.25 DAMA slave implementation
+D: Several AX.25 hacks
+
+N: Ricardo Ribalda
+E: ribalda@kernel.org
+W: http://ribalda.com
+D: PLX USB338x driver
+D: PCA9634 driver
+D: Option GTM671WFS
+D: Fintek F81216A
+D: AD5761 iio driver
+D: TI DAC7612 driver
+D: Sony IMX214 driver
+D: Various kernel hacks
+S: Qtechnology A/S
+S: Valby Langgade 142
+S: 2500 Valby
+S: Denmark
+
+N: Francois-Rene Rideau
+E: fare@tunes.org
+W: http://www.tunes.org/~fare
+D: petty kernel janitor (byteorder, ufs)
+S: 6, rue Augustin Thierry
+S: 75019 Paris
+S: France
+
+N: Rik van Riel
+E: riel@redhat.com
+W: https://www.surriel.com/
+D: Linux-MM site, Documentation/admin-guide/sysctl/*, swap/mm readaround
+D: kswapd fixes, random kernel hacker, rmap VM,
+D: nl.linux.org administrator, minor scheduler additions
+S: Red Hat Boston
+S: 3 Lan Drive
+S: Westford, MA 01886
+S: USA
+
+N: Pekka Riikonen
+E: priikone@poseidon.pspt.fi
+E: priikone@ssh.com
+D: Random kernel hacking and bug fixes
+D: International kernel patch project
+S: Kasarmikatu 11 A4
+S: 70110 Kuopio
+S: Finland
+
+N: Tobias Ringström
+E: tori@unhappy.mine.nu
+D: Davicom DM9102(A)/DM9132/DM9801 fast ethernet driver
+
+N: Luca Risolia
+E: luca.risolia@studio.unibo.it
+P: 1024D/FCE635A4 88E8 F32F 7244 68BA 3958  5D40 99DA 5D2A FCE6

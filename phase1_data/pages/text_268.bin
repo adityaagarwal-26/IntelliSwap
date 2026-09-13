@@ -1,0 +1,191 @@
+ (Lc)
+S: Italy
+
+N: Nils Faerber
+E: nils@kernelconcepts.de
+D: i810 TCO watchdog driver author
+D: Mitsumi LU005 tests and fixes
+D: port and fixes of cs46xx sounddriver
+S: Dreisbachstrasse 24
+S: D-57250 Netphen
+S: Germany
+
+N: Florian Fainelli
+E: f.fainelli@gmail.com
+D: DSA
+
+N: Rik Faith
+E: faith@acm.org
+D: Future Domain TMC-16x0 SCSI driver (author)
+D: APM driver (early port)
+D: DRM drivers (author of several)
+
+N: Veaceslav Falico
+E: vfalico@gmail.com
+D: Co-maintainer and co-author of the network bonding driver.
+
+N: Thomas Falcon
+E: tlfalcon@linux.ibm.com
+D: Initial author of the IBM ibmvnic network driver
+
+N: János Farkas
+E: chexum@shadow.banki.hu
+D: romfs, various (mostly networking) fixes
+P: 1024/F81FB2E1 41 B7 E4 E6 3E D4 A6 71  6D 9C F3 9F F2 BF DF 6E
+S: Madarász Viktor utca 25
+S: 1131 Budapest
+S: Hungary
+
+N: Ben Fennema
+E: bfennema@falcon.csc.calpoly.edu
+W: http://www.csc.calpoly.edu/~bfennema
+D: UDF filesystem
+S: (ask for current address)
+S: USA
+
+N: Larry Finger
+E: Larry.Finger@lwfinger.net
+D: Maintainer of wireless drivers, too many to list here
+
+N: Jürgen Fischer
+E: fischer@norbit.de
+D: Author of Adaptec AHA-152x SCSI driver
+S: Schulstraße 18
+S: 26506 Norden
+S: Germany
+
+N: Jeremy Fitzhardinge
+E: jeremy@goop.org
+W: https://www.goop.org/~jeremy
+D: author of userfs filesystem
+D: Improved mmap and munmap handling
+D: General mm minor tidyups
+D: autofs v4 maintainer
+D: Xen subsystem
+S: 987 Alabama St
+S: San Francisco
+S: CA, 94110
+S: USA
+
+N: Ralf Flaxa
+E: rfflaxa@immd4.informatik.uni-erlangen.de
+D: The Linux Support Team Erlangen
+D: Creator of LST distribution
+D: Author of installation tool LISA
+S: Pfitznerweg 6
+S: 74523 Schwaebisch Hall
+S: Germany
+
+N: Lawrence Foard
+E: entropy@world.std.com
+D: Floppy track reading, fs code
+S: 217 Park Avenue, Suite 108
+S: Worcester, Massachusetts 01609
+S: USA
+
+N: Karl Fogel
+E: kfogel@cs.oberlin.edu
+D: Contributor, Linux User's Guide
+S: 1123 North Oak Park Avenue
+S: Oak Park, Illinois 60302
+S: USA
+
+N: Daniel J. Frasnelli
+E: dfrasnel@alphalinux.org
+W: http://www.alphalinux.org/
+P: 1024/3EF87611 B9 F1 44 50 D3 E8 C2 80  DA E5 55 AA 56 7C 42 DA
+D: DEC Alpha hacker
+D: Miscellaneous bug squisher
+
+N: Jim Freeman
+E: jfree@sovereign.org
+W: http://www.sovereign.org/
+D: Initial GPL'd Frame Relay driver
+D: Dynamic PPP devices
+D: Sundry modularizations (PPP, IPX, ...) and fixes
+
+N: Steve French
+E: sfrench@samba.org
+E: smfrench@gmail.com
+D: Author and maintainer of the cifs filesystem for many years.
+
+N: Bob Frey
+E: bobf@advansys.com
+D: AdvanSys SCSI driver
+S: 1150 Ringwood Court
+S: San Jose, California 95131
+S: USA
+
+N: Adam Fritzler
+E: mid@zigamorph.net
+
+N: Richard "Scuba" A. Frowijn
+E: scuba@wxs.nl
+D: QNX4 filesystem
+
+N: Fernando Fuganti
+E: fuganti@conectiva.com.br
+E: fuganti@netbank.com.br
+D: random kernel hacker, ZF MachZ Watchdog driver
+S: Conectiva S.A.
+S: R. Tocantins, 89 - Cristo Rei
+S: 80050-430 - Curitiba - Paraná
+S: Brazil
+
+N: Oded Gabbay
+E: ogabbay@kernel.org
+D: HabanaLabs maintainer
+S: 29 Duchifat St.
+S: Ra'anana 4372029
+S: Israel
+
+N: Kumar Gala
+E: galak@kernel.crashing.org
+D: Embedded PowerPC 6xx/7xx/74xx/82xx/83xx/85xx support
+S: Austin, Texas 78729
+S: USA
+
+N: Nigel Gamble
+E: nigel@nrg.org
+D: Interrupt-driven printer driver
+D: Preemptible kernel
+S: 120 Alley Way
+S: Mountain View, California 94040
+S: USA
+
+N: Jeff Garzik
+E: jgarzik@pobox.com
+
+N: Jacques Gelinas
+E: jacques@solucorp.qc.ca
+D: Author of the Umsdos file system
+S: 1326 De Val-Brillant
+S: Laval, Quebec
+S: Canada H7Y 1V9
+
+N: David Gentzel
+E: gentzel@telerama.lm.com
+D: Original BusLogic driver and original UltraStor driver
+S: Whitfield Software Services
+S: 600 North Bell Avenue, Suite 160
+S: Carnegie, Pennsylvania 15106-4304
+S: USA
+
+N: Kai Germaschewski
+E: kai@germaschewski.name
+D: Major kbuild rework during the 2.5 cycle
+D: ISDN Maintainer
+S: USA
+
+N: Philip Gladstone
+E: philip@gladstonefamily.net
+D: Kernel / timekeeping stuff
+S: Carlisle, MA 01741
+S: USA
+
+N: Jan-Benedict Glaw
+E: jbglaw@lug-owl.de
+D: SRM environment driver (for Alpha systems)
+P: 1024D/8399E1BB 250D 3BCF 7127 0D8C A444  A961 1DBD 5E75 8399 E1BB
+
+N: Thomas Glei

@@ -1,0 +1,178 @@
+A4F7 645D 140D E4CC 14A0 29B6
+D: I2C Maintainer 2012 - 2026
+S: Berlin, Germany
+
+N: Aleksa Sarai
+E: cyphar@cyphar.com
+W: https://www.cyphar.com/
+D: /sys/fs/cgroup/pids
+D: openat2(2)
+S: Sydney, Australia
+
+N: Dipankar Sarma
+E: dipankar@in.ibm.com
+D: RCU
+
+N: Hannu Savolainen
+E: hannu@opensound.com
+D: Maintainer of the sound drivers until 2.1.x days.
+D: Original compressed boot image support.
+S: Valurink. 4A11
+S: 03600 Karkkila
+S: Finland
+
+N: Deepak Saxena
+E: dsaxena@plexity.net
+D: I2O kernel layer (config, block, core, pci, net). I2O disk support for LILO
+D: XScale (IOP, IXP) porting and other random ARM bits
+S: Portland, OR
+
+N: Eric Schenk
+E: Eric.Schenk@dna.lth.se
+D: Random kernel debugging.
+D: SYSV Semaphore code rewrite.
+D: Network layer debugging.
+D: Dial on demand facility (diald).
+S: Dag Hammerskjolds v. 3E
+S: S-226 64 LUND
+S: Sweden
+
+N: Tilman Schmidt
+E: tilman@imap.cc
+D: Siemens Gigaset ISDN driver author and maintainer
+D: ISDN CAPI subsystem contributions
+
+N: Henning P. Schmiedehausen
+E: hps@tanstaafl.de
+D: added PCI support to the serial driver
+S: Buckenhof, Germany
+
+N: Michael Schmitz
+E:
+D: Macintosh IDE Driver
+
+N: Peter De Schrijver
+E: stud11@cc4.kuleuven.ac.be
+E: p2@mind.be
+E: peter.de-schrijver@nokia.com
+E: pdeschrijver@nvidia.com
+E: p2@psychaos.be
+D: Apollo Domain workstations
+D: Ariadne and Hydra Amiga Ethernet drivers
+D: IBM PS/2, Microchannel, and Token Ring support
+D: Mitsumi CD-ROM driver patches March version
+D: TWL4030 power management and audio codec driver
+D: OMAP power management
+D: NVIDIA Tegra clock and BPMP drivers, among many other things
+S: Molenbaan 29
+S: B2240 Zandhoven
+S: Belgium
+
+N: Martin Schulze
+E: joey@linux.de
+W: http://home.pages.de/~joey/
+D: Random Linux Hacker, Linux Promoter
+D: CD-List, Books-List, Ex-FAQ
+D: Linux-Support, -Mailbox, -Stammtisch
+D: several improvements to system programs
+S: Oldenburg
+S: Germany
+
+N: Robert Schwebel
+E: robert@schwebel.de
+W: https://www.schwebel.de
+D: Embedded hacker and book author,
+D: AMD Elan support for Linux
+S: Pengutronix
+S: Braunschweiger Strasse 79
+S: 31134 Hildesheim
+S: Germany
+
+N: Martin Schwidefsky
+D: Martin was the most significant contributor to the initial s390
+D: port of the Linux Kernel and later the maintainer of the s390
+D: architecture backend for almost two decades.
+D: He passed away in 2019, and will be greatly missed.
+S: Germany
+W: https://lwn.net/Articles/789028/
+
+N: Marcel Selhorst
+E: tpmdd@selhorst.net
+D: TPM driver
+
+N: Darren Senn
+E: sinster@darkwater.com
+D: Whatever I notice needs doing (so far: itimers, /proc)
+S: Post Office Box 64132
+S: Sunnyvale, California 94088-4132
+S: USA
+
+N: Stas Sergeev
+E: stsp@users.sourceforge.net
+D: PCM PC-Speaker driver
+D: misc fixes
+S: Russia
+
+N: Simon Shapiro
+E: shimon@i-Connect.Net
+W: http://www.-i-Connect.Net/~shimon
+D: SCSI debugging
+D: Maintainer of the Debian Kernel packages
+S: 14355 SW Allen Blvd., Suite #140
+S: Beaverton, Oregon 97008
+S: USA
+
+N: Mike Shaver
+E: shaver@hungry.org
+W: http://www.hungry.org/~shaver/
+D: MIPS work, /proc/sys/net, misc net hacking
+S: 149 Union St.
+S: Kingston, Ontario
+S: Canada K7L 2P4
+
+N: Pravin B Shelar
+E: pshelar@ovn.org
+D: Open vSwitch maintenance and contributions
+
+N: John Shifflett
+E: john@geolog.com
+E: jshiffle@netcom.com
+D: Always IN2000 SCSI driver
+D: wd33c93 SCSI driver (linux-m68k)
+S: San Jose, California
+S: USA
+
+N: Joonyoung Shim
+E: y0922.shim@samsung.com
+D: Samsung Exynos DRM drivers
+
+N: Robert Siemer
+E: Robert.Siemer@gmx.de
+P: 2048/C99A4289 2F DC 17 2E 56 62 01 C8  3D F2 AC 09 F2 E5 DD EE
+D: miroSOUND PCM20 radio RDS driver, ACI rewrite
+S: Klosterweg 28 / i309
+S: 76131 Karlsruhe
+S: Germany
+
+N: James Simmons
+E: jsimmons@infradead.org
+E: jsimmons@users.sf.net
+D: Frame buffer device maintainer
+D: input layer development
+D: tty/console layer
+D: various mipsel devices
+S: 115 Carmel Avenue
+S: El Cerrito CA 94530
+S: USA
+
+N: Jaspreet Singh
+E: jaspreet@sangoma.com
+W: www.sangoma.com
+D: WANPIPE drivers & API Support for Sangoma S508/FT1 cards
+S: Sangoma Technologies Inc.,
+S: 1001 Denison Street
+S: Suite 101
+S: Markham, Ontario L3R 2Z6
+S: Canada
+
+N: Haavard Ski

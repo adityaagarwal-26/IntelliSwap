@@ -1,0 +1,142 @@
+LL WMI HARDWARE PRIVACY SUPPORT
+L:	Dell.Client.Kernel@dell.com
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-wmi-privacy.c
+
+DELL WMI NOTIFICATIONS DRIVER
+M:	Matthew Garrett <mjg59@srcf.ucam.org>
+M:	Pali Rohár <pali@kernel.org>
+S:	Maintained
+F:	drivers/platform/x86/dell/dell-wmi-base.c
+
+DELL WMI SYSMAN DRIVER
+M:	Prasanth Ksr <prasanth.ksr@dell.com>
+L:	Dell.Client.Kernel@dell.com
+L:	platform-driver-x86@vger.kernel.org
+S:	Maintained
+F:	Documentation/ABI/testing/sysfs-class-firmware-attributes
+F:	drivers/platform/x86/dell/dell-wmi-sysman/
+
+DELTA AHE-50DC FAN CONTROL MODULE DRIVER
+M:	Zev Weiss <zev@bewilderbeest.net>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	drivers/hwmon/pmbus/delta-ahe50dc-fan.c
+
+DELTA DPS920AB PSU DRIVER
+M:	Robert Marko <robert.marko@sartura.hr>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	Documentation/hwmon/dps920ab.rst
+F:	drivers/hwmon/pmbus/dps920ab.c
+
+DELTA NETWORKS TN48M CPLD DRIVERS
+M:	Robert Marko <robert.marko@sartura.hr>
+S:	Maintained
+F:	Documentation/devicetree/bindings/gpio/delta,tn48m-gpio.yaml
+F:	Documentation/devicetree/bindings/mfd/delta,tn48m-cpld.yaml
+F:	Documentation/devicetree/bindings/reset/delta,tn48m-reset.yaml
+F:	drivers/gpio/gpio-tn48m.c
+F:	include/dt-bindings/reset/delta,tn48m-reset.h
+
+DELTA ST MEDIA DRIVER
+M:	Hugues Fruchet <hugues.fruchet@foss.st.com>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/platform/st/sti/delta
+
+DENALI NAND DRIVER
+L:	linux-mtd@lists.infradead.org
+S:	Orphan
+F:	drivers/mtd/nand/raw/denali*
+
+DESIGNWARE EDMA CORE IP DRIVER
+M:	Manivannan Sadhasivam <mani@kernel.org>
+L:	dmaengine@vger.kernel.org
+S:	Maintained
+F:	drivers/dma/dw-edma/
+F:	include/linux/dma/edma.h
+
+DESIGNWARE USB2 DRD IP DRIVER
+M:	Minas Harutyunyan <hminas@synopsys.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/balbi/usb.git
+F:	drivers/usb/dwc2/
+
+DESIGNWARE USB3 DRD IP DRIVER
+M:	Thinh Nguyen <Thinh.Nguyen@synopsys.com>
+L:	linux-usb@vger.kernel.org
+S:	Maintained
+F:	drivers/usb/dwc3/
+
+DESIGNWARE XDATA IP DRIVER
+L:	linux-pci@vger.kernel.org
+S:	Orphan
+F:	Documentation/misc-devices/dw-xdata-pcie.rst
+F:	drivers/misc/dw-xdata-pcie.c
+
+DEVANTECH SRF ULTRASONIC RANGER IIO DRIVER
+M:	Andreas Klinger <ak@it-klinger.de>
+L:	linux-iio@vger.kernel.org
+S:	Maintained
+F:	Documentation/ABI/testing/sysfs-bus-iio-distance-srf08
+F:	drivers/iio/proximity/srf*.c
+
+DEVICE COREDUMP (DEV_COREDUMP)
+M:	Johannes Berg <johannes@sipsolutions.net>
+L:	linux-kernel@vger.kernel.org
+S:	Maintained
+F:	drivers/base/devcoredump.c
+F:	include/linux/devcoredump.h
+
+DEVICE DEPENDENCY HELPER SCRIPT
+M:	Saravana Kannan <saravanak@kernel.org>
+L:	linux-kernel@vger.kernel.org
+S:	Maintained
+F:	scripts/dev-needs.sh
+
+DEVICE DIRECT ACCESS (DAX)
+M:	Dan Williams <djbw@kernel.org>
+M:	Vishal Verma <vishal.l.verma@intel.com>
+M:	Dave Jiang <dave.jiang@intel.com>
+M:	Alison Schofield <alison.schofield@intel.com>
+L:	nvdimm@lists.linux.dev
+L:	linux-cxl@vger.kernel.org
+S:	Supported
+F:	drivers/dax/
+
+DEVICE DIRECT ACCESS (DAX) [fsdev_dax]
+M:	John Groves <jgroves@micron.com>
+M:	John Groves <John@Groves.net>
+L:	nvdimm@lists.linux.dev
+L:	linux-cxl@vger.kernel.org
+S:	Supported
+F:	drivers/dax/fsdev.c
+
+DEVICE FREQUENCY (DEVFREQ)
+M:	MyungJoo Ham <myungjoo.ham@samsung.com>
+M:	Kyungmin Park <kyungmin.park@samsung.com>
+M:	Chanwoo Choi <cw00.choi@samsung.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux.git
+F:	Documentation/devicetree/bindings/devfreq/
+F:	Documentation/devicetree/bindings/interconnect/mediatek,cci.yaml
+F:	drivers/devfreq/
+F:	include/linux/devfreq.h
+F:	include/trace/events/devfreq.h
+
+DEVICE FREQUENCY EVENT (DEVFREQ-EVENT)
+M:	Chanwoo Choi <cw00.choi@samsung.com>
+L:	linux-pm@vger.kernel.org
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux.git
+F:	Documentation/devicetree/bindings/devfreq/event/
+F:	drivers/devfreq/devfreq-event.c
+F:	drivers/devfreq/event/
+F:	include/dt-bindings/pmu/exynos_ppmu.h
+F:	i

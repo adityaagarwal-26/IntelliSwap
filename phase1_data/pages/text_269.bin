@@ -1,0 +1,159 @@
+xner
+E: tglx@kernel.org
+D: NAND flash hardware support, JFFS2 on NAND flash
+
+N: Jérôme Glisse
+E: jglisse@redhat.com
+D: HMM - Heterogeneous Memory Management
+
+N: Richard E. Gooch
+E: rgooch@atnf.csiro.au
+D: parent process death signal to children
+D: prctl() syscall
+D: /proc/mtrr support to manipulate MTRRs on Intel P6 family
+D: Device FileSystem (devfs)
+S: CSIRO Australia Telescope National Facility
+S: P.O. Box 76, Epping
+S: New South Wales, 2121
+S: Australia
+
+N: Carlos E. Gorges
+E: carlos@techlinux.com.br
+D: fix smp support on cmpci driver
+P: 2048G/EA3C4B19 FF31 33A6 0362 4915 B7EB  E541 17D0 0379 EA3C 4B19
+S: Brazil
+
+N: Dmitry S. Gorodchanin
+E: pgmdsg@ibi.com
+D: RISCom/8 driver, misc kernel fixes.
+S: 4 Main Street
+S: Woodbridge, Connecticut 06525
+S: USA
+
+N: Paul Gortmaker
+E: p_gortmaker@yahoo.com
+D: Author of RTC driver & several net drivers, Ethernet & BootPrompt Howto.
+D: Made support for modules, ramdisk, generic-serial, etc. optional.
+D: Transformed old user space bdflush into 1st kernel thread - kflushd.
+D: Many other patches, documentation files, mini kernels, utilities, ...
+
+N: Masanori GOTO
+E: gotom@debian.or.jp
+D: Workbit NinjaSCSI-32Bi/UDE driver
+S: Japan
+
+N: John E. Gotts
+E: jgotts@linuxsavvy.com
+D: kernel hacker
+S: 8124 Constitution Apt. 7
+S: Sterling Heights, Michigan 48313
+S: USA
+
+N: Andy Gospodarek
+E: andy@greyhouse.net
+D: Maintenance and contributions to the network interface bonding driver.
+
+N: Vivek Goyal
+E: vgoyal@redhat.com
+D: KDUMP, KEXEC, and VIRTIO FILE SYSTEM
+
+N: Alexander Graf
+E: graf@amazon.com
+D: Kexec Handover (KHO)
+
+N: Wolfgang Grandegger
+E: wg@grandegger.com
+D: Controller Area Network (device drivers)
+
+N: William Greathouse
+E: wgreathouse@smva.com
+E: wgreathouse@myfavoritei.com
+D: Current Belkin USB Serial Adapter F5U103 hacker
+D: Kernel hacker, embedded systems
+S: 7802 Fitzwater Road
+S: Brecksville, OH  44141-1334
+S: USA
+
+N: Tristan Greaves
+E: tristan@extricate.org
+W: http://www.extricate.org/
+D: Miscellaneous ipv4 sysctl patches
+
+N: Michael A. Griffith
+E: grif@cs.ucr.edu
+W: http://www.cs.ucr.edu/~grif
+D: Loopback speedup, qlogic SCSI hacking, VT_LOCKSWITCH
+S: Department of Computer Science
+S: University of California, Riverside
+S: Riverside, California 92521-0304
+S: USA
+
+N: Hans Grobler
+E: grobh@sun.ac.za
+D: Various AX.25/ROSE/NETROM + hamradio driver patches
+D: Various X.25/LABP + driver patches
+D: Misc kernel fixes and updates
+S: Department of Electronic Engineering
+S: University of Stellenbosch
+S: Stellenbosch, Western Cape
+S: South Africa
+
+N: Andy Gross
+E: agross@kernel.org
+D: Qualcomm SoC subsystem and drivers
+
+N: Mark Gross
+E: markgross@kernel.org
+D: x86/mellanox platform maintenance and various x86 specific drivers
+
+N: Grant Grundler
+E: grantgrundler@gmail.com
+W: http://obmouse.sourceforge.net/
+W: http://www.parisc-linux.org/
+D: obmouse - rewrote Olivier Florent's Omnibook 600 "pop-up" mouse driver
+D: PA-RISC - Interrupt/PCI HBA/IOMMU author and architect
+S: Mountain View, California
+S: USA
+
+N: Grant Guenther
+E: grant@torque.net
+W: http://www.torque.net/linux-pp.html
+D: original author of ppa driver for parallel port ZIP drive
+D: original architect of the parallel-port sharing scheme
+D: PARIDE subsystem: drivers for parallel port IDE & ATAPI devices
+S: 44 St. Joseph Street, Suite 506
+S: Toronto, Ontario, M4Y 2W4
+S: Canada
+
+N: Richard Günther
+E: rguenth@tat.physik.uni-tuebingen.de
+W: http://www.tat.physik.uni-tuebingen.de/~rguenth
+P: 2048/2E829319 2F 83 FC 93 E9 E4 19 E2  93 7A 32 42 45 37 23 57
+D: binfmt_misc
+S: 72074 Tübingen
+S: Germany
+
+N: Justin Guyett
+E: jguyett@andrew.cmu.edu
+D: via-rhine net driver hacking
+
+N: Nitin Gupta
+E: ngupta@vflare.org
+D: zsmalloc memory allocator and zram block device driver
+
+N: Danny ter Haar
+E: dth@cistron.nl
+D: /proc/cpuinfo, reboot on panic , kernel pre-patch tester ;)
+S: Cistron
+S: PO-Box 297
+S: 2400 AG, Alphen aan den Rijn
+S: The Netherlands
+
+N: Enver Haase
+E: ehaase@inf.fu-berlin.de
+W: http://www.inf.fu-berlin.de/~ehaase
+D: Driver for the Commodore A2232 serial board
+
+N: Bruno Haible
+E: haible@ma2s2.mathematik.uni-karlsruhe.de
+D: SysV FS, sh

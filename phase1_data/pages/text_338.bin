@@ -1,0 +1,122 @@
+de/clocksource/samsung_pwm.h
+F:	include/linux/platform_data/*s3c*
+F:	include/linux/serial_s3c.h
+F:	include/linux/soc/samsung/
+N:	exynos
+N:	s3c64xx
+N:	s5pv210
+
+ARM/SAMSUNG S5P SERIES 2D GRAPHICS ACCELERATION (G2D) SUPPORT
+M:	Łukasz Stelmach <l.stelmach@samsung.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	drivers/media/platform/samsung/s5p-g2d/
+
+ARM/SAMSUNG S5P SERIES HDMI CEC SUBSYSTEM SUPPORT
+M:	Marek Szyprowski <m.szyprowski@samsung.com>
+L:	linux-samsung-soc@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/cec/samsung,s5p-cec.yaml
+F:	drivers/media/cec/platform/s5p/
+
+ARM/SAMSUNG S5P SERIES JPEG CODEC SUPPORT
+M:	Andrzej Pietrasiewicz <andrzejtp2010@gmail.com>
+M:	Jacek Anaszewski <jacek.anaszewski@gmail.com>
+M:	Sylwester Nawrocki <s.nawrocki@samsung.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/samsung,s5pv210-jpeg.yaml
+F:	drivers/media/platform/samsung/s5p-jpeg/
+
+ARM/SAMSUNG S5P SERIES Multi Format Codec (MFC) SUPPORT
+M:	Marek Szyprowski <m.szyprowski@samsung.com>
+M:	Andrzej Hajda <andrzej.hajda@intel.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/media/samsung,s5p-mfc.yaml
+F:	drivers/media/platform/samsung/s5p-mfc/
+
+ARM/SOCFPGA ARCHITECTURE
+M:	Dinh Nguyen <dinguyen@kernel.org>
+S:	Maintained
+W:	http://www.rocketboards.org
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux.git
+F:	arch/arm/boot/dts/intel/socfpga/
+F:	arch/arm/configs/socfpga_defconfig
+F:	arch/arm/mach-socfpga/
+F:	arch/arm64/boot/dts/altera/
+F:	arch/arm64/boot/dts/intel/
+
+ARM/SOCFPGA CLOCK FRAMEWORK SUPPORT
+M:	Dinh Nguyen <dinguyen@kernel.org>
+S:	Maintained
+F:	drivers/clk/socfpga/
+
+ARM/SOCFPGA DWMAC GLUE LAYER
+M:	Maxime Chevallier <maxime.chevallier@bootlin.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/altr,gmii-to-sgmii-2.0.yaml
+F:	Documentation/devicetree/bindings/net/altr,socfpga-stmmac.yaml
+F:	drivers/net/ethernet/stmicro/stmmac/dwmac-socfpga.c
+
+ARM/SOCFPGA EDAC BINDINGS
+M:	Niravkumar L Rabara <niravkumarlaxmidas.rabara@altera.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/edac/altr,socfpga-ecc-manager.yaml
+
+ARM/SOCFPGA EDAC SUPPORT
+M:	Dinh Nguyen <dinguyen@kernel.org>
+S:	Maintained
+F:	drivers/edac/altera_edac.[ch]
+
+ARM/SPREADTRUM SoC SUPPORT
+M:	Orson Zhai <orsonzhai@gmail.com>
+M:	Baolin Wang <baolin.wang7@gmail.com>
+R:	Chunyan Zhang <zhang.lyra@gmail.com>
+S:	Maintained
+F:	arch/arm64/boot/dts/sprd
+N:	sprd
+N:	sc27xx
+N:	sc2731
+
+ARM/STI ARCHITECTURE
+M:	Patrice Chotard <patrice.chotard@foss.st.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://www.stlinux.com
+F:	Documentation/devicetree/bindings/i2c/st,sti-i2c.yaml
+F:	Documentation/devicetree/bindings/spi/st,ssc-spi.yaml
+F:	arch/arm/boot/dts/st/sti*
+F:	arch/arm/mach-sti/
+F:	drivers/ata/ahci_st.c
+F:	drivers/char/hw_random/st-rng.c
+F:	drivers/clocksource/arm_global_timer.c
+F:	drivers/clocksource/clksrc_st_lpc.c
+F:	drivers/cpufreq/sti-cpufreq.c
+F:	drivers/dma/st_fdma*
+F:	drivers/i2c/busses/i2c-st.c
+F:	drivers/media/rc/st_rc.c
+F:	drivers/mmc/host/sdhci-st.c
+F:	drivers/phy/st/phy-miphy28lp.c
+F:	drivers/phy/st/phy-stih407-usb.c
+F:	drivers/pinctrl/pinctrl-st.c
+F:	drivers/remoteproc/st_remoteproc.c
+F:	drivers/remoteproc/st_slim_rproc.c
+F:	drivers/reset/sti/
+F:	drivers/rtc/rtc-st-lpc.c
+F:	drivers/tty/serial/st-asc.c
+F:	drivers/usb/dwc3/dwc3-st.c
+F:	drivers/usb/host/ehci-st.c
+F:	drivers/usb/host/ohci-st.c
+F:	drivers/watchdog/st_lpc_wdt.c
+F:	include/linux/remoteproc/st_slim_rproc.h
+
+ARM/STM32 ARCHITECTURE
+M:	Maxime Coquelin <mcoquelin.stm32@gmail.com>
+M:	Alexandre Torgue <alexandre.torgue@foss.st.com>
+L:	linux-stm32@st-md-mailman.stormreply.com (moderated for non-subscribers)
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/atorgue/stm32.git stm32-next
+F:	arch/arm/boot/dts/st/stm32*
+F:	arch/arm/mach-stm32

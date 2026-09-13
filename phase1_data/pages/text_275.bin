@@ -1,0 +1,173 @@
+etwork drives.)
+D: NCP filesystem support (to mount NetWare volumes)
+S: Von-Ossietzky-Str. 12
+S: 37085 Göttingen
+S: Germany
+
+N: Kevin Lentin
+E: kevinl@cs.monash.edu.au
+D: NCR53C400/T130B SCSI extension to NCR5380 driver.
+S: 18 Board Street
+S: Doncaster VIC 3108
+S: Australia
+
+N: Hans Lermen
+E: lermen@elserv.ffm.fgan.de
+D: Author of the LOADLIN Linux loader, hacking on boot stuff
+D: Coordinator of DOSEMU releases
+S: Am Muehlenweg 38
+S: D53424 Remagen
+S: Germany
+
+N: Jonathan Lemon
+E: jonathan.lemon@gmail.com
+D: OpenCompute PTP clock driver (ptp_ocp)
+
+N: Colin Leroy
+E: colin@colino.net
+W: http://www.geekounet.org/
+D: PowerMac adt746x fan driver
+D: Random fixing of various drivers (macintosh, usb, sound)
+S: Toulouse
+S: France
+
+N: Achim Leubner
+E: achim_leubner@adaptec.com
+D: GDT Disk Array Controller/Storage RAID controller driver
+S: ICP vortex GmbH
+S: Neckarsulm
+S: Germany
+
+N: Geoff Levand
+E: geoff@infradead.org
+D: Spidernet driver for PowerPC Cell platforms
+
+N: Phil Lewis
+E: beans@bucket.ualr.edu
+D: Promised to send money if I would put his name in the source tree.
+S: Post Office Box 371
+S: North Little Rock, Arkansas 72115
+S: USA
+
+N: Christopher Li
+E: sparse@chrisli.org
+D: Sparse maintainer 2009 - 2018
+
+N: Shaohua Li
+D: Worked on many parts of the kernel, from core x86, ACPI, PCI, KVM, MM,
+D: and much more. He was the maintainer of MD from 2016 to 2018. Shaohua
+D: passed away late 2018, he will be greatly missed.
+W: https://www.spinics.net/lists/raid/msg61993.html
+
+N: Stephan Linz
+E: linz@mazet.de
+E: Stephan.Linz@gmx.de
+W: http://www.crosswinds.net/~tuxer
+D: PCILynx patch to work with 1394a PHY and without local RAM
+S: (ask for current address)
+S: Germany
+
+N: Christophe Lizzi
+E: lizzi@cnam.fr
+W: http://cedric.cnam.fr/personne/lizzi
+D: FORE Systems 200E-series ATM network driver, sparc64 port of ATM
+S: CNAM, Laboratoire CEDRIC
+S: 292, rue St-Martin
+S: 75141 Paris Cedex 03
+S: France
+
+N: Siegfried "Frieder" Loeffler (dg1sek)
+E: floeff@tunix.mathematik.uni-stuttgart.de, fl@LF.net
+W: http://www.mathematik.uni-stuttgart.de/~floeff
+D: Busmaster driver for HP 10/100 Mbit Network Adapters
+S: University of Stuttgart, Germany and
+S: Ecole Nationale Superieure des Telecommunications, Paris
+S: France
+
+N: Jamie Lokier
+E: jamie@shareable.org
+W: http://www.shareable.org/
+D: Reboot-through-BIOS for broken 486 motherboards
+D: Parport fixes, futex improvements
+D: First instruction of x86 sysenter path :)
+S: 51 Sunningwell Road
+S: Oxford
+S: OX1 4SZ
+S: United Kingdom
+
+N: Mark Lord
+E: mlord@pobox.com
+D: EIDE driver, hd.c support
+D: EIDE PCI and bus-master DMA support
+D: Hard Disk Parameter (hdparm) utility
+S: 33 Ridgefield Cr
+S: Nepean, Ontario
+S: Canada K2H 6S3
+
+N: Warner Losh
+E: imp@village.org
+D: Linux/MIPS Deskstation support, Provided OI/OB for Linux
+S: 8786 Niwot Road
+S: Niwot, Colorado 80503
+S: USA
+
+N: Robert M. Love
+E: rml@tech9.net
+E: rml@novell.com
+D: misc. kernel hacking and debugging
+S: Cambridge, MA 02139
+S: USA
+
+N: Martin von Löwis
+E: loewis@informatik.hu-berlin.de
+D: script binary format
+D: NTFS driver
+
+N: H.J. Lu
+E: hjl@gnu.ai.mit.edu
+D: GCC + libraries hacker
+
+N: Yanir Lubetkin
+E: yanirx.lubatkin@intel.com
+E: linux-wimax@intel.com
+D: Intel Wireless WiMAX Connection 2400 driver
+
+N: Michal Ludvig
+E: michal@logix.cz
+E: michal.ludvig@asterisk.co.nz
+W: http://www.logix.cz/michal
+P: 1024D/C45B2218 1162 6471 D391 76E0 9F99  29DA 0C3A 2509 C45B 2218
+D: VIA PadLock driver
+D: Netfilter pkttype module
+S: Asterisk Ltd.
+S: Auckland
+S: New Zealand
+
+N: Tuomas J. Lukka
+E: Tuomas.Lukka@Helsinki.FI
+D: Original dual-monitor patches
+D: Console-mouse-tracking patches
+S: Puistokaari 1 E 18
+S: 00200 Helsinki
+S: Finland
+
+N: Daniel J. Maas
+E: dmaas@dcine.com
+W: https://www.maasdigital.com
+D: dv1394
+
+N: Hamish Macdonald
+E: hamishm@lucent.com
+D: Linux/68k port
+S: 32 Clydesdale Avenue
+S: Kanata, Ontario
+S: Canada K2M-2G7
+
+N: Peter MacDonald
+D: SLS distribution
+D: Initial implementation of VC's, pty's and select()
+
+N: Pavel Machek
+E: pavel@kernel.org
+P: 4096R/92DFCE96 4FA7 9EEF FCD4 C44F C585  B8C7 C060 2241 92DF CE96
+D: NBD, Sun4/330 port, USB, work on 

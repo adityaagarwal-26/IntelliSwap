@@ -1,0 +1,157 @@
+ http://web.tiscali.it/bellucda
+S: Via Delle Palme, 9
+S: Terni 05100
+S: Italy
+
+N: Ohad Ben Cohen
+E: ohad@wizery.com
+D: Remote Processor (remoteproc) subsystem
+D: Remote Processor Messaging (rpmsg) subsystem
+D: Hardware spinlock (hwspinlock) subsystem
+D: OMAP hwspinlock driver
+D: OMAP remoteproc driver
+
+N: Krzysztof Benedyczak
+E: golbi@mat.uni.torun.pl
+W: http://www.mat.uni.torun.pl/~golbi
+D: POSIX message queues fs (with M. Wronski)
+S: ul. Podmiejska 52
+S: Radunica
+S: 83-000 Pruszcz Gdanski
+S: Poland
+
+N: Randolph Bentson
+E: bentson@grieg.seaslug.org
+W: http://www.aa.net/~bentson/
+P: 1024/39ED5729 5C A8 7A F4 B2 7A D1 3E  B5 3B 81 CF 47 30 11 71
+D: Author of driver for Cyclom-Y and Cyclades-Z async mux
+S: 2322 37th Ave SW
+S: Seattle, Washington 98126-2010
+S: USA
+
+N: Muli Ben-Yehuda
+E: mulix@mulix.org
+E: muli@il.ibm.com
+W: http://www.mulix.org
+D: trident OSS sound driver, x86-64 dma-ops and Calgary IOMMU,
+D: KVM and Xen bits and other misc. hackery.
+S: Haifa, Israel
+
+N: Johannes Berg
+E: johannes@sipsolutions.net
+W: https://johannes.sipsolutions.net/
+P: 4096R/7BF9099A C0EB C440 F6DA 091C 884D  8532 E0F3 73F3 7BF9 099A
+D: powerpc & 802.11 hacker
+
+N: Stephen R. van den Berg (AKA BuGless)
+E: berg@pool.informatik.rwth-aachen.de
+D: General kernel, gcc, and libc hacker
+D: Specialisation: tweaking, ensuring portability, tweaking, cleaning,
+D: tweaking and occasionally debugging :-)
+S: Bouwensstraat 22
+S: 6369 BG Simpelveld
+S: The Netherlands
+
+N: Peter Berger
+E: pberger@brimson.com
+W: http://www.brimson.com
+D: Author/maintainer of Digi AccelePort USB driver
+S: 1549 Hiironen Rd.
+S: Brimson, MN  55602
+S: USA
+
+N: Arnd Bergmann
+D: Maintainer of Cell Broadband Engine Architecture
+
+N: Hennus Bergman
+P: 1024/77D50909 76 99 FD 31 91 E1 96 1C  90 BB 22 80 62 F6 BD 63
+D: Author and maintainer of the QIC-02 tape driver
+S: The Netherlands
+
+N: Tomas Berndtsson
+E: tomas@nocrew.org
+W: http://tomas.nocrew.org/
+D: dsp56k device driver
+
+N: Srivatsa S. Bhat
+E: srivatsa@csail.mit.edu
+D: Maintainer of Generic Paravirt-Ops subsystem
+D: Maintainer of VMware hypervisor interface
+D: Maintainer of VMware virtual PTP clock driver (ptp_vmw)
+
+N: Ross Biro
+E: ross.biro@gmail.com
+D: Original author of the Linux networking code
+
+N: Anton Blanchard
+E: anton@samba.org
+W: https://samba.org/~anton/
+P: 1024/8462A731 4C 55 86 34 44 59 A7 99  2B 97 88 4A 88 9A 0D 97
+D: sun4 port, Sparc hacker
+
+N: Hugh Blemings
+E: hugh@blemings.org
+W: http://blemings.org/hugh
+D: Original author of the Keyspan USB to serial drivers, random PowerPC hacker
+S: PO Box 234
+S: Belconnen ACT 2616
+S: Australia
+
+N: Philip Blundell
+E: philb@gnu.org
+D: Linux/ARM hacker
+D: Device driver hacker (eexpress, 3c505, c-qcam, ...)
+D: m68k port to HP9000/300
+D: AUN network protocols
+D: Co-architect of the parallel port sharing system
+D: IPv6 netfilter
+S: FutureTV Labs Ltd
+S: Brunswick House, 61-69 Newmarket Rd, Cambridge CB5 8EG
+S: United Kingdom
+
+N: Thomas Bogendörfer
+E: tsbogend@alpha.franken.de
+D: PCnet32 driver, SONIC driver, JAZZ_ESP driver
+D: newport abscon driver, g364 framebuffer driver
+D: strace for Linux/Alpha
+D: Linux/MIPS hacker
+S: Schafhofstr. 40
+S: 90556 Cadolzburg
+S: Germany
+
+N: Bill Bogstad
+E: bogstad@pobox.com
+D: wrote /proc/self hack, minor samba & dosemu patches
+
+N: Axel Boldt
+E: axel@uni-paderborn.de
+W: http://math-www.uni-paderborn.de/~axel/
+D: Configuration help text support
+D: Linux CD and Support Giveaway List
+
+N: Erik Inge Bolsø
+E: knan@mo.himolde.no
+D: Misc kernel hacks
+D: Updated PC speaker driver for 2.3
+S: Norway
+
+N: Andreas E. Bombe
+E: andreas.bombe@munich.netsurf.de
+W: http://home.pages.de/~andreas.bombe/
+P: 1024/04880A44 72E5 7031 4414 2EB6 F6B4  4CBD 1181 7032 0488 0A44
+D: IEEE 1394 subsystem rewrite and maintainer
+D: Texas Instruments PCILynx IEEE 1394 driver
+
+N: Al Borchers
+E: alborchers@steinerpoint.com
+D: Author/maintainer of Digi AccelePort USB driver
+D: work on usbserial and keyspan_pda drivers
+S: 4912 Zenith Ave. S.
+S: Minneapolis, MN  55410
+S: USA
+
+N: Marc Boucher
+E: marc@mbsi.ca
+P: CA 67 A5 1A 38 CE B6 F2  D5 83 51 03 D2 9C 30 9E  CE D2 DD 65
+D: Netfilter core
+D: I

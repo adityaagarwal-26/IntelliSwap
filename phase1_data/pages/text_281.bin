@@ -1,0 +1,167 @@
+ 35A4
+D: V4L driver for W996[87]CF JPEG USB Dual Mode Camera Chips
+D: V4L2 driver for SN9C10x PC Camera Controllers
+D: V4L2 driver for ET61X151 and ET61X251 PC Camera Controllers
+D: V4L2 driver for ZC0301 Image Processor and Control Chip
+S: Via Liberta' 41/A
+S: Osio Sotto, 24046, Bergamo
+S: Italy
+
+N: William E. Roadcap
+E: roadcapw@cfw.com
+W: http://www.cfw.com/~roadcapw
+D: Author of menu based configuration tool, Menuconfig.
+S: 1407 Broad Street
+S: Waynesboro, Virginia 22980
+S: USA
+
+N: Andrew J. Robinson
+E: arobinso@nyx.net
+W: http://www.nyx.net/~arobinso
+D: Hayes ESP serial port driver
+
+N: Florian La Roche
+E: rzsfl@rz.uni-sb.de
+E: flla@stud.uni-sb.de
+D: Net programs and kernel net hacker
+S: Gaildorfer Str. 27
+S: 7000 Stuttgart 50
+S: Germany
+
+N: Christoph Rohland
+E: hans-christoph.rohland@sap.com
+E: ch.rohland@gmx.net
+D: shm fs, SYSV semaphores, af_unix
+S: Neue Heimat Str. 8
+S: D-68789 St.Leon-Rot
+S: Germany
+
+N: Thiago Berlitz Rondon
+E: maluco@mileniumnet.com.br
+W: http://vivaldi.linuxms.com.br/~maluco
+D: Miscellaneous kernel hacker
+S: R. Anhanguera, 1487 - Ipiranga
+S: 79080-740 - Campo Grande - Mato Grosso do Sul
+S: Brazil
+
+N: Stephen Rothwell
+E: sfr@canb.auug.org.au
+W: http://www.canb.auug.org.au/~sfr
+P: 4096R/5AD24211C060D1C8 D41C A3ED 5B30 275C F5A0  1B05 5AD2 4211 C060 D1C8
+D: Created linux-next and maintained it 2008-2026
+D: Boot/setup/build work for setup > 2K
+D: Author, APM driver
+D: Directory notification
+S: 66 Maltby Circuit
+S: Wanniassa ACT 2903
+S: Australia
+
+N: Gerard Roudier
+E: groudier@free.fr
+D: Contributed to asynchronous read-ahead improvement
+S: 21 Rue Carnot
+S: 95170 Deuil La Barre
+S: France
+
+N: Sebastien Rougeaux
+E: Sebastien.Rougeaux@syseng.anu.edu.au
+D: IEEE 1394 OHCI module
+S: Research School of Information Science and Engineering
+S: The Australian National University, ACT 0200
+S: Australia
+
+N: Aristeu Sergio Rozanski Filho
+E: aris@cathedrallabs.org
+D: Support for EtherExpress 10 ISA (i82595) in eepro driver
+D: User level driver support for input
+S: R. Jose Serrato, 130 - Santa Candida
+S: 82640-320 - Curitiba - Paraná
+S: Brazil
+
+N: Alessandro Rubini
+E: rubini@ipvvis.unipv.it
+D: the gpm mouse server and kernel support for it
+
+N: Philipp Rumpf
+E: prumpf@tux.org
+D: random bugfixes
+S: Drausnickstrasse 29
+S: 91052 Erlangen
+S: Germany
+
+N: Paul `Rusty' Russell
+E: rusty@rustcorp.com.au
+W: https://ozlabs.org/~rusty
+D: Ruggedly handsome.
+D: netfilter, ipchains with Michael Neuling.
+S: 52 Moore St
+S: Turner ACT 2612
+S: Australia
+
+N: Richard Russon (FlatCap)
+E: kernel@flatcap.org
+W: http://www.flatcap.org
+D: NTFS support
+D: LDM support (Win2000/XP Logical Disk Manager/Dynamic Disks)
+S: 50 Swansea Road
+S: Reading
+S: United Kingdom
+
+N: Bill Ryder
+E: bryder@sgi.com
+D: FTDI_SIO usb/serial converter driver
+W: http://reality.sgi.com/bryder_wellington/ftdi_sio
+S: I/3 Walter St
+S: Wellington
+S: New Zealand
+
+N: Sampo Saaristo
+E: sambo@cs.tut.fi
+D: Co-author of Multi-Protocol Over ATM (MPOA)
+S: Tampere University of Technology / Telecom lab
+S: Hermiankatu 12C
+S: FIN-33720 Tampere
+S: Finland
+
+N: Thomas Sailer
+E: t.sailer@alumni.ethz.ch
+E: HB9JNX@HB9W.CHE.EU (packet radio)
+D: Baycom driver
+S: Markusstrasse 18
+S: 8006 Zuerich
+S: Switzerland
+
+N: Manuel Estrada Sainz
+D: Firmware loader (request_firmware)
+
+N: Wayne Salamon
+E: wsalamon@tislabs.com
+E: wsalamon@nai.com
+D: portions of the Linux Security Module (LSM) framework and security modules
+
+N: Salil Mehta
+E: salil.mehta@opnsrc.net
+D: Co-authored Huawei/HiSilicon Kunpeng 920 SoC HNS3 PF and VF 100G
+D: Ethernet driver
+D: Co-authored Huawei/HiSilicon Kunpeng 916 SoC HNS 10G Ethernet
+D: driver enhancements
+D: Maintained Huawei/HiSilicon HNS and HNS3 10G/100G Ethernet drivers
+D: for Kunpeng 916 family, 920 family of SoCs
+S: Cambridge, Cambridgeshire, United Kingdom
+
+N: Robert Sanders
+E: gt8134b@prism.gatech.edu
+D: Dosemu
+
+N: Duncan Sands
+E: duncan.sands@free.fr
+W: http://topo.math.u-psud.fr/~sands
+D: Alcatel SpeedTouch USB driver
+S: 69 rue Dunois
+S: 75013 Paris
+S: France
+
+N: Wolfram Sang
+E: wsa@kernel.org
+W: sang-engineering.com
+P: rsa4096/140DE4CC14A029B6 3991 B1EA B9E2 6751 

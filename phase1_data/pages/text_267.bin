@@ -1,0 +1,193 @@
+tp://www.mendiosus.nl
+D: Ralink rt2x00 WLAN driver
+S: Haarlem, The Netherlands
+
+N: John G Dorsey
+E: john+@cs.cmu.edu
+D: ARM Linux ports to Assabet/Neponset, Spot
+S: Department of Electrical and Computer Engineering
+S: Carnegie Mellon University
+S: Pittsburgh, PA  15213
+S: USA
+
+N: Eddie C. Dost
+E: ecd@skynet.be
+D: Linux/Sparc kernel hacker
+D: Linux/Sparc maintainer
+S: Rue de la Chapelle 51
+S: 4850 Moresnet
+S: Belgium
+
+N: Cort Dougan
+E: cort@fsmlabs.com
+W: http://www.fsmlabs.com/linuxppcbk.html
+D: PowerPC
+
+N: Daniel Drake
+E: dsd@gentoo.org
+D: USBAT02 CompactFlash support in usb-storage
+D: ZD1211RW wireless driver
+S: UK
+
+N: Oleg Drokin
+E: green@ccssu.crimea.ua
+W: http://www.ccssu.crimea.ua/~green
+D: Cleaning up sound drivers, SA1100 Watchdog.
+S: Skvoznoy per., 14a
+S: Evpatoria
+S: Crimea
+S: UKRAINE, 334320
+
+N: Walt Drummond
+E: drummond@valinux.com
+D: Linux/IA-64
+S: 1382 Bordeaux Drive
+S: Sunnyvale, CA 94087
+S: USA
+
+N: Bruno Ducrot
+E: ducrot@poupinou.org
+D: CPUFreq and ACPI bugfixes.
+S: Mougin, France
+
+N: Don Dugger
+E: n0ano@valinux.com
+D: Linux/IA-64
+S: 1209 Pearl Street, #12
+S: Boulder, CO 80302
+S: USA
+
+N: Thomas Dunbar
+E: tdunbar@vt.edu
+D: TeX & METAFONT hacking/maintenance
+S: Virginia Tech Computing Center
+S: 1700 Pratt Drive
+S: Blacksburg, Virginia 24061
+S: USA
+
+N: Randy Dunlap
+E: rdunlap@infradead.org
+W: https://www.infradead.org/~rdunlap/
+D: Linux-USB subsystem, USB core/UHCI/printer/storage drivers
+D: x86 SMP, ACPI, bootflag hacking
+D: documentation, builds
+S: (ask for current address)
+S: USA
+
+N: Bob Dunlop
+E: rjd@xyzzy.clara.co.uk
+E: bob.dunlop@farsite.co.uk
+W: www.farsite.co.uk
+D: FarSync card device driver
+S: FarSite Communications Ltd
+S: Tempus Business Centre
+S: 60 Kingsclere Road
+S: Basingstoke       RG21 6XG
+S: UK
+
+N: Cyrus Durgin
+E: cider@speakeasy.org
+W: http://www.speakeasy.org/~cider/
+D: implemented kmod
+
+N: Torsten Duwe
+E: Torsten.Duwe@informatik.uni-erlangen.de
+D: Part-time kernel hacker
+D: The Linux Support Team Erlangen
+S: Grevenbroicher Str. 17
+S: 47807 Krefeld
+S: Germany
+
+N: Tom Dyas
+E: tdyas@eden.rutgers.edu
+D: minor hacks and some sparc port stuff
+S: New Jersey
+S: USA
+
+N: Drew Eckhardt
+E: drew@PoohSticks.ORG
+D: SCSI code
+D: Assorted snippets elsewhere
+D: Boot sector "..." printing
+S: 2037 Walnut #6
+S: Boulder, Colorado 80302
+S: USA
+
+N: Hans-Christian Noren Egtvedt
+E: egtvedt@samfundet.no
+D: AVR32 architecture maintainer.
+
+N: Heiko Eißfeldt
+E: heiko@colossus.escape.de heiko@unifix.de
+D: verify_area stuff, generic SCSI fixes
+D: SCSI Programming HOWTO
+D: POSIX.1 compliance testing
+S: Unifix Software GmbH
+S: Bueltenweg 27a
+S: D-38106 Braunschweig
+S: Germany
+
+N: Bjorn Ekwall
+E: bj0rn@blox.se
+W: http://www.pi.se/blox/
+D: Extended support for loadable modules
+D: D-Link pocket adapter drivers
+S: Brevia 1043
+S: S-114 79 Stockholm
+S: Sweden
+
+N: Pekka Enberg
+E: penberg@cs.helsinki.fi
+W: http://www.cs.helsinki.fi/u/penberg/
+D: Various kernel hacks, fixes, and cleanups.
+D: Slab allocators
+S: Finland
+
+N: David Engebretsen
+E: engebret@us.ibm.com
+D: Linux port to 64-bit PowerPC architecture
+
+N: Michael Engel
+E: engel@unix-ag.org
+D: DECstation framebuffer drivers
+S: Germany
+
+N: Paal-Kristian Engstad
+E: engstad@intermetrics.com
+D: Kernel smbfs (to mount WfW, NT and OS/2 network drives.)
+S: 17101 Springdale Street #225
+S: Huntington Beach, California 92649
+S: USA
+
+N: Stephane Eranian
+E: eranian@hpl.hp.com
+D: Linux/ia64
+S: 1501 Page Mill Rd, MS 1U17
+S: Palo Alto, CA 94304
+S: USA
+
+N: Johannes Erdfelt
+E: johannes@erdfelt.com
+D: Linux/IA-64 bootloader and kernel goop, USB
+S: 6350 Stoneridge Mall Road
+S: Pleasanton, CA 94588
+S: USA
+
+N: Dmitry Eremin-Solenikov
+E: dbaryshkov@gmail.com
+D: Power Supply Maintainer from v3.14 - v3.15
+
+N: Doug Evans
+E: dje@cygnus.com
+D: Wrote Xenix FS (part of standard kernel since 0.99.15)
+
+N: Riccardo Facchetti
+E: fizban@tin.it
+P: 1024/6E657BB5 AF 22 90 33 78 76 04 8B  AF F9 97 1E B5 E2 65 30
+D: Audio Excel DSP 16 init driver author
+D: libmodem author
+D: Yet Another Micro Monitor port and current maintainer
+D: First ELF-HOWTO author
+D: random kernel hacker
+S: Via Paolo VI n.29
+S: 23900 - LECCO

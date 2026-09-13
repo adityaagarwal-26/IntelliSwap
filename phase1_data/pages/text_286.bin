@@ -1,0 +1,164 @@
+nd c.o.l.answers
+S: Computer Science Division
+S: UC Berkeley
+S: Berkeley, CA 94720-1776
+S: USA
+
+N: Harald Welte
+E: laforge@netfilter.org
+P: 1024D/30F48BFF DBDE 6912 8831 9A53 879B  9190 5DA5 C655 30F4 8BFF
+W: https://gnumonks.org/users/laforge
+D: netfilter: new nat helper infrastructure
+D: netfilter: ULOG, ECN, DSCP target
+D: netfilter: TTL match
+D: netfilter: IPv6 mangle table
+D: netfilter: various other hacks
+S: Berlin
+S: Germany
+
+N: Bill Wendling
+E: wendling@ganymede.isdn.uiuc.edu
+W: http://www.ncsa.uiuc.edu/~wendling/
+D: Various random hacks. Mostly on poll/select logic.
+S: 605 E. Springfield Ave.
+S: Champaign, IL 61820
+S: USA
+
+N: Mike Westall
+D: IBM Turboways 25 ATM Device Driver
+E: westall@cs.clemson.edu
+S: Department of Computer Science
+S: Clemson University
+S: Clemson SC 29634 USA
+
+N: Greg Wettstein
+E: greg@wind.rmcc.com
+D: Filesystem valid flag for MINIX filesystem.
+D: Minor kernel debugging.
+D: Development and maintenance of sysklogd.
+D: Monitoring of development kernels for long-term stability.
+D: Early implementations of Linux in a commercial environment.
+S: Dr. Greg Wettstein, Ph.D.
+S: Oncology Research Division Computing Facility
+S: Roger Maris Cancer Center
+S: 820 4th St. N.
+S: Fargo, North Dakota 58122
+S: USA
+
+N: Steven Whitehouse
+E: steve@chygwyn.com
+W: http://www.chygwyn.com/~steve
+D: Linux DECnet project
+D: Minor debugging of other networking protocols.
+D: Misc bug fixes and GFS2 filesystem development
+
+N: Hans-Joachim Widmaier
+E: hjw@zvw.de
+D: AFFS rewrite
+S: Eichenweg 16
+S: 73650 Winterbach
+S: Germany
+
+N: Urban Widmark
+E: urban@svenskatest.se
+D: via-rhine, misc net driver hacking
+
+N: Marco van Wieringen
+E: mvw@planets.elm.net
+D: Author of process accounting and diskquota
+S: Breeburgsingel 12
+S: 2135 CN Hoofddorp
+S: The Netherlands
+
+N: Matthew Wilcox
+E: matthew@wil.cx
+W: ftp://ftp.uk.linux.org/pub/linux/people/willy/
+D: Linux/PARISC hacker.  Filesystem hacker.  Random other hacking.  Custom
+D: PPC port hacking.
+
+N: G\"unter Windau
+E: gunter@mbfys.kun.nl
+D: Some bug fixes in the polling printer driver (lp.c)
+S: University of Nijmegen
+S: Geert-Grooteplein Noord 21
+S: 6525 EZ Nijmegen
+S: The Netherlands
+
+N: Ulrich Windl
+E: Ulrich.Windl@rz.uni-regensburg.de
+P: 1024/E843660D CF D7 43 A1 5A 49 14 25  7C 04 A0 6E 4C 3A AC 6D
+D: Supports NTP on Linux.  Added PPS code.  Fixed bugs in adjtimex().
+S: Alte Regensburger Str. 11a
+S: 93149 Nittenau
+S: Germany
+
+N: Gertjan van Wingerde
+E: gwingerde@gmail.com
+D: Ralink rt2x00 WLAN driver
+D: Minix V2 file-system
+D: Misc fixes
+S: The Netherlands
+
+N: Lars Wirzenius
+E: liw@iki.fi
+D: Linux System Administrator's Guide, author, former maintainer
+D: comp.os.linux.announce, former moderator
+D: Linux Documentation Project, co-founder
+D: Original sprintf in kernel
+D: Original kernel README (for version 0.97)
+D: Linux News (electronic magazine, now dead), founder and former editor
+D: Meta-FAQ, originator, former maintainer
+D: INFO-SHEET, former maintainer
+D: Author of the longest-living linux bug
+
+N: Jonathan Woithe
+E: jwoithe@just42.net
+W: http:/www.just42.net/jwoithe
+D: ALS-007 sound card extensions to Sound Blaster driver
+S: 20 Jordan St
+S: Valley View, SA 5093
+S: Australia
+
+N: Clifford Wolf
+E: god@clifford.at
+W: http://www.clifford.at/
+D: Menuconfig/lxdialog improvement
+S: Foehrengasse 16
+S: A-2333 Leopoldsdorf b. Wien
+S: Austria
+
+N: Roger E. Wolff
+E: R.E.Wolff@BitWizard.nl
+D: Written kmalloc/kfree
+D: Written Specialix IO8+ driver
+D: Written Specialix SX driver
+S: van Bronckhorststraat 12
+S: 2612 XV Delft
+S: The Netherlands
+
+N: Thomas Woller
+D: CS461x Cirrus Logic sound driver
+
+N: Darrick J. Wong
+E: djwong@kernel.org
+D: ext4 filesystem
+D: XFS filesystem and online fsck
+D: Various hwmon drivers
+S: USA
+
+N: David Woodhouse
+E: dwmw2@infradead.org
+D: JFFS2 file system, Memory Technology Device subsystem,
+D: various other stuff that annoyed me by not working.
+S: c/o Intel Corporation
+S: Pipers Way
+S: Swindon. SN3 1RJ
+S: England
+
+N: Vitaly Wool
+E: vitaly.wool@konsulko.com
+D: Maintenance and development of zswap
+D: Maintenance and development of z3fold
+
+N: Chris Wright
+E: chrisw@sous

@@ -1,0 +1,145 @@
+mley@HansenPartnership.com>
+L:	linux-scsi@vger.kernel.org
+S:	Maintained
+F:	drivers/scsi/53c700*
+
+6LOWPAN GENERIC (BTLE/IEEE 802.15.4)
+M:	Alexander Aring <alex.aring@gmail.com>
+L:	linux-bluetooth@vger.kernel.org
+L:	linux-wpan@vger.kernel.org
+S:	Maintained
+F:	Documentation/networking/6lowpan.rst
+F:	include/net/6lowpan.h
+F:	net/6lowpan/
+
+802.11 (including CFG80211/NL80211)
+M:	Johannes Berg <johannes@sipsolutions.net>
+L:	linux-wireless@vger.kernel.org
+S:	Maintained
+W:	https://wireless.wiki.kernel.org/
+Q:	https://patchwork.kernel.org/project/linux-wireless/list/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next.git
+F:	Documentation/driver-api/80211/cfg80211.rst
+F:	Documentation/networking/regulatory.rst
+F:	include/linux/ieee80211.h
+F:	include/net/cfg80211.h
+F:	include/net/ieee80211_radiotap.h
+F:	include/net/iw_handler.h
+F:	include/net/wext.h
+F:	include/uapi/linux/nl80211.h
+N:	include/uapi/linux/nl80211-.*
+F:	include/uapi/linux/wireless.h
+F:	net/wireless/
+
+8169 10/100/1000 GIGABIT ETHERNET DRIVER
+M:	Heiner Kallweit <hkallweit1@gmail.com>
+M:	nic_swsd@realtek.com
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/realtek/r8169*
+
+8250/16?50 (AND CLONE UARTS) SERIAL DRIVER
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+L:	linux-serial@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git
+F:	drivers/tty/serial/8250*
+F:	include/linux/serial_8250.h
+
+8390 NETWORK DRIVERS [NE2000, 3C503, etc.]
+L:	netdev@vger.kernel.org
+S:	Orphan / Obsolete
+F:	drivers/net/ethernet/8390/
+
+9P FILE SYSTEM
+M:	Eric Van Hensbergen <ericvh@kernel.org>
+M:	Latchesar Ionkov <lucho@ionkov.net>
+M:	Dominique Martinet <asmadeus@codewreck.org>
+R:	Christian Schoenebeck <linux_oss@crudebyte.com>
+L:	v9fs@lists.linux.dev
+S:	Maintained
+W:	http://github.com/v9fs
+Q:	http://patchwork.kernel.org/project/v9fs-devel/list/
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/ericvh/v9fs.git
+T:	git https://github.com/martinetd/linux.git
+F:	Documentation/filesystems/9p.rst
+F:	fs/9p/
+F:	include/net/9p/
+F:	include/trace/events/9p.h
+F:	include/uapi/linux/virtio_9p.h
+F:	net/9p/
+
+A64FX DIAG DRIVER
+M:	Hitomi Hasegawa <hasegawa-hitomi@fujitsu.com>
+S:	Supported
+F:	drivers/soc/fujitsu/a64fx-diag.c
+
+A8293 MEDIA DRIVER
+L:	linux-media@vger.kernel.org
+S:	Orphan
+W:	https://linuxtv.org
+Q:	http://patchwork.linuxtv.org/project/linux-media/list/
+F:	drivers/media/dvb-frontends/a8293*
+
+AACRAID SCSI RAID DRIVER
+M:	Adaptec OEM Raid Solutions <aacraid@microsemi.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+W:	http://www.adaptec.com/
+F:	Documentation/scsi/aacraid.rst
+F:	drivers/scsi/aacraid/
+
+AAEON UPBOARD FPGA MFD DRIVER
+M:	Thomas Richard <thomas.richard@bootlin.com>
+S:	Maintained
+F:	drivers/leds/leds-upboard.c
+F:	drivers/mfd/upboard-fpga.c
+F:	drivers/pinctrl/pinctrl-upboard.c
+F:	include/linux/mfd/upboard-fpga.h
+
+AB8500 BATTERY AND CHARGER DRIVERS
+M:	Linus Walleij <linusw@kernel.org>
+F:	Documentation/devicetree/bindings/power/supply/*ab8500*
+F:	drivers/power/supply/*ab8500*
+
+ABI/API
+L:	linux-api@vger.kernel.org
+F:	include/linux/syscalls.h
+F:	kernel/sys_ni.c
+X:	arch/*/include/uapi/
+X:	include/uapi/
+
+ABIT UGURU 1,2 HARDWARE MONITOR DRIVER
+M:	Hans de Goede <hansg@kernel.org>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	drivers/hwmon/abituguru.c
+
+ABIT UGURU 3 HARDWARE MONITOR DRIVER
+M:	Alistair John Strachan <alistair@devzero.co.uk>
+L:	linux-hwmon@vger.kernel.org
+S:	Maintained
+F:	drivers/hwmon/abituguru3.c
+
+ACCES 104-DIO-48E GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-104-dio-48e.c
+
+ACCES 104-IDI-48 GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-104-idi-48.c
+
+ACCES 104-IDIO-16 GPIO DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-gpio@vger.kernel.org
+S:	Maintained
+F:	drivers/gpio/gpio-104-idio-16.c
+
+ACCES 104-QUAD-8 DRIVER
+M:	William Breathitt Gray <wbg@kernel.org>
+L:	linux-iio@vger.kerne

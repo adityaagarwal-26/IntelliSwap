@@ -1,0 +1,143 @@
+<gcherian@marvell.com>
+L:	linux-crypto@vger.kernel.org
+S:	Supported
+W:	http://www.marvell.com
+F:	drivers/crypto/cavium/cpt/
+
+CBS/ETF/TAPRIO QDISCS
+M:	Vinicius Costa Gomes <vinicius.gomes@intel.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	net/sched/sch_cbs.c
+F:	net/sched/sch_etf.c
+F:	net/sched/sch_taprio.c
+
+CC2520 IEEE-802.15.4 RADIO DRIVER
+M:	Stefan Schmidt <stefan@datenfreihafen.org>
+L:	linux-wpan@vger.kernel.org
+S:	Odd Fixes
+F:	Documentation/devicetree/bindings/net/ieee802154/cc2520.txt
+F:	drivers/net/ieee802154/cc2520.c
+
+CCREE ARM TRUSTZONE CRYPTOCELL REE DRIVER
+M:	Gilad Ben-Yossef <gilad@benyossef.com>
+L:	linux-crypto@vger.kernel.org
+S:	Supported
+W:	https://developer.arm.com/products/system-ip/trustzone-cryptocell/cryptocell-700-family
+F:	drivers/crypto/ccree/
+
+CCTRNG ARM TRUSTZONE CRYPTOCELL TRUE RANDOM NUMBER GENERATOR (TRNG) DRIVER
+M:	Hadar Gat <hadar.gat@arm.com>
+L:	linux-crypto@vger.kernel.org
+S:	Supported
+W:	https://developer.arm.com/products/system-ip/trustzone-cryptocell/cryptocell-700-family
+F:	Documentation/devicetree/bindings/rng/arm-cctrng.yaml
+F:	drivers/char/hw_random/cctrng.c
+F:	drivers/char/hw_random/cctrng.h
+
+CEC FRAMEWORK
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	http://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	Documentation/ABI/testing/debugfs-cec-error-inj
+F:	Documentation/devicetree/bindings/media/cec/cec-common.yaml
+F:	Documentation/driver-api/media/cec-core.rst
+F:	Documentation/userspace-api/media/cec
+F:	drivers/media/cec/
+F:	drivers/media/rc/keymaps/rc-cec.c
+F:	include/media/cec-notifier.h
+F:	include/media/cec.h
+F:	include/uapi/linux/cec-funcs.h
+F:	include/uapi/linux/cec.h
+
+CEC GPIO DRIVER
+M:	Hans Verkuil <hverkuil@kernel.org>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	http://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	Documentation/devicetree/bindings/media/cec/cec-gpio.yaml
+F:	drivers/media/cec/platform/cec-gpio/
+
+CELL BROADBAND ENGINE ARCHITECTURE
+L:	linuxppc-dev@lists.ozlabs.org
+S:	Orphan
+F:	arch/powerpc/include/asm/cell*.h
+F:	arch/powerpc/include/asm/spu*.h
+F:	arch/powerpc/include/uapi/asm/spu*.h
+F:	arch/powerpc/platforms/cell/
+
+CELLWISE CW2015 BATTERY DRIVER
+M:	Tobias Schrammm <t.schramm@manjaro.org>
+S:	Maintained
+F:	Documentation/devicetree/bindings/power/supply/cw2015_battery.yaml
+F:	drivers/power/supply/cw2015_battery.c
+
+CEPH COMMON CODE (LIBCEPH)
+M:	Ilya Dryomov <idryomov@gmail.com>
+M:	Alex Markuze <amarkuze@redhat.com>
+M:	Viacheslav Dubeyko <slava@dubeyko.com>
+L:	ceph-devel@vger.kernel.org
+S:	Supported
+W:	http://ceph.com/
+B:	https://tracker.ceph.com/
+T:	git https://github.com/ceph/ceph-client.git
+F:	include/linux/ceph/
+F:	include/linux/crush/
+F:	net/ceph/
+
+CEPH DISTRIBUTED FILE SYSTEM CLIENT (CEPH)
+M:	Ilya Dryomov <idryomov@gmail.com>
+M:	Alex Markuze <amarkuze@redhat.com>
+M:	Viacheslav Dubeyko <slava@dubeyko.com>
+L:	ceph-devel@vger.kernel.org
+S:	Supported
+W:	http://ceph.com/
+B:	https://tracker.ceph.com/
+T:	git https://github.com/ceph/ceph-client.git
+F:	Documentation/filesystems/ceph.rst
+F:	fs/ceph/
+
+CERTIFICATE HANDLING
+M:	David Howells <dhowells@redhat.com>
+M:	David Woodhouse <dwmw2@infradead.org>
+L:	keyrings@vger.kernel.org
+S:	Maintained
+F:	Documentation/admin-guide/module-signing.rst
+F:	certs/
+F:	scripts/sign-file.c
+F:	scripts/ssl-common.h
+F:	tools/certs/
+
+CFAG12864B LCD DRIVER
+M:	Miguel Ojeda <ojeda@kernel.org>
+S:	Maintained
+F:	drivers/auxdisplay/cfag12864b.c
+F:	include/linux/cfag12864b.h
+
+CFAG12864BFB LCD FRAMEBUFFER DRIVER
+M:	Miguel Ojeda <ojeda@kernel.org>
+S:	Maintained
+F:	drivers/auxdisplay/cfag12864bfb.c
+F:	include/linux/cfag12864b.h
+
+CHAR and MISC DRIVERS
+M:	Arnd Bergmann <arnd@arndb.de>
+M:	Greg Kroah-Hartman <gregkh@linuxfoundation.org>
+S:	Supported
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git
+F:	drivers/char/
+F:	drivers/misc/
+F:	include/linux/miscdevice.h
+F:	rust/kernel/miscdevice.rs
+F:	samples/rust/rust_misc_device.rs
+X:	drivers/char/agp/
+X:	drivers/char/hw_random/
+X:	drivers/char/ipmi/
+X:	drivers/char/random.c
+X:	drivers/char/tpm/
+
+CHARGERLAB POWER-Z HARDWARE MONITOR DRIVER
+M:	

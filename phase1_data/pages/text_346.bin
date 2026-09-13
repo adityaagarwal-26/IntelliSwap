@@ -1,0 +1,159 @@
+v_packet.h
+F:	include/uapi/linux/batman_adv.h
+F:	net/batman-adv/
+
+BCACHE (BLOCK LAYER CACHE)
+M:	Coly Li <colyli@fygo.io>
+M:	Kent Overstreet <kent.overstreet@linux.dev>
+L:	linux-bcache@vger.kernel.org
+S:	Maintained
+W:	http://bcache.evilpiepirate.org
+C:	irc://irc.oftc.net/bcache
+F:	drivers/md/bcache/
+
+BCACHEFS
+M:	Kent Overstreet <kent.overstreet@linux.dev>
+L:	linux-bcachefs@vger.kernel.org
+S:	Externally maintained
+C:	irc://irc.oftc.net/bcache
+T:	git https://evilpiepirate.org/git/bcachefs.git
+
+BDISP ST MEDIA DRIVER
+M:	Fabien Dessenne <fabien.dessenne@foss.st.com>
+L:	linux-media@vger.kernel.org
+S:	Supported
+W:	https://linuxtv.org
+T:	git git://linuxtv.org/media.git
+F:	drivers/media/platform/st/sti/bdisp
+
+BECKHOFF CX5020 ETHERCAT MASTER DRIVER
+M:	Dariusz Marcinkiewicz <reksio@newterm.pl>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/ec_bhf.c
+
+BEFS FILE SYSTEM
+M:	Luis de Bethencourt <luisbg@kernel.org>
+M:	Salah Triki <salah.triki@gmail.com>
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/luisbg/linux-befs.git
+F:	Documentation/filesystems/befs.rst
+F:	fs/befs/
+
+BFQ I/O SCHEDULER
+M:	Yu Kuai <yukuai@fygo.io>
+L:	linux-block@vger.kernel.org
+S:	Odd Fixes
+F:	Documentation/block/bfq-iosched.rst
+F:	block/bfq-*
+
+BFS FILE SYSTEM
+M:	"Tigran A. Aivazian" <aivazian.tigran@gmail.com>
+S:	Maintained
+F:	Documentation/filesystems/bfs.rst
+F:	fs/bfs/
+F:	include/uapi/linux/bfs_fs.h
+
+BITMAP API
+M:	Yury Norov <yury.norov@gmail.com>
+R:	Rasmus Villemoes <linux@rasmusvillemoes.dk>
+S:	Maintained
+F:	include/linux/bitfield.h
+F:	include/linux/bitmap-str.h
+F:	include/linux/bitmap.h
+F:	include/linux/bits.h
+F:	include/linux/cpumask.h
+F:	include/linux/cpumask_types.h
+F:	include/linux/find.h
+F:	include/linux/hw_bitfield.h
+F:	include/linux/nodemask.h
+F:	include/linux/nodemask_types.h
+F:	include/uapi/linux/bits.h
+F:	include/vdso/bits.h
+F:	lib/bitmap-str.c
+F:	lib/bitmap.c
+F:	lib/cpumask.c
+F:	lib/find_bit.c
+F:	lib/find_bit_benchmark.c
+F:	lib/region_alloc_benchmark.c
+F:	lib/test_bitmap.c
+F:	lib/tests/cpumask_kunit.c
+F:	tools/include/linux/bitfield.h
+F:	tools/include/linux/bitmap.h
+F:	tools/include/linux/bits.h
+F:	tools/include/linux/find.h
+F:	tools/include/uapi/linux/bits.h
+F:	tools/include/vdso/bits.h
+F:	tools/lib/bitmap.c
+F:	tools/lib/find_bit.c
+
+BITMAP API BINDINGS [RUST]
+M:	Yury Norov <yury.norov@gmail.com>
+S:	Maintained
+F:	rust/helpers/bitmap.c
+F:	rust/helpers/cpumask.c
+
+BITMAP API [RUST]
+M:	Alice Ryhl <aliceryhl@google.com>
+M:	Burak Emir <burak.emir@gmail.com>
+R:	Yury Norov <yury.norov@gmail.com>
+S:	Maintained
+F:	lib/find_bit_benchmark_rust.rs
+F:	rust/kernel/bitmap.rs
+F:	rust/kernel/id_pool.rs
+
+BITOPS API
+M:	Yury Norov <yury.norov@gmail.com>
+R:	Rasmus Villemoes <linux@rasmusvillemoes.dk>
+S:	Maintained
+F:	arch/*/include/asm/bitops.h
+F:	arch/*/include/asm/bitops_32.h
+F:	arch/*/include/asm/bitops_64.h
+F:	arch/*/lib/bitops.c
+F:	include/asm-generic/bitops
+F:	include/asm-generic/bitops.h
+F:	include/linux/bitops.h
+F:	include/linux/bitrev.h
+F:	include/linux/count_zeros.h
+F:	lib/bitrev.c
+F:	lib/hweight.c
+F:	lib/test_bitops.c
+F:	lib/tests/bitops_kunit.c
+F:	tools/*/bitops*
+
+BITOPS API BINDINGS [RUST]
+M:	Yury Norov <yury.norov@gmail.com>
+S:	Maintained
+F:	rust/helpers/bitops.c
+
+BLINKM RGB LED DRIVER
+M:	Jan-Simon Moeller <jansimon.moeller@gmx.de>
+S:	Maintained
+F:	drivers/leds/leds-blinkm.c
+
+BLOCK LAYER
+M:	Jens Axboe <axboe@kernel.dk>
+L:	linux-block@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux.git
+F:	Documentation/ABI/stable/sysfs-block
+F:	Documentation/block/
+F:	block/
+F:	drivers/block/
+F:	include/linux/bio.h
+F:	include/linux/blk*
+F:	include/uapi/linux/blk*
+F:	include/uapi/linux/ioprio.h
+F:	kernel/trace/blktrace.c
+F:	lib/sbitmap.c
+
+BLOCK LAYER DEVICE DRIVER API [RUST]
+M:	Andreas Hindborg <a.hindborg@kernel.org>
+R:	Boqun Feng <boqun@kernel.org>
+L:	linux-block@vger.kernel.org
+L:	rust-for-linux@vger.kernel.org
+S:	Supported
+W:	https://rust-for-linux.com
+B:	https://github.com/Rust-for-Linux/linux/issues
+C:	https://rust-for-linux.zulipchat.com/#narrow/stream/Block
+T:	git https://github.com/Rust-fo

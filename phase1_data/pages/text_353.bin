@@ -1,0 +1,125 @@
+rian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+T:	git https://github.com/broadcom/stblinux.git
+F:	drivers/pmdomain/bcm/bcm-pmb.c
+F:	include/dt-bindings/soc/bcm-pmb.h
+
+BROADCOM SPECIFIC AMBA DRIVER (BCMA)
+M:	Rafał Miłecki <zajec5@gmail.com>
+L:	linux-wireless@vger.kernel.org
+S:	Maintained
+F:	drivers/bcma/
+F:	include/linux/bcma/
+
+BROADCOM SPI DRIVER
+M:	Kamal Dasu <kamal.dasu@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+S:	Maintained
+F:	Documentation/devicetree/bindings/spi/brcm,spi-bcm-qspi.yaml
+F:	drivers/spi/spi-bcm-qspi.*
+F:	drivers/spi/spi-brcmstb-qspi.c
+F:	drivers/spi/spi-iproc-qspi.c
+
+BROADCOM STB AVS CPUFREQ DRIVER
+M:	Markus Mayer <mmayer@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/cpufreq/brcm,stb-avs-cpu-freq.txt
+F:	drivers/cpufreq/brcmstb*
+
+BROADCOM STB AVS TMON DRIVER
+M:	Markus Mayer <mmayer@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-pm@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/thermal/brcm,avs-tmon.yaml
+F:	drivers/thermal/broadcom/brcmstb*
+
+BROADCOM STB DPFE DRIVER
+M:	Markus Mayer <mmayer@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/memory-controllers/brcm,dpfe-cpu.yaml
+F:	drivers/memory/brcmstb_dpfe.c
+
+BROADCOM STB NAND FLASH DRIVER
+M:	Brian Norris <computersforpeace@gmail.com>
+M:	Kamal Dasu <kamal.dasu@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-mtd@lists.infradead.org
+S:	Maintained
+F:	drivers/mtd/nand/raw/brcmnand/
+F:	include/linux/platform_data/brcmnand.h
+
+BROADCOM STB PCIE DRIVER
+M:	Jim Quinlan <jim2101024@gmail.com>
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	linux-pci@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/pci/brcm,stb-pcie.yaml
+F:	drivers/pci/controller/pcie-brcmstb.c
+
+BROADCOM SYSTEMPORT ETHERNET DRIVER
+M:	Florian Fainelli <florian.fainelli@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	Documentation/devicetree/bindings/net/brcm,systemport.yaml
+F:	drivers/net/ethernet/broadcom/bcmsysport.*
+F:	drivers/net/ethernet/broadcom/unimac.h
+
+BROADCOM TG3 GIGABIT ETHERNET DRIVER
+M:	Pavan Chebbi <pavan.chebbi@broadcom.com>
+M:	Michael Chan <mchan@broadcom.com>
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/broadcom/tg3.*
+
+BROADCOM VK DRIVER
+M:	Scott Branden <scott.branden@broadcom.com>
+R:	Broadcom internal kernel review list <bcm-kernel-feedback-list@broadcom.com>
+S:	Supported
+F:	drivers/misc/bcm-vk/
+F:	include/uapi/linux/misc/bcm_vk.h
+
+BROCADE BFA FC SCSI DRIVER
+M:	Anil Gurumurthy <anil.gurumurthy@qlogic.com>
+M:	Sudarsana Kalluru <sudarsana.kalluru@qlogic.com>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	drivers/scsi/bfa/
+
+BROCADE BNA 10 GIGABIT ETHERNET DRIVER
+M:	Rasesh Mody <rmody@marvell.com>
+M:	Sudarsana Kalluru <skalluru@marvell.com>
+M:	GR-Linux-NIC-Dev@marvell.com
+L:	netdev@vger.kernel.org
+S:	Maintained
+F:	drivers/net/ethernet/brocade/bna/
+
+BSG (block layer generic sg v4 driver)
+M:	FUJITA Tomonori <fujita.tomonori@lab.ntt.co.jp>
+L:	linux-scsi@vger.kernel.org
+S:	Supported
+F:	block/bsg.c
+F:	include/linux/bsg.h
+F:	include/uapi/linux/bsg.h
+
+BT87X AUDIO DRIVER
+M:	Clemens Ladisch <clemens@ladisch.de>
+L:	linux-sound@vger.kernel.org
+S:	Maintained
+T:	git git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
+F:	Documentation/sound/cards/bt87x.rst
+F:	sound/pci/bt87x.c
+
+BT8XXGPIO DRIVER
+M:	Michael Buesch <m@bues.ch>
+S:	Maintained
+W:	http://bu3sch.de/btgpio.php
+F:	drivers/gpio/gpio-bt8x

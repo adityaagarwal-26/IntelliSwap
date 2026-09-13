@@ -1,0 +1,179 @@
+533/1543(C) chipset IDE
+D: VIA MVP-3/TX Pro III chipset IDE
+
+N: Jens Axboe
+E: axboe@suse.de
+D: Linux CD-ROM maintainer, DVD support
+D: elevator + block layer rewrites
+D: highmem I/O support
+D: misc hacking on IDE, SCSI, block drivers, etc
+S: Peter Bangs Vej 258, 2TH
+S: 2500 Valby
+S: Denmark
+
+N: John Aycock
+E: aycock@cpsc.ucalgary.ca
+D: Adaptec 274x driver
+S: Department of Computer Science
+S: University of Calgary
+S: Calgary, Alberta
+S: Canada
+
+N: Miles Bader
+E: miles@gnu.org
+D: v850 port (uClinux)
+S: NEC Corporation
+S: 1753 Shimonumabe, Nakahara-ku
+S: Kawasaki 211-8666
+S: Japan
+
+N: Ralf Baechle
+E: ralf@gnu.org
+P: 1024/AF7B30C1 CF 97 C2 CC 6D AE A7 FE  C8 BA 9C FC 88 DE 32 C3
+D: Linux/MIPS port
+D: Linux/68k hacker
+D: AX25 maintainer
+D: EDAC-CAVIUM OCTEON maintainer
+D: IOC3 ETHERNET DRIVER maintainer
+D: NETROM NETWORK LAYER maintainer
+D: ROSE NETWORK LAYER maintainer
+D: TURBOCHANNEL SUBSYSTEM maintainer
+S: Hauptstrasse 19
+S: 79837 St. Blasien
+S: Germany
+
+N: Ferenc Bakonyi
+D: Hercules graphics adapter framebuffer driver
+
+N: Krishna Balasubramanian
+E: balasub@cis.ohio-state.edu
+D: Wrote SYS V IPC (part of standard kernel since 0.99.10)
+
+B: Robert Baldyga
+E: r.baldyga@hackerion.com
+D: Samsung S3FWRN5 NCI NFC Controller
+
+N: Chris Ball
+E: chris@printf.net
+D: Former maintainer of the MMC/SD/SDIO subsystem.
+
+N: Dario Ballabio
+E: ballabio_dario@emc.com
+E: dario.ballabio@tiscalinet.it
+E: dario.ballabio@inwind.it
+D: Author and maintainer of the Ultrastor 14F/34F SCSI driver
+D: Author and maintainer of the EATA ISA/EISA/PCI SCSI driver
+S: EMC Corporation
+S: Milano
+S: Italy
+
+N: Paul Bame
+E: bame@debian.org
+E: bame@puffin.external.hp.com
+E: paul_bame@hp.com
+W: http://www.parisc-linux.org
+D: PA-RISC 32 and 64-bit early boot, firmware interface, interrupts, misc
+S: MS42
+S: Hewlett-Packard
+S: 3404 E Harmony Rd
+S: Fort Collins, CO 80525
+S: USA
+
+N: Arindam Banerji
+E: axb@cse.nd.edu
+D: Contributed ESDI driver routines needed to port LINUX to the PS/2 MCA.
+S: Department of Computer Science & Eng.
+S: University of Notre Dame
+S: Notre Dame, Indiana
+S: USA
+
+N: Kai Bankett
+E: chaosman@ontika.net
+D: QNX6 filesystem
+
+N: Greg Banks
+E: gnb@alphalink.com.au
+D: IDT77105 ATM network driver
+D: some SuperH port work
+D: some trivial futzing with kconfig
+
+N: James Banks
+E: james@sovereign.org
+D: TLAN network driver
+D: Logitech Busmouse driver
+
+N: Krzysztof G. Baranowski
+E: kgb@manjak.knm.org.pl
+P: 1024/FA6F16D1 96 D1 1A CF 5F CA 69 EC  F9 4F 36 1F 6D 60 7B DA
+D: Maintainer of the System V file system.
+D: System V fs update for 2.1.x dcache.
+D: Forward ported a couple of SCSI drivers.
+D: Various bugfixes.
+S: ul. Koscielna 12a
+S: 62-300 Wrzesnia
+S: Poland
+
+N: Fred Barnes
+E: frmb2@ukc.ac.uk
+D: Various parport/ppdev hacks and fixes
+S: Computing Lab, The University
+S: Canterbury, KENT
+S: CT2 7NF
+S: England
+
+N: Paul Barton-Davis
+E: pbd@op.net
+D: Driver for WaveFront soundcards (Turtle Beach Maui, Tropez, Tropez+)
+D: Various bugfixes and changes to sound drivers
+S: USA
+
+N: Carlos Henrique Bauer
+E: chbauer@acm.org
+E: bauer@atlas.unisinos.br
+D: Some new sysctl entries for the parport driver.
+D: New sysctl function for handling unsigned longs
+S: Universidade do Vale do Rio dos Sinos - UNISINOS
+S: DSI/IDASI
+S: Av. Unisinos, 950
+S: 93022000 Sao Leopoldo RS
+S: Brazil
+
+N: Peter Bauer
+E: 100136.3530@compuserve.com
+D: Driver for depca-ethernet-board
+S: 69259 Wilhemsfeld
+S: Rainweg 15
+S: Germany
+
+N: Fred Baumgarten
+E: dc6iq@insl1.etec.uni-karlsruhe.de
+E: dc6iq@adacom.org
+E: dc6iq@db0ais.#hes.deu.eu (packet radio)
+D: NET-2 & netstat(8)
+S: Soevener Strasse 11
+S: 53773 Hennef
+S: Germany
+
+N: Donald Becker
+E: becker@cesdis.gsfc.nasa.gov
+D: General low-level networking hacker
+D: Most of the ethercard drivers
+D: Original author of the NFS server
+S: USRA Center of Excellence in Space Data and Information Sciences
+S: Code 930.5, Goddard Space Flight Center
+S: Greenbelt, Maryland 20771
+S: USA
+
+N: Joel Becker
+E: jlbec@evilplan.org
+D: configfs
+
+N: Adam Belay
+E: ambx1@neo.rr.com
+D: Linux Plug and Play Support
+S: USA
+
+N: Daniele Bellucci
+E: bellucda@tiscali.it
+D: Various Janitor work.
+W:

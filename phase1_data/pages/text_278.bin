@@ -1,0 +1,169 @@
+ting domains (VRF).
+
+N: Paul Mundt
+E: paul.mundt@gmail.com
+D: SuperH maintainer
+
+N: Ian A. Murdock
+E: imurdock@gnu.ai.mit.edu
+D: Creator of Debian distribution
+S: 30 White Tail Lane
+S: Lafayette, Indiana 47905
+S: USA
+
+N: Scott Murray
+E: scottm@somanetworks.com
+E: scott@spiteful.org
+D: OPL3-SA2, OPL3-SA3 sound driver
+D: CompactPCI hotplug core
+D: Ziatech ZT5550 and generic CompactPCI hotplug drivers
+S: Toronto, Ontario
+S: Canada
+
+N: Zwane Mwaikambo
+E: zwanem@gmail.com
+D: Various driver hacking
+D: Lowlevel x86 kernel hacking
+D: General debugging
+S: (ask for current address)
+S: Tanzania
+
+N: Trond Myklebust
+E: trond.myklebust@fys.uio.no
+D: current NFS client hacker.
+S: Dagaliveien 31e
+S: N-0391 Oslo
+S: Norway
+
+N: Johan Myreen
+E: jem@iki.fi
+D: PS/2 mouse driver writer etc.
+S: Dragonvagen 1 A 13
+S: FIN-00330 Helsingfors
+S: Finland
+
+N: Matija Nalis
+E: mnalis@jagor.srce.hr
+E: mnalis@voyager.hr
+D: Maintainer of the Umsdos file system
+S: Listopadska 7
+S: 10000 Zagreb
+S: Croatia
+
+N: Jonathan Naylor
+E: g4klx@g4klx.demon.co.uk
+E: g4klx@amsat.org
+W: http://zone.pspt.fi/~jsn/
+D: AX.25, NET/ROM and ROSE amateur radio protocol suites
+D: CCITT X.25 PLP and LAPB.
+S: 24 Castle View Drive
+S: Cromford
+S: Matlock
+S: Derbyshire DE4 3RL
+S: United Kingdom
+
+N: Ian S. Nelson
+E: nelsonis@earthlink.net
+P: 1024D/00D3D983 3EFD 7B86 B888 D7E2 29B6  9E97 576F 1B97 00D3 D983
+D: Minor mmap and ide hacks
+S: 1370 Atlantis Ave.
+S: Lafayette CO, 80026
+S: USA
+
+N: Russell Nelson
+E: nelson@crynwr.com
+W: http://www.crynwr.com/~nelson
+P: 1024/83942741 FF 68 EE 27 A0 5A AA C3  F5 DC 05 62 BD 5B 20 2F
+D: Author of cs89x0, maintainer of kernel changelog through 1.3.3
+D: Wrote many packet drivers, from which some Ethernet drivers are derived.
+S: 521 Pleasant Valley Road
+S: Potsdam, New York 13676
+S: USA
+
+N: Shannon Nelson
+E: sln@onemain.com
+D: Worked on several network drivers including
+D: ixgbe, i40e, ionic, pds_core, pds_vdpa, pds_fwctl
+
+N: Dave Neuer
+E: dave.neuer@pobox.com
+D: Helped implement support for Compaq's H31xx series iPAQs
+D: Other mostly minor tweaks & bugfixes
+
+N: Michael Neuffer
+E: mike@i-Connect.Net
+E: neuffer@goofy.zdv.uni-mainz.de
+W: http://www.i-Connect.Net/~mike/
+D: Developer and maintainer of the EATA-DMA SCSI driver
+D: Co-developer EATA-PIO SCSI driver
+D: /proc/scsi and assorted other snippets
+S: Zum Schiersteiner Grund 2
+S: 55127 Mainz
+S: Germany
+
+N: Gustavo Niemeyer
+E: niemeyer@conectiva.com
+W: https://moin.conectiva.com.br/GustavoNiemeyer
+D: wl3501 PCMCIA wireless card initial support for wireless extensions in 2.4
+S: Conectiva S.A.
+S: R. Tocantins 89
+S: 80050-430  Curitiba PR
+S: Brazil
+
+N: David C. Niemi
+E: niemi@tux.org
+W: http://www.tux.org/~niemi/
+D: Assistant maintainer of Mtools, fdutils, and floppy driver
+D: Administrator of Tux.Org Linux Server, https://www.tux.org
+S: 2364 Old Trail Drive
+S: Reston, Virginia 20191
+S: USA
+
+N: Sekhar Nori
+E: nori.sekhar@gmail.com
+D: Maintainer of Texas Instruments DaVinci machine support, contributor
+D: to device drivers relevant to that SoC family.
+
+N: Fredrik Noring
+E: noring@nocrew.org
+W: http://www.lysator.liu.se/~noring/
+D: dsp56k device driver
+
+N: Michael O'Reilly
+E: michael@iinet.com.au
+E: oreillym@tartarus.uwa.edu.au
+D: Wrote the original dynamic sized disk cache stuff. I think the only
+D: part that remains is the GFP_KERNEL et al #defines. :)
+S: 192 Nichsolson Road
+S: Subiaco, 6008
+S: Perth, Western Australia
+S: Australia
+
+N: Miguel Ojeda
+E: ojeda@kernel.org
+W: https://ojeda.dev
+D: Author of the ks0108, cfag12864b and cfag12864bfb auxiliary display drivers.
+D: Maintainer of the auxiliary display drivers tree (drivers/auxdisplay/*)
+S: Spain
+
+N: Peter Oruba
+D: AMD Microcode loader driver
+S: Germany
+
+N: Jens Osterkamp
+E: jens@de.ibm.com
+D: Maintainer of Spidernet network driver for Cell
+
+N: Kent Overstreet
+E: kent.overstreet@linux.dev
+D: Co-authored and contributed to Memory Allocation Profiling
+
+N: Gadi Oxman
+E: gadio@netvision.net.il
+D: Original author and maintainer of IDE/ATAPI floppy/tape drivers
+
+N: Greg Page
+E: gpage@sovereign.org
+D: IPX development and support
+
+N: Venkatesh Pallipadi (Venki

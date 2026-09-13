@@ -1,0 +1,174 @@
+m swapping, memory management fixes
+S: 17 rue Danton
+S: F - 94270 Le Kremlin-Bicêtre
+S: France
+
+N: Jack Hammer
+D: IBM ServeRAID RAID (ips) driver maintenance
+
+N: Greg Hankins
+E: gregh@cc.gatech.edu
+D: fixed keyboard driver to separate LED and locking status
+S: 25360 Georgia Tech Station
+S: Atlanta, Georgia 30332
+S: USA
+
+N: Brad Hards
+E: bradh@frogmouth.net
+D: Various USB bits, other minor patches
+
+N: Angelo Haritsis
+E: ah@computer.org
+D: kernel patches (serial, watchdog)
+D: xringd, vuzkern, greekXfonts
+S: 77 Clarence Mews
+S: London SE16 1GD
+S: United Kingdom
+
+N: Jan Harkes
+E: jaharkes@cs.cmu.edu
+W: http://www.coda.cs.cmu.edu/
+D: Coda file system
+S: Computer Science Department
+S: Carnegie Mellon University
+S: 5000 Forbes Avenue
+S: Pittsburgh, Pennsylvania 15213
+S: USA
+
+N: Kai Harrekilde-Petersen
+E: kai.harrekilde@get2net.dk
+D: Original author of the ftape-HOWTO, i82078 fdc detection code.
+
+N: Bart Hartgers
+E: bart@etpmod.phys.tue.nl
+D: MTRR emulation with Centaur MCRs
+S: Gen Stedmanstraat 212
+S: 5623 HZ Eindhoven
+S: The Netherlands
+
+N: Oliver Hartkopp
+E: oliver.hartkopp@volkswagen.de
+W: https://www.volkswagen.de
+D: Controller Area Network (network layer core)
+S: Brieffach 1776
+S: 38436 Wolfsburg
+S: Germany
+
+N: Andrew Haylett
+E: ajh@primag.co.uk
+D: Selection mechanism
+
+N: Johan Hedberg
+E: johan.hedberg@gmail.com
+D: Bluetooth subsystem maintainer
+
+N: Andre Hedrick
+E: andre@linux-ide.org
+E: andre@linuxdiskcert.org
+W: http://www.linux-ide.org/
+W: http://www.linuxdiskcert.org/
+D: Random SMP kernel hacker...
+D: Uniform Multi-Platform E-IDE driver
+D: Active-ATA-Chipset maddness..........
+D: Ultra DMA 133/100/66/33 w/48-bit Addressing
+D: ATA-Disconnect, ATA-TCQ
+D: ATA-Smart Kernel Daemon
+D: Serial ATA
+D: ATA Command Block and Taskfile
+S: Linux ATA Development (LAD)
+S: Concord, CA
+
+N: Jochen Hein
+E: jochen@jochen.org
+P: 1024/4A27F015 25 72 FB E3 85 9F DE 3B  CB 0A DA DA 40 77 05 6C
+P: 1024D/77D4FC9B F5C5 1C20 1DFC DEC3 3107  54A4 2332 ADFC 77D4 FC9B
+D: National Language Support
+D: Linux Internationalization Project
+D: German Localization for Linux and GNU software
+S: Auf der Fittel 18
+S: 53347 Alfter
+S: Germany
+
+N: Christoph Hellwig
+E: hch@infradead.org
+D: all kinds of driver, filesystem & core kernel hacking
+D: freevxfs driver
+D: sysvfs maintainer
+D: chief codingstyle nitpicker
+S: Ampferstr. 50 / 4
+S: 6020 Innsbruck
+S: Austria
+
+N: Mark Hemment
+E: markhe@nextd.demon.co.uk
+D: SLAB allocator implementation
+
+N: Richard Henderson
+E: rth@twiddle.net
+E: rth@cygnus.com
+D: Alpha hacker, kernel and userland
+S: 1668 California St.
+S: Mountain View, California 94041
+S: USA
+
+N: Benjamin Herrenschmidt
+E: benh@kernel.crashing.org
+D: Various parts of PPC/PPC64 & PowerMac
+S: 312/107 Canberra Avenue
+S: Griffith, ACT 2603
+S: Australia
+
+N: Andreas Herrmann
+E: herrmann.der.user@gmail.com
+E: herrmann.der.user@googlemail.com
+D: Key developer of x86/AMD64
+D: Author of AMD family 15h processor power monitoring driver
+D: Maintainer of AMD Athlon 64 and Opteron processor frequency driver
+S: Germany
+
+N: Sebastian Hetze
+E: she@lunetix.de
+D: German Linux Documentation,
+D: Organization of German Linux Conferences
+S: Danckelmannstr. 48
+S: 14059 Berlin
+S: Germany
+
+N: David Hinds
+E: dahinds@users.sourceforge.net
+W: http://tao.stanford.edu/~dhinds
+D: PCMCIA and CardBus stuff, PCMCIA-HOWTO, PCMCIA client drivers
+S: 2019 W. Middlefield Rd #1
+S: Mountain View, CA  94043
+S: USA
+
+N: Michael Hipp
+E: hippm@informatik.uni-tuebingen.de
+D: drivers for the racal ni5210 & ni6510 Ethernet-boards
+S: Talstr. 1
+S: D - 72072 Tuebingen
+S: Germany
+
+N: Richard Hirst
+E: richard@sleepie.demon.co.uk
+E: rhirst@linuxcare.com
+W: http://www.sleepie.demon.co.uk/
+D: linux-m68k VME support
+D: PA-RISC port, scsi and network drivers
+D: 53c700/53c710 driver author, 82596 driver maintainer
+S: United Kingdom
+
+N: Jauder Ho
+E: jauderho@carumba.com
+W: http://www.carumba.com/
+D: bug toaster (A1 sauce makes all the difference)
+D: Random linux hacker
+
+N: Tim Hockin
+E: thockin@hockin.org
+W: http://www.hockin.org/~thockin
+D: Natsemi ethernet
+D: Cobalt Networks (x86) support
+D: This-and-That
+
+N: Mark M. Ho

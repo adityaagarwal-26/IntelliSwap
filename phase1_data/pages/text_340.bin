@@ -1,0 +1,106 @@
+/net/toshiba,visconti-dwmac.yaml
+F:	Documentation/devicetree/bindings/pci/toshiba,visconti-pcie.yaml
+F:	Documentation/devicetree/bindings/pinctrl/toshiba,visconti-pinctrl.yaml
+F:	Documentation/devicetree/bindings/watchdog/toshiba,visconti-wdt.yaml
+F:	arch/arm64/boot/dts/toshiba/
+F:	drivers/clk/visconti/
+F:	drivers/gpio/gpio-visconti.c
+F:	drivers/net/ethernet/stmicro/stmmac/dwmac-visconti.c
+F:	drivers/pci/controller/dwc/pcie-visconti.c
+F:	drivers/pinctrl/visconti/
+F:	drivers/watchdog/visconti_wdt.c
+N:	visconti
+
+ARM/UNIPHIER ARCHITECTURE
+M:	Kunihiko Hayashi <hayashi.kunihiko@socionext.com>
+M:	Masami Hiramatsu <mhiramat@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+F:	Documentation/devicetree/bindings/arm/socionext/uniphier.yaml
+F:	Documentation/devicetree/bindings/gpio/socionext,uniphier-gpio.yaml
+F:	Documentation/devicetree/bindings/pinctrl/socionext,uniphier-pinctrl.yaml
+F:	Documentation/devicetree/bindings/soc/socionext/socionext,uniphier*.yaml
+F:	arch/arm/boot/dts/socionext/uniphier*
+F:	arch/arm/include/asm/hardware/cache-uniphier.h
+F:	arch/arm/mm/cache-uniphier.c
+F:	arch/arm64/boot/dts/socionext/uniphier*
+F:	drivers/bus/uniphier-system-bus.c
+F:	drivers/clk/uniphier/
+F:	drivers/dma/uniphier-mdmac.c
+F:	drivers/gpio/gpio-uniphier.c
+F:	drivers/i2c/busses/i2c-uniphier*
+F:	drivers/irqchip/irq-uniphier-aidet.c
+F:	drivers/mmc/host/uniphier-sd.c
+F:	drivers/pinctrl/uniphier/
+F:	drivers/reset/reset-uniphier.c
+F:	drivers/tty/serial/8250/8250_uniphier.c
+N:	uniphier
+
+ARM/VERSATILE EXPRESS PLATFORM
+M:	Liviu Dudau <liviu.dudau@arm.com>
+M:	Sudeep Holla <sudeep.holla@kernel.org>
+M:	Lorenzo Pieralisi <lpieralisi@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+N:	mps2
+N:	vexpress
+F:	arch/arm/mach-versatile/
+F:	arch/arm64/boot/dts/arm/
+F:	drivers/clocksource/timer-versatile.c
+X:	drivers/cpufreq/vexpress-spc-cpufreq.c
+X:	Documentation/devicetree/bindings/arm/arm,vexpress-juno.yaml
+
+ARM/VFP SUPPORT
+M:	Russell King <linux@armlinux.org.uk>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Maintained
+W:	http://www.armlinux.org.uk/
+F:	arch/arm/vfp/
+
+ARM/VT8500 ARM ARCHITECTURE
+M:	Alexey Charkov <alchark@gmail.com>
+M:	Krzysztof Kozlowski <krzk@kernel.org>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Odd Fixes
+F:	Documentation/devicetree/bindings/hwinfo/via,vt8500-scc-id.yaml
+F:	Documentation/devicetree/bindings/i2c/wm,wm8505-i2c.yaml
+F:	Documentation/devicetree/bindings/interrupt-controller/via,vt8500-intc.yaml
+F:	Documentation/devicetree/bindings/pwm/via,vt8500-pwm.yaml
+F:	Documentation/devicetree/bindings/timer/via,vt8500-timer.yaml
+F:	arch/arm/boot/dts/vt8500/
+F:	arch/arm/mach-vt8500/
+F:	drivers/clocksource/timer-vt8500.c
+F:	drivers/i2c/busses/i2c-viai2c-wmt.c
+F:	drivers/mmc/host/wmt-sdmmc.c
+F:	drivers/pwm/pwm-vt8500.c
+F:	drivers/rtc/rtc-vt8500.c
+F:	drivers/soc/vt8500/
+F:	drivers/tty/serial/vt8500_serial.c
+F:	drivers/video/fbdev/vt8500lcdfb.*
+F:	drivers/video/fbdev/wm8505fb*
+F:	drivers/video/fbdev/wmt_ge_rops.*
+
+ARM/ZTE ZX29 SOC SUPPORT
+M:	Stefan Dösinger <stefandoesinger@gmail.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Odd fixes
+F:	Documentation/arch/arm/zte/
+F:	Documentation/devicetree/bindings/arm/zte.yaml
+F:	arch/arm/boot/dts/zte/
+F:	arch/arm/mach-zte/
+
+ARM/ZYNQ ARCHITECTURE
+M:	Michal Simek <michal.simek@amd.com>
+L:	linux-arm-kernel@lists.infradead.org (moderated for non-subscribers)
+S:	Supported
+W:	http://wiki.xilinx.com
+T:	git https://github.com/Xilinx/linux-xlnx.git
+F:	Documentation/devicetree/bindings/i2c/cdns,i2c-r1p10.yaml
+F:	Documentation/devicetree/bindings/i2c/xlnx,xps-iic-2.00.a.yaml
+F:	Documentation/devicetree/bindings/memory-controllers/snps,dw-umctl2-ddrc.yaml
+F:	Documentation/devicetree/bindings/memory-controllers/xlnx,zynq-ddrc-a05.yaml
+F:	Documentation/devicetree/bindings/soc/xilinx/xilinx.yaml
+F:	Documentation/devicetree/bindings/spi/xlnx,zynq-qspi.yaml
+F:	arch/arm/mach-zynq/
+F:	drivers/clocksource/timer-cadence-ttc.c
+F:	drivers/c
