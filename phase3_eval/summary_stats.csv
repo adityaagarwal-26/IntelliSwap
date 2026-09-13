@@ -1,0 +1,17 @@
+Metric,Value
+adaptive_ratio,48.5289
+lz4_ratio,31.6908
+zstd_ratio,79.077
+adaptive_time,0.0
+lz4_time,0.0
+zstd_time,0.0
+
+page_type,count,avg_adaptive_ratio,avg_lz4_ratio,avg_zstd_ratio
+zero,125,80.9487,80.9487,203.0628
+random,125,0.9944,0.9944,0.9976
+text,125,3.0155,2.1956,3.0581
+repetitive,125,109.157,42.6246,109.1894
+
+chosen_method,count
+lz4,305
+zstd,195
